@@ -8,8 +8,12 @@ path="res://.godot/imported/space-take-off-6-172423.mp3-49d029e35c9ab307c6ee1314
 [deps]
 
 source_file="res://Assets/Stellaria/Textures/Sound/space-take-off-6-172423.mp3"
-dest_files=PackedStringArray("res://.godot/imported/space-take-off-6-172423.mp3-49d029e35c9ab307c6ee131445b53d96.mp3str")
+dest_files=["res://.godot/imported/space-take-off-6-172423.mp3-49d029e35c9ab307c6ee131445b53d96.mp3str"]
 
 [params]
 
-dummy_value_ignore_me=0
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -8,8 +8,12 @@ path="res://.godot/imported/mega-horn-gloomiest-signer-cinematic-trailer-sound-e
 [deps]
 
 source_file="res://Assets/Stellaria/Textures/Sound/mega-horn-gloomiest-signer-cinematic-trailer-sound-effects-124762.mp3"
-dest_files=PackedStringArray("res://.godot/imported/mega-horn-gloomiest-signer-cinematic-trailer-sound-effects-124762.mp3-0bc03738ba8ef73c897ea9657f89e98f.mp3str")
+dest_files=["res://.godot/imported/mega-horn-gloomiest-signer-cinematic-trailer-sound-effects-124762.mp3-0bc03738ba8ef73c897ea9657f89e98f.mp3str"]
 
 [params]
 
-dummy_value_ignore_me=0
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

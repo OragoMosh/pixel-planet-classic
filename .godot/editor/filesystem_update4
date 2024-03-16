@@ -1,0 +1,13 @@
+res://Frames/LoadingScreen/loading_screen.tscn
+res://Assets/GuiThemes/MainTheme.tres
+res://Assets/Tilesets/tiles.tres
+res://Assets/Tilesets/tileset_backgrounds.tres
+res://Scenes/Cutscene2/Stellarian.tres
+res://Scenes/WorldScenes/Player.tscn
+res://Scenes/Cutscene2/Stellarian.tscn
+res://Scenes/Cutscene/cutscene.tscn
+res://Scenes/Cutscene/cutscene.gd
+res://Singletons/Save.gd
+res://Server.gd
+res://Scenes/Cutscene2/cutscene_2.tscn
+res://Scenes/Cutscene2/Stellarian.gd

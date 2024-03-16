@@ -1,9 +1,9 @@
-[gd_scene load_steps=40 format=3]
+[gd_scene load_steps=40 format=3 uid="uid://cbg8gwerhqtnk"]
 
 [ext_resource type="Script" path="res://Scenes/Cutscene/cutscene.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://cfostjuqlsfib" path="res://Assets/Gui/noirmaltitle.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://s7qgfbeil2y6" path="res://Assets/Gui/Title.png" id="3"]
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="4"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="4"]
 [ext_resource type="Texture2D" uid="uid://bn2xj6enf474w" path="res://Assets/Stellaria/Textures/Background/Space/PODSPace (2).png" id="5"]
 [ext_resource type="Texture2D" uid="uid://cmja3fobyb2jr" path="res://Assets/Stellaria/Textures/Tile/Dirt.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://droxcjlmjrirr" path="res://Assets/Stellaria/Textures/Tile/Bedrock.png" id="7"]
@@ -31,11 +31,9 @@
 [ext_resource type="Texture2D" uid="uid://ba0f43yyknuis" path="res://Assets/Sprites/Backgrounds/space background.png" id="29"]
 
 [sub_resource type="FastNoiseLite" id="1"]
-script = null
 
 [sub_resource type="NoiseTexture2D" id="2"]
 noise = SubResource("1")
-script = null
 
 [sub_resource type="ShaderMaterial" id="3"]
 shader = ExtResource("10")
@@ -47,13 +45,10 @@ shader_parameter/mask_size = 0.213
 shader_parameter/mask_edge = 0.022
 shader_parameter/animation_speed = 20.0
 shader_parameter/noise = SubResource("2")
-script = null
 
 [sub_resource type="ShaderMaterial" id="4"]
 shader = ExtResource("15")
 shader_parameter/strength = 0.0
-shader_parameter/curve = null
-script = null
 
 [sub_resource type="ShaderMaterial" id="5"]
 shader = ExtResource("16")
@@ -63,7 +58,6 @@ shader_parameter/radius = 0.0
 shader_parameter/aberration = 0.425
 shader_parameter/width = 0.04
 shader_parameter/feather = 0.135
-script = null
 
 [sub_resource type="Animation" id="6"]
 resource_name = "Finish"
@@ -135,7 +129,6 @@ tracks/5/keys = {
 "points": PackedFloat32Array(0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0),
 "times": PackedFloat32Array(0, 1)
 }
-script = null
 
 [sub_resource type="Animation" id="7"]
 resource_name = "Label"
@@ -165,7 +158,6 @@ tracks/1/keys = {
 "update": 1,
 "values": [false, true]
 }
-script = null
 
 [sub_resource type="Animation" id="8"]
 length = 0.001
@@ -1008,7 +1000,6 @@ tracks/73/keys = {
 "update": 1,
 "values": [true]
 }
-script = null
 
 [sub_resource type="Animation" id="9"]
 resource_name = "Start"
@@ -1784,7 +1775,6 @@ tracks/67/keys = {
 "update": 1,
 "values": [false, true]
 }
-script = null
 
 [sub_resource type="AnimationLibrary" id="10"]
 _data = {
@@ -1793,7 +1783,6 @@ _data = {
 "RESET": SubResource("8"),
 "Start": SubResource("9")
 }
-script = null
 
 [node name="Cutscene" type="Node"]
 script = ExtResource("1")

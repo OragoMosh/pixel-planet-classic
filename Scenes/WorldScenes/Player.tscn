@@ -1,8 +1,8 @@
-[gd_scene load_steps=25 format=3]
+[gd_scene load_steps=25 format=3 uid="uid://di8lqs2me8o0t"]
 
 [ext_resource type="Script" path="res://Scenes/WorldScenes/Player.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://ddeivusmwra44" path="res://Assets/Sprites/Character/Spritesheet.png" id="2"]
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="3"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="3"]
 [ext_resource type="Texture2D" uid="uid://bx1yb2ywhu3c1" path="res://Assets/Gui/Chat_Bubble.png" id="4"]
 [ext_resource type="AudioStream" uid="uid://v44h0p8c3o7f" path="res://Assets/Audio/footstep.ogg" id="5"]
 [ext_resource type="AudioStream" uid="uid://bmv2it3joe8qx" path="res://Assets/Audio/jump.ogg" id="6"]
@@ -11,7 +11,6 @@
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(12, 28)
-script = null
 
 [sub_resource type="Animation" id="2"]
 length = 0.001
@@ -27,7 +26,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [false]
 }
-script = null
 
 [sub_resource type="Animation" id="3"]
 resource_name = "death"
@@ -44,7 +42,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [23, 24, 25, 26, 27, 28]
 }
-script = null
 
 [sub_resource type="Animation" id="4"]
 resource_name = "falling"
@@ -61,7 +58,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [12, 13]
 }
-script = null
 
 [sub_resource type="Animation" id="5"]
 resource_name = "hit"
@@ -91,7 +87,6 @@ tracks/1/keys = {
 "update": 1,
 "values": [true, false]
 }
-script = null
 
 [sub_resource type="Animation" id="6"]
 resource_name = "hurt"
@@ -108,7 +103,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [20, 21]
 }
-script = null
 
 [sub_resource type="Animation" id="7"]
 resource_name = "idle"
@@ -126,7 +120,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [0, 1]
 }
-script = null
 
 [sub_resource type="Animation" id="8"]
 resource_name = "jumping"
@@ -144,7 +137,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [8, 9, 10, 11]
 }
-script = null
 
 [sub_resource type="Animation" id="9"]
 resource_name = "walking"
@@ -162,7 +154,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [2, 3, 4, 5, 6, 7]
 }
-script = null
 
 [sub_resource type="AnimationLibrary" id="10"]
 _data = {
@@ -175,22 +166,18 @@ _data = {
 "jumping": SubResource("8"),
 "walking": SubResource("9")
 }
-script = null
 
 [sub_resource type="RectangleShape2D" id="11"]
 size = Vector2(14, 30)
-script = null
 
 [sub_resource type="CircleShape2D" id="12"]
 radius = 7.0
-script = null
 
 [sub_resource type="StyleBoxTexture" id="13"]
 texture = ExtResource("4")
 texture_margin_left = 3.0
 texture_margin_right = 3.0
 region_rect = Rect2(0, 0, 32, 16)
-script = null
 
 [sub_resource type="Animation" id="14"]
 length = 0.001
@@ -206,7 +193,6 @@ tracks/0/keys = {
 "update": 0,
 "values": [Vector2(1e-05, 1e-05)]
 }
-script = null
 
 [sub_resource type="Animation" id="15"]
 resource_name = "Zoom"
@@ -223,18 +209,14 @@ tracks/0/keys = {
 "update": 0,
 "values": [Vector2(1e-05, 1e-05), Vector2(1, 1)]
 }
-script = null
 
 [sub_resource type="AnimationLibrary" id="16"]
 _data = {
 "RESET": SubResource("14"),
 "Zoom": SubResource("15")
 }
-script = null
 
-[node name="Player" type="CharacterBody2D" groups=[
-"Players",
-]]
+[node name="Player" type="CharacterBody2D" groups=["Players"]]
 collision_layer = 2
 collision_mask = 5
 script = ExtResource("1")

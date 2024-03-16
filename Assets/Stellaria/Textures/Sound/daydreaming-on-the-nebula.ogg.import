@@ -8,8 +8,12 @@ path="res://.godot/imported/daydreaming-on-the-nebula.ogg-eee19dc09cb60d9434bdf5
 [deps]
 
 source_file="res://Assets/Stellaria/Textures/Sound/daydreaming-on-the-nebula.ogg"
-dest_files=PackedStringArray("res://.godot/imported/daydreaming-on-the-nebula.ogg-eee19dc09cb60d9434bdf5a633d604df.oggvorbisstr")
+dest_files=["res://.godot/imported/daydreaming-on-the-nebula.ogg-eee19dc09cb60d9434bdf5a633d604df.oggvorbisstr"]
 
 [params]
 
-dummy_value_ignore_me=0
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

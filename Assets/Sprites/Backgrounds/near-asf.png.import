@@ -11,8 +11,24 @@ metadata={
 [deps]
 
 source_file="res://Assets/Sprites/Backgrounds/near-asf.png"
-dest_files=PackedStringArray("res://.godot/imported/near-asf.png-3ebe1e28d18a74d23b37b003ae507cfa.ctex")
+dest_files=["res://.godot/imported/near-asf.png-3ebe1e28d18a74d23b37b003ae507cfa.ctex"]
 
 [params]
 
-dummy_value_ignore_me=0
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

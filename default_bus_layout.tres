@@ -1,37 +1,31 @@
-[gd_resource type="AudioBusLayout" load_steps=7 format=3]
+[gd_resource type="AudioBusLayout" load_steps=7 format=3 uid="uid://bght88pbcnu0"]
 
 [sub_resource type="AudioEffectReverb" id="1"]
 resource_name = "Reverb"
 room_size = 0.07
 damping = 0.0
-script = null
 
 [sub_resource type="AudioEffectLowPassFilter" id="2"]
 resource_name = "LowPassFilter"
 cutoff_hz = 300.0
 resonance = 1.0
-script = null
 
 [sub_resource type="AudioEffectPhaser" id="3"]
 resource_name = "Phaser"
 rate_hz = 1.91
-script = null
 
 [sub_resource type="AudioEffectBandLimitFilter" id="4"]
 resource_name = "BandLimitFilter"
 resonance = 0.84
-script = null
 
 [sub_resource type="AudioEffectReverb" id="5"]
 resource_name = "Reverb"
 room_size = 0.07
 damping = 0.0
-script = null
 
 [sub_resource type="AudioEffectLowPassFilter" id="6"]
 resource_name = "LowPassFilter"
 cutoff_hz = 200.0
-script = null
 
 [resource]
 bus/1/name = &"Game"
@@ -76,4 +70,3 @@ bus/5/effect/0/effect = SubResource("5")
 bus/5/effect/0/enabled = true
 bus/5/effect/1/effect = SubResource("6")
 bus/5/effect/1/enabled = true
-script = null

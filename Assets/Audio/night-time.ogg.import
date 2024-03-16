@@ -8,8 +8,12 @@ path="res://.godot/imported/night-time.ogg-ccb05b0bde564bb5763e0b7bdbd89769.oggv
 [deps]
 
 source_file="res://Assets/Audio/night-time.ogg"
-dest_files=PackedStringArray("res://.godot/imported/night-time.ogg-ccb05b0bde564bb5763e0b7bdbd89769.oggvorbisstr")
+dest_files=["res://.godot/imported/night-time.ogg-ccb05b0bde564bb5763e0b7bdbd89769.oggvorbisstr"]
 
 [params]
 
-dummy_value_ignore_me=0
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
