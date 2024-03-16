@@ -3,10 +3,8 @@ extends Node
 const PORT: int = 27015
 
 
-const ADDRESS: String = "199.244.48.63" #"45.78.139.67"
+const ADDRESS: String = "199.244.48.63"
 
-
-var dtls := DTLSServer.new()
 var Peer: ENetMultiplayerPeer = ENetMultiplayerPeer.new()
 
 var self_peer_id
@@ -17,6 +15,9 @@ var cert = load("res://Certificates/X509_Certificate.crt")
 var summon_position = Vector2(-2000, -2000)
 
 func _ready() -> void:
+	
+	Connect()
+	
 	multiplayer.connect("connected_to_server", _connected_to_server)
 	multiplayer.connect("connection_failed", on_connection_failed)
 	multiplayer.connect("server_disconnected", on_server_disconnected)
@@ -30,7 +31,7 @@ func on_connection_failed():
 
 func on_server_disconnected():
 	disconnected = true
-	
+
 	Disconnected.showDisconnect()
 	print("server disconnected")
 
@@ -43,9 +44,9 @@ func Connect() -> void:
 
 	Peer.create_client(ADDRESS, PORT)
 	#Peer.host.dtls_client_setup(ADDRESS, TLSOptions.client(cert))
-	
+
 	multiplayer.multiplayer_peer = Peer
-	
+
 	self_peer_id = multiplayer.get_unique_id()
 
 
@@ -121,18 +122,18 @@ func ItemDropPickupRequest(_drop_uid) -> void:
 
 @rpc("authority")
 func updateDropItem(dropped_data):
-	
+
 	Global.WorldNode.DroppedItemUpdate(dropped_data)
 
 @rpc("authority")
 func returnDropItem(dropped_data):
-	
+
 	Global.WorldNode.DroppedItemUpdate(dropped_data)
 
 @rpc("authority")
 func returnPickupItem(_drop_uid, _peer_id):
 	print("picking up item")
-	
+
 	for dropped in Global.WorldNode.Dropped.get_children():
 		if dropped.drop_UID == _drop_uid:
 			dropped.initiatePickup(_peer_id)
@@ -143,7 +144,7 @@ func Version(_valid: bool):
 		get_tree().change_scene_to_file("res://Frames/AccountMenu/AccountMenu.tscn")
 	else:
 		get_tree().change_scene_to_file("res://Frames/OutdatedClientWarning/OutdatedClientWarning.tscn")
-	
+
 
 @rpc("authority")
 func Register(_status: String):
@@ -166,11 +167,11 @@ func WorldJoin(_world_data: Dictionary, _inventory: Array, _bits: int, _clothes:
 	Global.SelfData.Bits = _bits
 	Global.SelfData.Clothes = _clothes
 	Global.SelfData.PermissionLevel = permission_level
-	
+
 	var ReceivedWorldData: WorldData = WorldData.new()
 	ReceivedWorldData.LoadFromDict(_world_data)
 	Global.WorldData = ReceivedWorldData
-	
+
 	if Global.SelfData.DatabaseId == Global.WorldData.OwnerId:
 		Global.SelfData.is_owner = true
 		Global.SelfData.is_admin = false
@@ -180,7 +181,7 @@ func WorldJoin(_world_data: Dictionary, _inventory: Array, _bits: int, _clothes:
 	else:
 		Global.SelfData.is_owner = false
 		Global.SelfData.is_admin = false
-	
+
 	Global.LastVisitedPlanet = Global.WorldData.Name
 	print(Global.WorldData.OwnerId, "  |  ", Global.WorldData.AdminIds)
 	Save.userData.Misc.RecentPlanet = Global.LastVisitedPlanet
@@ -232,7 +233,7 @@ func WorldLeave():
 func SummonPlayer(world_name, position):
 	Server.WorldJoinRequest(world_name)
 	summon_position = position
-	
+
 @rpc("authority")
 func setPlayerPosition(position):
 	Global.PlayerNode.position = position
@@ -334,10 +335,10 @@ func WorldPermissionUpdate(database_id: int, permission_level: int, player_name:
 			Global.WorldData.OwnerName = player_name
 	elif permission_level == Global.PERMISSIONS.WORLD_ADMIN:
 		Global.WorldData.AdminIds.append(database_id)
-		
+
 	print(database_id)
 	print(Global.WorldPeers)
-	
+
 	if Global.SelfData.DatabaseId != database_id:
 		for peer_key in Global.WorldPeers:
 			var peer = Global.WorldPeers[peer_key]
@@ -357,20 +358,20 @@ func WorldPermissionUpdate(database_id: int, permission_level: int, player_name:
 		else:
 			Global.SelfData.is_owner = false
 			Global.SelfData.is_admin = false
-	
+
 	Global.WorldNode.WorldPeerManager.UpdateName(database_id)
 
 
 @rpc("authority")
 func Message(message: String, icon):
-	
+
 	if message == "Success creating account!":
 		Global.AccountMenuNode.LoginAfterRegister()
 		return
-	
+
 	if is_instance_valid(Global.NotificationsNode):
 		Global.NotificationsNode.Notification(message, icon)
-	
+
 # Throwaway funcs
 @rpc("authority") func Craft(): pass
 @rpc("authority") func Grind(): pass

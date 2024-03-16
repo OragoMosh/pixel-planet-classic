@@ -369,7 +369,7 @@
 	"40": {
 		"TYPE": "CLOTHING",
 		"NAME": "Brown Hair",
-		"PLACE": "SHIRT",
+		"PLACE": "HAIR",
 		"PATH": "Brown_Hair.png" 
 	},
 
@@ -808,7 +808,7 @@
     "87": {
         "TYPE": "CLOTHING",
         "NAME": "Plague Doctor Suit",
-        "PLACE": "HAIR",
+        "PLACE": "SHIRT",
         "PATH": "plague_doctor_suit.png"
     },
 

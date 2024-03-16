@@ -17,7 +17,7 @@ func _on_gui_input(event: InputEvent) -> void:
 		Global.InventoryNode.current_item = self.item_id
 		Global.InventoryNode.current_item_amount = self.amount
 		
-		var item_data = Data.ItemData[str(self.item_id)]
+		var item_data = Data.ItemData[str(self.item_id)]	
 		var last_slot = Global.InventoryNode.last_selected_inventory_slot
 		
 		if Global.WorldNode.Inventory.prompting == true:

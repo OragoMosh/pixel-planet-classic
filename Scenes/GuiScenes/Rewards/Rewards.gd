@@ -4,8 +4,9 @@ extends GUIBase
 
 var current_pack_id: String
 
-
 func ShowRewards(items_unpacked):
+	$ShowAll.disabled = false
+	$BuyAgain.disabled = true
 	
 	for reward_slot in $HBoxContainer.get_children():
 		reward_slot.queue_free()
@@ -16,11 +17,26 @@ func ShowRewards(items_unpacked):
 		rewardSlot.setup(item[0], item[1])
 		
 		$HBoxContainer.add_child(rewardSlot)
+	
 
+func updateButtons():
+	var all_slots_are_visible = true
+	for reward_slot in $HBoxContainer.get_children():
+		if not reward_slot.open:
+			all_slots_are_visible = false
+	
+	
+	$BuyAgain.disabled = !all_slots_are_visible
+	
+	if all_slots_are_visible:
+		$ShowAll.disabled = true
+	print(!all_slots_are_visible)
+	
 
 func _on_show_all_pressed() -> void:
 	for reward_slot in $HBoxContainer.get_children():
 		reward_slot.Reveal()
+	$ShowAll.disabled = true
 
 
 func _on_close_pressed() -> void:
@@ -28,4 +44,5 @@ func _on_close_pressed() -> void:
 
 
 func _on_buy_again_pressed() -> void:
+	Global.WorldNode.WorldGUIManager.CloseGui()
 	Server.ShopPurchaseRequest(Global.WorldNode.Rewards.current_pack_id)

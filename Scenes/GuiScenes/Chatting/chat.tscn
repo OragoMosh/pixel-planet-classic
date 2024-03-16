@@ -126,6 +126,7 @@ layout_mode = 0
 offset_top = 40.0
 offset_right = 960.0
 offset_bottom = 463.0
+scroll_following = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

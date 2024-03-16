@@ -13,7 +13,7 @@ var defaultData = {
 		"MusicVolume": 100,
 		
 		
-		"SeenCutscene": false,
+		"SeenCutscene": true,
 		"DisclaimerAgreement": false,
 	},
 

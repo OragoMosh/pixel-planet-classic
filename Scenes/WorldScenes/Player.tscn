@@ -367,6 +367,7 @@ bus = &"Game"
 
 [node name="LandSFX" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("8")
-volume_db = -80.0
+volume_db = -40.0
+bus = &"Game"
 
 [connection signal="timeout" from="ChatBubble/ChatTimer" to="." method="_on_chat_timer_timeout"]

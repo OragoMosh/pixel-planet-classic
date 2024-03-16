@@ -1,6 +1,6 @@
 GDRE Tools v0.6.2
 Windows 10.0.19045, NVIDIA GeForce RTX 2070, opengl3
-Extracted 1322 files, no errors detected!
+Extracted 1321 files, no errors detected!
 USER WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
    at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:58)
 Recreated plugin config for Todo_Manager
@@ -12,8 +12,8 @@ Saved project config project.godot.
 Totals:                                 
 Decompiled scripts:                     0
 Failed scripts:                         0
-Imported resources for export session:  1322
-Successfully converted:                 617
+Imported resources for export session:  1321
+Successfully converted:                 616
 Lossy:                                  51
 Rewrote metadata:                       0
 Non-importable conversions:             0
@@ -79,7 +79,7 @@ res://.godot/imported/landing_ground.ogg-a81e320003fbc1705cf6a408b7abf96c.oggvor
 
 ------------------------------------------------------------------------------------
 
-Use Godot editor version 4.2.1 to edit the project.
+Use Godot editor version 4.2.0 to edit the project.
 Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
 If you find that you have many non-import errors upon opening the project 
 (i.e. scripts or shaders have many errors), use the original game's binary as the export template.

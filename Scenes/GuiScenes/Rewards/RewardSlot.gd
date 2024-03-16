@@ -8,6 +8,7 @@ var AMOUNT
 	
 }
 
+@onready var parent = get_parent().get_parent()
 
 func _ready():
 	#item_data = ItemData.item_data[str(item_id)]
@@ -27,10 +28,13 @@ func FetchItemData(item_id):
 
 
 func Reveal():
+	
 	if not open:
 		open = true
 		$ItemCover.visible = false
 		$SFX.play()
+	
+	parent.updateButtons()
 
 
 func _on_reward_pressed() -> void:

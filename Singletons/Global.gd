@@ -17,8 +17,7 @@ var PlayerNode
 var DisconnectionNode
 
 const HIT_INTERVAL: float = 0.2
-const VERSION: String = "a1.0_green"
-
+const VERSION: String = "a1.1_green"
 
 enum PERMISSIONS { NORMAL = 0, WORLD_OWNER = 1, WORLD_ADMIN = 2, CREATOR = 3, MODERATOR = 4, DEVELOPER = 5 }
 

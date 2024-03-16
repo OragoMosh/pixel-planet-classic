@@ -68,6 +68,7 @@ func LoadPeers() -> void:
 			Global.WorldNode.Peers.add_child(newPlayer)
 			peer.PlayerScene = newPlayer
 			Global.WorldPeers[peer.PeerId] = peer
+			newPlayer.position = peer.Position
 
 
 func UpdatePeer(_peer_id: int, _position: Vector2, _current_state, _direction) -> void:

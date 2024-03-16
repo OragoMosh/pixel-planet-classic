@@ -31,6 +31,8 @@ func LoadFromDict(_world_data_dict: Dictionary) -> void:
 		NewPeerData.Clothes = peer.CLOTHES
 		NewPeerData.PermissionLevel = peer.PERMISSION_LEVEL
 		NewPeerData.DatabaseId = peer.DATABASE_ID
+		NewPeerData.Position = peer.POSITION
+		
 		print("peer dbid: ", NewPeerData.DatabaseId)
 		if NewPeerData.DatabaseId == self.OwnerId:
 			NewPeerData.is_owner = true

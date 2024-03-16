@@ -10,3 +10,4 @@ var DatabaseId: int = -1
 var PermissionLevel: int = 0
 var is_owner: bool = false
 var is_admin: bool = false
+var Position: Vector2

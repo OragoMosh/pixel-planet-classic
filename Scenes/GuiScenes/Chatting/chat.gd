@@ -9,16 +9,14 @@ func incomingMessage(nickname, message):
 	$Messages.text += "\n" + "<" + nickname + "> " + message
 
 
-#func OnOpen() -> void:
-	#if not $ChatInput.has_focus():
-		#$ChatInput.grab_focus()
-
+func OnOpen() -> void:
+	$Messages.scroll_following = false
 
 func _input(event):
 	if Input.is_action_just_pressed("Chat"):
 		if not $ChatInput.has_focus():
 			$ChatInput.grab_focus()
-		
+			
 		if $ChatInput.has_focus() and len($ChatInput.text) != 0:
 			
 			Server.rpc_id(1, "MessageRequest", $ChatInput.text)
@@ -31,4 +29,5 @@ func _input(event):
 
 func OnClose() -> void:
 	$ChatInput.release_focus()
+	$Messages.scroll_following = true
 	Global.WorldNode.WorldGUIManager.typing = false
