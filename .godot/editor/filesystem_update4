@@ -11,3 +11,5 @@ res://Singletons/Save.gd
 res://Server.gd
 res://Scenes/Cutscene2/cutscene_2.tscn
 res://Scenes/Cutscene2/Stellarian.gd
+res://Frames/World/World.tscn
+res://Frames/Mobile Controls/mobile_buttons.tscn

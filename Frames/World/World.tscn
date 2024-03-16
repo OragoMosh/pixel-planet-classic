@@ -1,4 +1,4 @@
-[gd_scene load_steps=144 format=3]
+[gd_scene load_steps=145 format=3 uid="uid://d2e01viej80ko"]
 
 [ext_resource type="Script" path="res://Frames/World/World.gd" id="1"]
 [ext_resource type="Script" path="res://Frames/World/ParallaxBackground.gd" id="2"]
@@ -8,12 +8,12 @@
 [ext_resource type="Texture2D" uid="uid://tyxvals36n3n" path="res://Assets/Sprites/Backgrounds/near-asf.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://7k42p2y6h8ex" path="res://Assets/Sprites/Backgrounds/background-ingame.png" id="7"]
 [ext_resource type="Script" path="res://Scenes/WorldScenes/Background.gd" id="8"]
-[ext_resource type="TileSet" uid="uid://i8w22hycyp1d" path="res://Assets/Tilesets/tileset_backgrounds.tres" id="9"]
+[ext_resource type="TileSet" uid="uid://dolh5g2c3ta5r" path="res://Assets/Tilesets/tileset_backgrounds.tres" id="9"]
 [ext_resource type="Script" path="res://Scenes/WorldScenes/AutoTile.gd" id="10"]
 [ext_resource type="Texture2D" uid="uid://dx5psqtsklp6q" path="res://Assets/Sprites/Blocks/Block_Cracks.png" id="11"]
-[ext_resource type="TileSet" uid="uid://cu24igtmv5pv5" path="res://Assets/Tilesets/tiles.tres" id="12"]
-[ext_resource type="PackedScene" uid="uid://c3nimrwnoo54u" path="res://Scenes/WorldScenes/Grid.tscn" id="13"]
-[ext_resource type="PackedScene" uid="uid://tpxb4jya3ljo" path="res://Scenes/WorldScenes/Player.tscn" id="14"]
+[ext_resource type="TileSet" uid="uid://cvj8flh8tpo2u" path="res://Assets/Tilesets/tiles.tres" id="12"]
+[ext_resource type="PackedScene" path="res://Scenes/WorldScenes/Grid.tscn" id="13"]
+[ext_resource type="PackedScene" uid="uid://di8lqs2me8o0t" path="res://Scenes/WorldScenes/Player.tscn" id="14"]
 [ext_resource type="Script" path="res://Scenes/WorldScenes/HUD.gd" id="15"]
 [ext_resource type="Texture2D" uid="uid://cx673qcj4kwij" path="res://Assets/Gui/Icons/PauseMenu/normal.png" id="16"]
 [ext_resource type="Texture2D" uid="uid://sp0q5wotudkg" path="res://Assets/Gui/Icons/PauseMenu/pressed.png" id="17"]
@@ -29,473 +29,380 @@
 [ext_resource type="Texture2D" uid="uid://ghg2efoahb30" path="res://Assets/Gui/Icons/Store/hovered.png" id="27"]
 [ext_resource type="Texture2D" uid="uid://bwfh6cs5snsrm" path="res://Assets/Gui/Icons/BitsAndHealthThing.png" id="28"]
 [ext_resource type="Texture2D" uid="uid://db4tske076bux" path="res://Assets/Gui/bits.png" id="29"]
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="30"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="30"]
 [ext_resource type="Texture2D" uid="uid://8r4eent24prg" path="res://Assets/Sprites/Misc/health_bar.png" id="31"]
 [ext_resource type="Script" path="res://Frames/World/Notifications.gd" id="32"]
 [ext_resource type="Shader" path="res://Frames/World/Blur.gdshader" id="33"]
-[ext_resource type="PackedScene" uid="uid://cosmvqa53tfpd" path="res://Scenes/GuiScenes/Inventory/Inventory.tscn" id="34"]
-[ext_resource type="PackedScene" uid="uid://cvfgyt81l7a76" path="res://Scenes/GuiScenes/ItemAdder/ItemAdder.tscn" id="35"]
-[ext_resource type="PackedScene" uid="uid://6vl3akowcree" path="res://Scenes/GuiScenes/Crafting/Crafting.tscn" id="36"]
-[ext_resource type="PackedScene" uid="uid://dvmfxn3m8pvld" path="res://Scenes/GuiScenes/Shop/Shop.tscn" id="37"]
-[ext_resource type="PackedScene" uid="uid://dv26k5knf6t17" path="res://Scenes/GuiScenes/Rewards/Rewards.tscn" id="38"]
-[ext_resource type="PackedScene" uid="uid://cra026uic2dm3" path="res://Scenes/GuiScenes/Grinding/Grinding.tscn" id="39"]
-[ext_resource type="PackedScene" uid="uid://bjcqkowy1l02g" path="res://Scenes/GuiScenes/Marketplace/SellItem.tscn" id="40"]
-[ext_resource type="PackedScene" uid="uid://dfip27f35ksk5" path="res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn" id="41"]
-[ext_resource type="PackedScene" uid="uid://bca18xp2s1wnn" path="res://Scenes/GuiScenes/Marketplace/Marketplace.tscn" id="42"]
-[ext_resource type="PackedScene" uid="uid://cmbq6bhsgmnkc" path="res://Frames/Pause/pause_menu.tscn" id="43"]
-[ext_resource type="PackedScene" uid="uid://f4eryvarucyb" path="res://Frames/Settings/settings_menu.tscn" id="44"]
-[ext_resource type="PackedScene" uid="uid://d3cirq4j2kbq7" path="res://Scenes/GuiScenes/Chatting/chat.tscn" id="45"]
-[ext_resource type="PackedScene" uid="uid://cofajv3vlh2wl" path="res://Scenes/GuiScenes/ClaimPlanet/claim_planet.tscn" id="46"]
-[ext_resource type="PackedScene" uid="uid://doo8kkrefvrhg" path="res://Scenes/GuiScenes/TextAdder/TextAdder.tscn" id="47"]
-[ext_resource type="PackedScene" uid="uid://c8x7r5dn3cxw8" path="res://Scenes/GuiScenes/Dropping/Dropping.tscn" id="48"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Inventory/Inventory.tscn" id="34"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/ItemAdder/ItemAdder.tscn" id="35"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Crafting/Crafting.tscn" id="36"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Shop/Shop.tscn" id="37"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Rewards/Rewards.tscn" id="38"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Grinding/Grinding.tscn" id="39"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Marketplace/SellItem.tscn" id="40"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn" id="41"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Marketplace/Marketplace.tscn" id="42"]
+[ext_resource type="PackedScene" path="res://Frames/Pause/pause_menu.tscn" id="43"]
+[ext_resource type="PackedScene" path="res://Frames/Settings/settings_menu.tscn" id="44"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Chatting/chat.tscn" id="45"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/ClaimPlanet/claim_planet.tscn" id="46"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/TextAdder/TextAdder.tscn" id="47"]
+[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Dropping/Dropping.tscn" id="48"]
 [ext_resource type="Script" path="res://Frames/World/LoadScreen.gd" id="49"]
 [ext_resource type="Texture2D" uid="uid://dl84o4q768mvg" path="res://Assets/Gui/loading.png" id="50"]
+[ext_resource type="PackedScene" uid="uid://7tv56kmxx6c0" path="res://Frames/Mobile Controls/mobile_buttons.tscn" id="51_tmkkm"]
 
 [sub_resource type="TileSetAtlasSource" id="1"]
 texture = ExtResource("11")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
-0:0/0/script = null
 1:0/0 = 0
-1:0/0/script = null
 2:0/0 = 0
-2:0/0/script = null
 3:0/0 = 0
-3:0/0/script = null
 4:0/0 = 0
-4:0/0/script = null
 5:0/0 = 0
-5:0/0/script = null
 6:0/0 = 0
-6:0/0/script = null
 7:0/0 = 0
-7:0/0/script = null
-script = null
 
 [sub_resource type="TileSet" id="2"]
 tile_size = Vector2i(32, 32)
 sources/1 = SubResource("1")
-script = null
 
 [sub_resource type="AtlasTexture" id="3"]
 atlas = ExtResource("29")
 region = Rect2(0, 0, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="4"]
 atlas = ExtResource("29")
 region = Rect2(0, 16, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="5"]
 atlas = ExtResource("29")
 region = Rect2(0, 32, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="6"]
 atlas = ExtResource("29")
 region = Rect2(0, 48, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="7"]
 atlas = ExtResource("29")
 region = Rect2(0, 64, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="8"]
 atlas = ExtResource("29")
 region = Rect2(0, 80, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="9"]
 atlas = ExtResource("29")
 region = Rect2(0, 96, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="10"]
 atlas = ExtResource("29")
 region = Rect2(0, 112, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="11"]
 atlas = ExtResource("29")
 region = Rect2(0, 128, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="12"]
 atlas = ExtResource("29")
 region = Rect2(0, 144, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="13"]
 atlas = ExtResource("29")
 region = Rect2(0, 160, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="14"]
 atlas = ExtResource("29")
 region = Rect2(0, 176, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="15"]
 atlas = ExtResource("29")
 region = Rect2(0, 192, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="16"]
 atlas = ExtResource("29")
 region = Rect2(0, 208, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="17"]
 atlas = ExtResource("29")
 region = Rect2(0, 224, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="18"]
 atlas = ExtResource("29")
 region = Rect2(0, 240, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="19"]
 atlas = ExtResource("29")
 region = Rect2(0, 256, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="20"]
 atlas = ExtResource("29")
 region = Rect2(0, 272, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="21"]
 atlas = ExtResource("29")
 region = Rect2(0, 288, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="22"]
 atlas = ExtResource("29")
 region = Rect2(0, 304, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="23"]
 atlas = ExtResource("29")
 region = Rect2(0, 320, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="24"]
 atlas = ExtResource("29")
 region = Rect2(0, 336, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="25"]
 atlas = ExtResource("29")
 region = Rect2(0, 352, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="26"]
 atlas = ExtResource("29")
 region = Rect2(0, 368, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="27"]
 atlas = ExtResource("29")
 region = Rect2(0, 384, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="28"]
 atlas = ExtResource("29")
 region = Rect2(0, 400, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="29"]
 atlas = ExtResource("29")
 region = Rect2(0, 416, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="30"]
 atlas = ExtResource("29")
 region = Rect2(0, 432, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="31"]
 atlas = ExtResource("29")
 region = Rect2(0, 448, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="32"]
 atlas = ExtResource("29")
 region = Rect2(0, 464, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="33"]
 atlas = ExtResource("29")
 region = Rect2(0, 480, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="34"]
 atlas = ExtResource("29")
 region = Rect2(0, 496, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="35"]
 atlas = ExtResource("29")
 region = Rect2(0, 512, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="36"]
 atlas = ExtResource("29")
 region = Rect2(0, 528, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="37"]
 atlas = ExtResource("29")
 region = Rect2(0, 544, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="38"]
 atlas = ExtResource("29")
 region = Rect2(0, 560, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="39"]
 atlas = ExtResource("29")
 region = Rect2(0, 576, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="40"]
 atlas = ExtResource("29")
 region = Rect2(0, 592, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="41"]
 atlas = ExtResource("29")
 region = Rect2(0, 608, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="42"]
 atlas = ExtResource("29")
 region = Rect2(0, 624, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="43"]
 atlas = ExtResource("29")
 region = Rect2(0, 640, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="44"]
 atlas = ExtResource("29")
 region = Rect2(0, 656, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="45"]
 atlas = ExtResource("29")
 region = Rect2(0, 672, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="46"]
 atlas = ExtResource("29")
 region = Rect2(0, 688, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="47"]
 atlas = ExtResource("29")
 region = Rect2(0, 704, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="48"]
 atlas = ExtResource("29")
 region = Rect2(0, 720, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="49"]
 atlas = ExtResource("29")
 region = Rect2(0, 736, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="50"]
 atlas = ExtResource("29")
 region = Rect2(0, 752, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="51"]
 atlas = ExtResource("29")
 region = Rect2(0, 768, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="52"]
 atlas = ExtResource("29")
 region = Rect2(0, 784, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="53"]
 atlas = ExtResource("29")
 region = Rect2(0, 800, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="54"]
 atlas = ExtResource("29")
 region = Rect2(0, 816, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="55"]
 atlas = ExtResource("29")
 region = Rect2(0, 832, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="56"]
 atlas = ExtResource("29")
 region = Rect2(0, 848, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="57"]
 atlas = ExtResource("29")
 region = Rect2(0, 864, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="58"]
 atlas = ExtResource("29")
 region = Rect2(0, 880, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="59"]
 atlas = ExtResource("29")
 region = Rect2(0, 896, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="60"]
 atlas = ExtResource("29")
 region = Rect2(0, 912, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="61"]
 atlas = ExtResource("29")
 region = Rect2(0, 928, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="62"]
 atlas = ExtResource("29")
 region = Rect2(0, 944, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="63"]
 atlas = ExtResource("29")
 region = Rect2(0, 960, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="64"]
 atlas = ExtResource("29")
 region = Rect2(0, 976, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="65"]
 atlas = ExtResource("29")
 region = Rect2(0, 992, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="66"]
 atlas = ExtResource("29")
 region = Rect2(0, 1008, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="67"]
 atlas = ExtResource("29")
 region = Rect2(0, 1024, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="68"]
 atlas = ExtResource("29")
 region = Rect2(0, 1040, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="69"]
 atlas = ExtResource("29")
 region = Rect2(0, 1056, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="70"]
 atlas = ExtResource("29")
 region = Rect2(0, 1072, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="71"]
 atlas = ExtResource("29")
 region = Rect2(0, 1088, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="72"]
 atlas = ExtResource("29")
 region = Rect2(0, 1104, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="73"]
 atlas = ExtResource("29")
 region = Rect2(0, 1120, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="74"]
 atlas = ExtResource("29")
 region = Rect2(0, 1136, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="75"]
 atlas = ExtResource("29")
 region = Rect2(0, 1152, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="76"]
 atlas = ExtResource("29")
 region = Rect2(0, 1168, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="77"]
 atlas = ExtResource("29")
 region = Rect2(0, 1184, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="78"]
 atlas = ExtResource("29")
 region = Rect2(0, 1200, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="79"]
 atlas = ExtResource("29")
 region = Rect2(0, 1216, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="80"]
 atlas = ExtResource("29")
 region = Rect2(0, 1232, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="81"]
 atlas = ExtResource("29")
 region = Rect2(0, 1248, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="82"]
 atlas = ExtResource("29")
 region = Rect2(0, 1264, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="83"]
 atlas = ExtResource("29")
 region = Rect2(0, 1280, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="84"]
 atlas = ExtResource("29")
 region = Rect2(0, 1296, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="85"]
 atlas = ExtResource("29")
 region = Rect2(0, 1312, 16, 16)
-script = null
 
 [sub_resource type="AtlasTexture" id="86"]
 atlas = ExtResource("29")
 region = Rect2(0, 1328, 16, 16)
-script = null
 
 [sub_resource type="SpriteFrames" id="87"]
 animations = [{
@@ -756,7 +663,6 @@ animations = [{
 "name": &"default",
 "speed": 20.0
 }]
-script = null
 
 [sub_resource type="ShaderMaterial" id="88"]
 shader = ExtResource("33")
@@ -764,7 +670,6 @@ shader_parameter/blur_type = 0
 shader_parameter/blur_amount = 18
 shader_parameter/blur_radius = 1.0
 shader_parameter/blur_direction = Vector2(1, 1)
-script = null
 
 [sub_resource type="Environment" id="89"]
 background_mode = 3
@@ -779,7 +684,6 @@ glow_hdr_threshold = 0.37
 fog_density = 0.1317
 volumetric_fog_density = 0.049
 adjustment_enabled = true
-script = null
 
 [sub_resource type="Animation" id="90"]
 resource_name = "Done"
@@ -840,7 +744,6 @@ tracks/4/keys = {
 "update": 1,
 "values": [false]
 }
-script = null
 
 [sub_resource type="Animation" id="91"]
 resource_name = "Load"
@@ -913,7 +816,6 @@ tracks/5/keys = {
 "update": 1,
 "values": [true]
 }
-script = null
 
 [sub_resource type="Animation" id="92"]
 length = 0.001
@@ -1029,7 +931,6 @@ tracks/9/keys = {
 "update": 1,
 "values": [true]
 }
-script = null
 
 [sub_resource type="AnimationLibrary" id="93"]
 _data = {
@@ -1037,7 +938,6 @@ _data = {
 "Load": SubResource("91"),
 "RESET": SubResource("92")
 }
-script = null
 
 [node name="World" type="Node2D"]
 script = ExtResource("1")
@@ -1308,6 +1208,9 @@ visible = false
 
 [node name="TextAdder" parent="GUI" instance=ExtResource("47")]
 visible = false
+
+[node name="Buttons" parent="GUI" instance=ExtResource("51_tmkkm")]
+z_as_relative = false
 
 [node name="Dropping" parent="GUI" instance=ExtResource("48")]
 visible = false

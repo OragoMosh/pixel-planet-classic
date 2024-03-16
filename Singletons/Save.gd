@@ -67,9 +67,10 @@ func loadFile():
 
 func checkSettings():
 	var passedCheckWithNoChanges := true
+	
 	for item in defaultData.keys():
 		for subItem in defaultData[item].keys():
-			if not userData[item].has(subItem):
+			if userData[item].has(subItem):
 				print(str(item) + " doesn't have: " + str(subItem) + "! Adding variable with default value of: " + str(defaultData[item][subItem]))
 				userData[item][subItem] = defaultData[item][subItem]
 				passedCheckWithNoChanges = false
