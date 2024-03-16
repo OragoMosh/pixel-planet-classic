@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dc2j7kbiplirj"
+path="res://.godot/imported/blue_block.png-ac52bb82a20b1346969915dbabe89c2e.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/blue_block.png"
+dest_files=PackedStringArray("res://.godot/imported/blue_block.png-ac52bb82a20b1346969915dbabe89c2e.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

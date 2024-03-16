@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bioyyohqp6djd"
+path="res://.godot/imported/store.png-a9df36a6d899068f3daed22e91ade996.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Icons/store.png"
+dest_files=PackedStringArray("res://.godot/imported/store.png-a9df36a6d899068f3daed22e91ade996.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

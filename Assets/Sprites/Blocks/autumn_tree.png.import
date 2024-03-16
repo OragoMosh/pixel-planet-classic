@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cy0or7f3ksdv5"
+path="res://.godot/imported/autumn_tree.png-1278de51782918d8a2efd65293f846e8.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/autumn_tree.png"
+dest_files=PackedStringArray("res://.godot/imported/autumn_tree.png-1278de51782918d8a2efd65293f846e8.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

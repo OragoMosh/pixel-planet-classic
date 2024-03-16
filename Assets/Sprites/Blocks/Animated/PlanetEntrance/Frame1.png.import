@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dx1uar4ib62e4"
+path="res://.godot/imported/Frame1.png-23a8345d54b8ff6b90d783dfb15d8839.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Animated/PlanetEntrance/Frame1.png"
+dest_files=PackedStringArray("res://.godot/imported/Frame1.png-23a8345d54b8ff6b90d783dfb15d8839.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

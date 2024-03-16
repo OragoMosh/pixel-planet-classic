@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cjl0irey8d5xg"
+path="res://.godot/imported/Cotton_Flower_04.png-b43f97423de99f1b0ec26fdc8d1ac427.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/Flowers/Cotton/Cotton_Flower_04.png"
+dest_files=PackedStringArray("res://.godot/imported/Cotton_Flower_04.png-b43f97423de99f1b0ec26fdc8d1ac427.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

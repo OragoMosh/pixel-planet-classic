@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bqih83fk5jrrf"
+path="res://.godot/imported/da_vincis_makeshift_wings.png-ce887cda6a33b66bfc8b95c3068d5cf9.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/da_vincis_makeshift_wings.png"
+dest_files=PackedStringArray("res://.godot/imported/da_vincis_makeshift_wings.png-ce887cda6a33b66bfc8b95c3068d5cf9.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

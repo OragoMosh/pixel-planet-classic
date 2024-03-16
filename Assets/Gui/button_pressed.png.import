@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cl2iqeyhjhi0h"
+path="res://.godot/imported/button_pressed.png-57b8e8abf648f3c21c3ba01edcb19048.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/button_pressed.png"
+dest_files=PackedStringArray("res://.godot/imported/button_pressed.png-57b8e8abf648f3c21c3ba01edcb19048.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

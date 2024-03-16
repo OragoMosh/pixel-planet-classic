@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dqlkmul3tyu4l"
+path="res://.godot/imported/Fist.png-ce9c79d719c5750e4bc46cc14dc59343.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Fist.png"
+dest_files=PackedStringArray("res://.godot/imported/Fist.png-ce9c79d719c5750e4bc46cc14dc59343.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

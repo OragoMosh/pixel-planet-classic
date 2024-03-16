@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ho6w35iwevbu"
+path="res://.godot/imported/arrow.png-14891654006f77f9dd062e2e19f576d5.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/arrow.png"
+dest_files=PackedStringArray("res://.godot/imported/arrow.png-14891654006f77f9dd062e2e19f576d5.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

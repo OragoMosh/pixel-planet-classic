@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b1f6e06hi2ygu"
+path="res://.godot/imported/epp-ufo-flight-65106.mp3-6e1d375412b24bf5bce8402b411dc014.mp3str"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/epp-ufo-flight-65106.mp3"
+dest_files=PackedStringArray("res://.godot/imported/epp-ufo-flight-65106.mp3-6e1d375412b24bf5bce8402b411dc014.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

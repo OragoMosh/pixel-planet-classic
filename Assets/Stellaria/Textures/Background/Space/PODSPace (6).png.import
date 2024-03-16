@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://buc4clbn633wl"
+path="res://.godot/imported/PODSPace (6).png-6400269f5aeed35aa3a96bbd8b9d7514.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Background/Space/PODSPace (6).png"
+dest_files=PackedStringArray("res://.godot/imported/PODSPace (6).png-6400269f5aeed35aa3a96bbd8b9d7514.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

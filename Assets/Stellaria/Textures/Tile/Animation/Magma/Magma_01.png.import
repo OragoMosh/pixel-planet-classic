@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dslu422jt62el"
+path="res://.godot/imported/Magma_01.png-cde90f33a57d41e2bcae5e0f1c618e14.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/Magma/Magma_01.png"
+dest_files=PackedStringArray("res://.godot/imported/Magma_01.png-cde90f33a57d41e2bcae5e0f1c618e14.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

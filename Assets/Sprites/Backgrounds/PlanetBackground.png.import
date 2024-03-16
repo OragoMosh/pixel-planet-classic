@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bi7qp1bavpb4k"
+path="res://.godot/imported/PlanetBackground.png-22881517f5899a0192d0b040a1df84c2.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Backgrounds/PlanetBackground.png"
+dest_files=PackedStringArray("res://.godot/imported/PlanetBackground.png-22881517f5899a0192d0b040a1df84c2.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

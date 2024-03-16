@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cudanbmqvojc2"
+path="res://.godot/imported/Sky.png-0a0f13db700ad53ecafabb17f7be82b1.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Background/Forest/Day/Sky.png"
+dest_files=PackedStringArray("res://.godot/imported/Sky.png-0a0f13db700ad53ecafabb17f7be82b1.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

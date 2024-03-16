@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://du2ygw4ok0gbe"
+path="res://.godot/imported/Lava_Block.png-f70af8a4d648c288b1a62e1d33c8b5cb.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Lava_Block.png"
+dest_files=PackedStringArray("res://.godot/imported/Lava_Block.png-f70af8a4d648c288b1a62e1d33c8b5cb.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

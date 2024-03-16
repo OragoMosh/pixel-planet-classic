@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://trxianfonvnw"
+path="res://.godot/imported/Yellow_Flower_03.png-221bf2c6cb962007e72679a5d44da855.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/Flowers/Yellow/Yellow_Flower_03.png"
+dest_files=PackedStringArray("res://.godot/imported/Yellow_Flower_03.png-221bf2c6cb962007e72679a5d44da855.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

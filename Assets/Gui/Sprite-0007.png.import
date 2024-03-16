@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bdojsv3efvlt5"
+path="res://.godot/imported/Sprite-0007.png-450c0494d4414f34484012d1c617b4ed.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Sprite-0007.png"
+dest_files=PackedStringArray("res://.godot/imported/Sprite-0007.png-450c0494d4414f34484012d1c617b4ed.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ctrgmn0bwqfxr"
+path="res://.godot/imported/coarse sand.png-1fe3dffcebacfed97cb916f16f42eceb.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/coarse sand.png"
+dest_files=PackedStringArray("res://.godot/imported/coarse sand.png-1fe3dffcebacfed97cb916f16f42eceb.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

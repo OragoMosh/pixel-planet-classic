@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dkbx5cafbrtn2"
+path="res://.godot/imported/item_frame.png-0e0684e9648a80fc5ccd34c2643bceeb.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/item_frame.png"
+dest_files=PackedStringArray("res://.godot/imported/item_frame.png-0e0684e9648a80fc5ccd34c2643bceeb.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

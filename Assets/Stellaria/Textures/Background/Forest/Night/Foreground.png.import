@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dbpnyir1jhgn5"
+path="res://.godot/imported/Foreground.png-49bc9d72af9825b344bdbb16ed57b1ba.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Background/Forest/Night/Foreground.png"
+dest_files=PackedStringArray("res://.godot/imported/Foreground.png-49bc9d72af9825b344bdbb16ed57b1ba.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

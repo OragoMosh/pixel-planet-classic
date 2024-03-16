@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dxp3i0v0i54yk"
+path="res://.godot/imported/Khaki_Jeans.png-a9659ef7fff70b43cecdbb63abaa8981.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Khaki_Jeans.png"
+dest_files=PackedStringArray("res://.godot/imported/Khaki_Jeans.png-a9659ef7fff70b43cecdbb63abaa8981.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

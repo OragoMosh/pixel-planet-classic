@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dg0nvrhfnecjf"
+path="res://.godot/imported/Thruster.png-b0433f77e5294c029062c7184f145ae4.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Scenes/Cutscene2/POD/Thruster.png"
+dest_files=PackedStringArray("res://.godot/imported/Thruster.png-b0433f77e5294c029062c7184f145ae4.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

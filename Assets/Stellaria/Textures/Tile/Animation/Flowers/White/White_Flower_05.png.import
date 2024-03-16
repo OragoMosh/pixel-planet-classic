@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bo4rei60er3rf"
+path="res://.godot/imported/White_Flower_05.png-da060493152f1c8507d0c11e127b85dd.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/Flowers/White/White_Flower_05.png"
+dest_files=PackedStringArray("res://.godot/imported/White_Flower_05.png-da060493152f1c8507d0c11e127b85dd.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

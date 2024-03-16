@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c4dby4eif20ei"
+path="res://.godot/imported/errorsound.ogg-7e5db3b36995712ffaaa177ce0b8ad5c.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Audio/errorsound.ogg"
+dest_files=PackedStringArray("res://.godot/imported/errorsound.ogg-7e5db3b36995712ffaaa177ce0b8ad5c.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

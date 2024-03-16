@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://da8ll28gmw5bg"
+path="res://.godot/imported/influencer_icon.png-5d0d577c5b823ccaa9d1b70ba212dada.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Misc/influencer_icon.png"
+dest_files=PackedStringArray("res://.godot/imported/influencer_icon.png-5d0d577c5b823ccaa9d1b70ba212dada.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

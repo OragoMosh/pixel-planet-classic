@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b21bggj7wr1le"
+path="res://.godot/imported/Gray_Bricks.png-330bd5aa06ac5ba9ddd928bd1dab7bb9.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Gray_Bricks.png"
+dest_files=PackedStringArray("res://.godot/imported/Gray_Bricks.png-330bd5aa06ac5ba9ddd928bd1dab7bb9.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bietbq6fuiphg"
+path="res://.godot/imported/PODWorkbench_Build_05.png-f88cf2b134865cce90fc468842a40af5.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/PODWorkbench/Build/PODWorkbench_Build_05.png"
+dest_files=PackedStringArray("res://.godot/imported/PODWorkbench_Build_05.png-f88cf2b134865cce90fc468842a40af5.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

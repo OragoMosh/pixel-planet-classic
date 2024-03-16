@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://wit7ldylm270"
+path="res://.godot/imported/Skull_Mask.png-10d3e2aaca8f8061ee0714e0ac310956.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Skull_Mask.png"
+dest_files=PackedStringArray("res://.godot/imported/Skull_Mask.png-10d3e2aaca8f8061ee0714e0ac310956.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

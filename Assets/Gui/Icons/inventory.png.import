@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://be8m804nvuwsx"
+path="res://.godot/imported/inventory.png-01e7a23e15faa01a817627370dd90ab2.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Icons/inventory.png"
+dest_files=PackedStringArray("res://.godot/imported/inventory.png-01e7a23e15faa01a817627370dd90ab2.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

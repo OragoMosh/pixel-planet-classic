@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://tlvff84x8d7o"
+path="res://.godot/imported/Workbench.png-f0c5b34b267da0bf92f3756b22c1a16e.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Workbench.png"
+dest_files=PackedStringArray("res://.godot/imported/Workbench.png-f0c5b34b267da0bf92f3756b22c1a16e.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cth8cdqift4lc"
+path="res://.godot/imported/Red_Flower_04.png-fa361da1d2e18a792847ecd7253f877d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/Flowers/Red/Red_Flower_04.png"
+dest_files=PackedStringArray("res://.godot/imported/Red_Flower_04.png-fa361da1d2e18a792847ecd7253f877d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

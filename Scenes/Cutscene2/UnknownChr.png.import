@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://rvtkmth8fk6h"
+path="res://.godot/imported/UnknownChr.png-90834703df4b11a6aae8afab6c9ef8db.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Scenes/Cutscene2/UnknownChr.png"
+dest_files=PackedStringArray("res://.godot/imported/UnknownChr.png-90834703df4b11a6aae8afab6c9ef8db.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

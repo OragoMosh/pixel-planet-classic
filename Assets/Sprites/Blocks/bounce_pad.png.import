@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cotfdsmnqyhdo"
+path="res://.godot/imported/bounce_pad.png-61ca5a064e02c8f9fb1380b3a861b679.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/bounce_pad.png"
+dest_files=PackedStringArray("res://.godot/imported/bounce_pad.png-61ca5a064e02c8f9fb1380b3a861b679.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

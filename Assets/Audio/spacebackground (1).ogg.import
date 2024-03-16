@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://seaajbn1f3px"
+path="res://.godot/imported/spacebackground (1).ogg-b6fb74113cbbffa2ea21eb165e34897e.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Audio/spacebackground (1).ogg"
+dest_files=PackedStringArray("res://.godot/imported/spacebackground (1).ogg-b6fb74113cbbffa2ea21eb165e34897e.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

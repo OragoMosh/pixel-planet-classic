@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cahl0q2pc8xvf"
+path="res://.godot/imported/SciFi_Sign.png-d28f02449185169f4facde7293180b9a.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/SciFi_Sign.png"
+dest_files=PackedStringArray("res://.godot/imported/SciFi_Sign.png-d28f02449185169f4facde7293180b9a.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

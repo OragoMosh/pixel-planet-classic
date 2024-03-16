@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://crtfnevcevug1"
+path="res://.godot/imported/Skeleton_Costume.png-62f3c9dcfb76abba0d166399c6b990e3.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Skeleton_Costume.png"
+dest_files=PackedStringArray("res://.godot/imported/Skeleton_Costume.png-62f3c9dcfb76abba0d166399c6b990e3.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

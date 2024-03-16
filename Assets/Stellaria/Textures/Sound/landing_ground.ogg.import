@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://soc0iwxvsby"
+path="res://.godot/imported/landing_ground.ogg-a81e320003fbc1705cf6a408b7abf96c.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/landing_ground.ogg"
+dest_files=PackedStringArray("res://.godot/imported/landing_ground.ogg-a81e320003fbc1705cf6a408b7abf96c.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cvqu6fbq4yysh"
+path="res://.godot/imported/excalibur.png-f9617ff2ee4fdf0fa0bda9c85d872b82.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/excalibur.png"
+dest_files=PackedStringArray("res://.godot/imported/excalibur.png-f9617ff2ee4fdf0fa0bda9c85d872b82.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

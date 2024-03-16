@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bnffgvyvh4qt1"
+path="res://.godot/imported/time-travel-83472.mp3-72418537c8574efbf16b8cdca5ab1989.mp3str"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/time-travel-83472.mp3"
+dest_files=PackedStringArray("res://.godot/imported/time-travel-83472.mp3-72418537c8574efbf16b8cdca5ab1989.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

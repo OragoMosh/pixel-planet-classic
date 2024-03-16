@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dcj6lt1ornwj3"
+path="res://.godot/imported/Base.png-75fc44de73f71278b077af05666ac79f.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Scenes/Cutscene2/POD/Base.png"
+dest_files=PackedStringArray("res://.godot/imported/Base.png-75fc44de73f71278b077af05666ac79f.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

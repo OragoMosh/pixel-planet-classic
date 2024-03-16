@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bd3nal13rhdyo"
+path="res://.godot/imported/wooden_chair.png-9da47698e6fc06b78b49abd68b2f9376.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/wooden_chair.png"
+dest_files=PackedStringArray("res://.godot/imported/wooden_chair.png-9da47698e6fc06b78b49abd68b2f9376.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

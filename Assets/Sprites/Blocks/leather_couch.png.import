@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cq3i367n5h2kb"
+path="res://.godot/imported/leather_couch.png-bfe1d1cca62192c8fad9f1598112fca3.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/leather_couch.png"
+dest_files=PackedStringArray("res://.godot/imported/leather_couch.png-bfe1d1cca62192c8fad9f1598112fca3.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

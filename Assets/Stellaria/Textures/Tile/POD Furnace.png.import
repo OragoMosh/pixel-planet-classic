@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c7baoub78b28c"
+path="res://.godot/imported/POD Furnace.png-53c12831b6377c01b4735287307bfe1b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/POD Furnace.png"
+dest_files=PackedStringArray("res://.godot/imported/POD Furnace.png-53c12831b6377c01b4735287307bfe1b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

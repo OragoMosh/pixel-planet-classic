@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bf53cf1s0mebx"
+path="res://.godot/imported/death_sickle.png-ed571df27b4fd05c221c4690befdde95.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/death_sickle.png"
+dest_files=PackedStringArray("res://.godot/imported/death_sickle.png-ed571df27b4fd05c221c4690befdde95.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

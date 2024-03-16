@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://0hgar3b7kyfu"
+path="res://.godot/imported/Cinder_Block.png-6c8cde559bfcf35a410f32ff511716d6.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Cinder_Block.png"
+dest_files=PackedStringArray("res://.godot/imported/Cinder_Block.png-6c8cde559bfcf35a410f32ff511716d6.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

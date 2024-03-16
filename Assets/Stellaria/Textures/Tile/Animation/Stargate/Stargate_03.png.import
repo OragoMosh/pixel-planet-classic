@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dmwiy6pmpk5tw"
+path="res://.godot/imported/Stargate_03.png-161a017e46bf3819a0e380efed569b21.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/Stargate/Stargate_03.png"
+dest_files=PackedStringArray("res://.godot/imported/Stargate_03.png-161a017e46bf3819a0e380efed569b21.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

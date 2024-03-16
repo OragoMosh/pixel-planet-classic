@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dci7jbetsslu0"
+path="res://.godot/imported/Lineedit_normal.png-f49418f2aec145e360dfb8f6e03d4c40.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Lineedit_normal.png"
+dest_files=PackedStringArray("res://.godot/imported/Lineedit_normal.png-f49418f2aec145e360dfb8f6e03d4c40.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

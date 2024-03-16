@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c6evm3riydjr1"
+path="res://.godot/imported/Bush.png-de795c673aca80164c525f3da317b5bf.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Bush.png"
+dest_files=PackedStringArray("res://.godot/imported/Bush.png-de795c673aca80164c525f3da317b5bf.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

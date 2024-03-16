@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cne3km4y445g4"
+path="res://.godot/imported/emptyswing_filtered.wav-81e2dede758068763fbceafceab5764e.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/emptyswing_filtered.wav"
+dest_files=PackedStringArray("res://.godot/imported/emptyswing_filtered.wav-81e2dede758068763fbceafceab5764e.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

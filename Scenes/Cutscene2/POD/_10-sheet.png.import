@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cnami3k1qdlln"
+path="res://.godot/imported/_10-sheet.png-4b686f96398ceb0d92ba45edc9a3add6.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Scenes/Cutscene2/POD/_10-sheet.png"
+dest_files=PackedStringArray("res://.godot/imported/_10-sheet.png-4b686f96398ceb0d92ba45edc9a3add6.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

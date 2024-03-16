@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://gr1urjuw5nci"
+path="res://.godot/imported/jump_mans.png-5fe9cb1e9e25830a85f18c651a06c33e.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/jump_mans.png"
+dest_files=PackedStringArray("res://.godot/imported/jump_mans.png-5fe9cb1e9e25830a85f18c651a06c33e.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

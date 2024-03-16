@@ -1,0 +1,11 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3]
+
+[ext_resource type="Texture2D" uid="uid://17fe2w8biojb" path="res://Assets/Gui/inventorySlot.png" id="1"]
+
+[resource]
+texture = ExtResource("1")
+texture_margin_left = 15.0
+texture_margin_top = 15.0
+texture_margin_right = 15.0
+texture_margin_bottom = 15.0
+script = null

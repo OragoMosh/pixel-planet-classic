@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cp4eu28b5krj6"
+path="res://.godot/imported/ui.png-c8ebcf4c6a8846be11c771f5767eeff0.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/ui.png"
+dest_files=PackedStringArray("res://.godot/imported/ui.png-c8ebcf4c6a8846be11c771f5767eeff0.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

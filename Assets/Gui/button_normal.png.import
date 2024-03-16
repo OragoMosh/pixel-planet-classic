@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b7jhc8n7rebvn"
+path="res://.godot/imported/button_normal.png-f52e6724aa3e4d21e08ccea8c877d95b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/button_normal.png"
+dest_files=PackedStringArray("res://.godot/imported/button_normal.png-f52e6724aa3e4d21e08ccea8c877d95b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

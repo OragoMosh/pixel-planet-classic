@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://byuwet4kj1qld"
+path="res://.godot/imported/bone_scythe.png-9b36d931b9f1dcc7b1384a2cc7491515.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/bone_scythe.png"
+dest_files=PackedStringArray("res://.godot/imported/bone_scythe.png-9b36d931b9f1dcc7b1384a2cc7491515.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

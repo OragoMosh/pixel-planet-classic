@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://15vfxo3ktu1q"
+path="res://.godot/imported/Glass_block.png-12142d3b6dfbf252eced9bb8d258fe71.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Glass_block.png"
+dest_files=PackedStringArray("res://.godot/imported/Glass_block.png-12142d3b6dfbf252eced9bb8d258fe71.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bnw5ey4c10dww"
+path="res://.godot/imported/scrollbar_extra_highlight.png-367d388f3734abab9d8b739eb3e3e29d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/scrollbar_extra_highlight.png"
+dest_files=PackedStringArray("res://.godot/imported/scrollbar_extra_highlight.png-367d388f3734abab9d8b739eb3e3e29d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://8vyege41yy4l"
+path="res://.godot/imported/button_hover.png-fc6660e297699e28c1086a7730e52fbf.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/button_hover.png"
+dest_files=PackedStringArray("res://.godot/imported/button_hover.png-fc6660e297699e28c1086a7730e52fbf.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

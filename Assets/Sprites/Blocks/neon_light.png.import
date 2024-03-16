@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://df2pg2kk8ril4"
+path="res://.godot/imported/neon_light.png-1a28d6add4ddf046315e640b1f9f3c41.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/neon_light.png"
+dest_files=PackedStringArray("res://.godot/imported/neon_light.png-1a28d6add4ddf046315e640b1f9f3c41.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

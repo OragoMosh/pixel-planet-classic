@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b44s0jn80tp4n"
+path="res://.godot/imported/star.png-e981bdc1d5779865be9fd81729d7e2dd.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Misc/star.png"
+dest_files=PackedStringArray("res://.godot/imported/star.png-e981bdc1d5779865be9fd81729d7e2dd.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

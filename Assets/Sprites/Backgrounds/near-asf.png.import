@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://tyxvals36n3n"
+path="res://.godot/imported/near-asf.png-3ebe1e28d18a74d23b37b003ae507cfa.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Backgrounds/near-asf.png"
+dest_files=PackedStringArray("res://.godot/imported/near-asf.png-3ebe1e28d18a74d23b37b003ae507cfa.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

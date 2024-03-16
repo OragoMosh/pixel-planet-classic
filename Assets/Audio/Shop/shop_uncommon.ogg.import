@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cvoamofxdw8ju"
+path="res://.godot/imported/shop_uncommon.ogg-3ed420158bc22c2224900c30807548a8.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Audio/Shop/shop_uncommon.ogg"
+dest_files=PackedStringArray("res://.godot/imported/shop_uncommon.ogg-3ed420158bc22c2224900c30807548a8.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

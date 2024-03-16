@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cgywr0dprcq4h"
+path="res://.godot/imported/smoke.jpg-97cd5a22b90ad5a164fffc7ecfa80677.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Cutscene/smoke.jpg"
+dest_files=PackedStringArray("res://.godot/imported/smoke.jpg-97cd5a22b90ad5a164fffc7ecfa80677.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

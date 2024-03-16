@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bwmevej31tetf"
+path="res://.godot/imported/LogoGlow.png-1cfd2d0a81ff4ba25afb701544e0ade3.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Interface/LogoGlow.png"
+dest_files=PackedStringArray("res://.godot/imported/LogoGlow.png-1cfd2d0a81ff4ba25afb701544e0ade3.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

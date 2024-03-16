@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://x828dv2aga4h"
+path="res://.godot/imported/chunk.png-23b469343877ea484befd9fed6bdcbba.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Debug/chunk.png"
+dest_files=PackedStringArray("res://.godot/imported/chunk.png-23b469343877ea484befd9fed6bdcbba.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

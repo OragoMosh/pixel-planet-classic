@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://d0oydb0ppjjvh"
+path="res://.godot/imported/red_brick_platform.png-c8c80b502f5f08e45051c7054304e803.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/red_brick_platform.png"
+dest_files=PackedStringArray("res://.godot/imported/red_brick_platform.png-c8c80b502f5f08e45051c7054304e803.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

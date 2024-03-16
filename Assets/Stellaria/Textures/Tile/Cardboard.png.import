@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://p2mqkn3p6y80"
+path="res://.godot/imported/Cardboard.png-58567a1bd2f72e08d10f0cfc8bfb6a4a.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Cardboard.png"
+dest_files=PackedStringArray("res://.godot/imported/Cardboard.png-58567a1bd2f72e08d10f0cfc8bfb6a4a.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://jgyggu754qsc"
+path="res://.godot/imported/OrSeparatorBar.png-8483a70b9cf6a6e11f95cf07b193277d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/OrSeparatorBar.png"
+dest_files=PackedStringArray("res://.godot/imported/OrSeparatorBar.png-8483a70b9cf6a6e11f95cf07b193277d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

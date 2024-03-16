@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://buvlpsrd7mfhu"
+path="res://.godot/imported/Shrub.png-cb26d1001958e0aaadb1117f0e2df9cc.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Shrub.png"
+dest_files=PackedStringArray("res://.godot/imported/Shrub.png-cb26d1001958e0aaadb1117f0e2df9cc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

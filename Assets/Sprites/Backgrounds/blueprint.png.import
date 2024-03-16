@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://deidd71y5oh4x"
+path="res://.godot/imported/blueprint.png-10cc981273f583e30eff0b42084dfedf.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Backgrounds/blueprint.png"
+dest_files=PackedStringArray("res://.godot/imported/blueprint.png-10cc981273f583e30eff0b42084dfedf.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

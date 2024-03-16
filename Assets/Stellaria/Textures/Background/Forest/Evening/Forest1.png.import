@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://tqw567uyafbb"
+path="res://.godot/imported/Forest1.png-70a3af9a78cd257a98ae075f5433e6d2.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Background/Forest/Evening/Forest1.png"
+dest_files=PackedStringArray("res://.godot/imported/Forest1.png-70a3af9a78cd257a98ae075f5433e6d2.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

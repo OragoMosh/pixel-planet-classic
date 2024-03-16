@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cynm28ldd3jkr"
+path="res://.godot/imported/Text_Colors.png-b7735187a2802991e5ae3a000c1abaed.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Text_Colors.png"
+dest_files=PackedStringArray("res://.godot/imported/Text_Colors.png-b7735187a2802991e5ae3a000c1abaed.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

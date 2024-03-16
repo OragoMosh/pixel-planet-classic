@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bestrg7x0syig"
+path="res://.godot/imported/godly_halo.png-5f27a3f0c56f48006bb03b101e257ba2.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/godly_halo.png"
+dest_files=PackedStringArray("res://.godot/imported/godly_halo.png-5f27a3f0c56f48006bb03b101e257ba2.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

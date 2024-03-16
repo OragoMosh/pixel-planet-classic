@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://s8ohs6sqf5r"
+path="res://.godot/imported/Blue_Flower_01.png-fc868cdc6adc045ab9181d3cc7884920.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/Flowers/Blue/Blue_Flower_01.png"
+dest_files=PackedStringArray("res://.godot/imported/Blue_Flower_01.png-fc868cdc6adc045ab9181d3cc7884920.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dapbnc3ymua32"
+path="res://.godot/imported/spooky_candle_variant_2.png-1f3571b60367ec5c4422abcde307283e.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/spooky_candle_variant_2.png"
+dest_files=PackedStringArray("res://.godot/imported/spooky_candle_variant_2.png-1f3571b60367ec5c4422abcde307283e.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

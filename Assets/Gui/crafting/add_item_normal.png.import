@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://blrb1acb2ie5g"
+path="res://.godot/imported/add_item_normal.png-1a4db7cb1ac558cfbf8e6fe385f97dcb.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/crafting/add_item_normal.png"
+dest_files=PackedStringArray("res://.godot/imported/add_item_normal.png-1a4db7cb1ac558cfbf8e6fe385f97dcb.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

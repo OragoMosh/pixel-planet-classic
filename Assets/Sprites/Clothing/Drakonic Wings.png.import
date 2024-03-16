@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dpvxkdedin2h7"
+path="res://.godot/imported/Drakonic Wings.png-57ea6c90227b9fde8831907c3b7d2e91.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Drakonic Wings.png"
+dest_files=PackedStringArray("res://.godot/imported/Drakonic Wings.png-57ea6c90227b9fde8831907c3b7d2e91.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

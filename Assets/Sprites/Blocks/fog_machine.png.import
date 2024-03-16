@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b4ypysl1rvp4e"
+path="res://.godot/imported/fog_machine.png-3c11ce6a7b264f2c21f6d54581f61547.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/fog_machine.png"
+dest_files=PackedStringArray("res://.godot/imported/fog_machine.png-3c11ce6a7b264f2c21f6d54581f61547.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

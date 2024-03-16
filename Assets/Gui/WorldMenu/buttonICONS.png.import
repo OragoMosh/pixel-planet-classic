@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://y74ugywwlprt"
+path="res://.godot/imported/buttonICONS.png-569c0ddbc9453914565fd44de8647f1b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/WorldMenu/buttonICONS.png"
+dest_files=PackedStringArray("res://.godot/imported/buttonICONS.png-569c0ddbc9453914565fd44de8647f1b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

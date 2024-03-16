@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://v417m8ehtm1r"
+path="res://.godot/imported/StarIcon.png-3898465424673c5f5762616b27bcd033.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/StarIcon.png"
+dest_files=PackedStringArray("res://.godot/imported/StarIcon.png-3898465424673c5f5762616b27bcd033.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

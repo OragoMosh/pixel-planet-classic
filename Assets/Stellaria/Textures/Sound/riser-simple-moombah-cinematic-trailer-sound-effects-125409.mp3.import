@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0yjgc33mmrgh"
+path="res://.godot/imported/riser-simple-moombah-cinematic-trailer-sound-effects-125409.mp3-01ac1368ad9ee79e7cfa00c476a87d9b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/riser-simple-moombah-cinematic-trailer-sound-effects-125409.mp3"
+dest_files=PackedStringArray("res://.godot/imported/riser-simple-moombah-cinematic-trailer-sound-effects-125409.mp3-01ac1368ad9ee79e7cfa00c476a87d9b.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

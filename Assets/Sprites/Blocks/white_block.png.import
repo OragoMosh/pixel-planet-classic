@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://5wf5kselxi5v"
+path="res://.godot/imported/white_block.png-e0584dca331fd56a5bd2bc5f41f04390.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/white_block.png"
+dest_files=PackedStringArray("res://.godot/imported/white_block.png-e0584dca331fd56a5bd2bc5f41f04390.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

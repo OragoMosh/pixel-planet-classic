@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://di70x82hsgfo5"
+path="res://.godot/imported/wanderers_cape.png-b0c466f0fc0974025ee7853708d38b21.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/wanderers_cape.png"
+dest_files=PackedStringArray("res://.godot/imported/wanderers_cape.png-b0c466f0fc0974025ee7853708d38b21.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

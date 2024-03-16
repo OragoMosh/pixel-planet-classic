@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bgo75okjgp6on"
+path="res://.godot/imported/Black_Jeans.png-f0c8977605306e7e0257d5e90fa779c9.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Black_Jeans.png"
+dest_files=PackedStringArray("res://.godot/imported/Black_Jeans.png-f0c8977605306e7e0257d5e90fa779c9.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

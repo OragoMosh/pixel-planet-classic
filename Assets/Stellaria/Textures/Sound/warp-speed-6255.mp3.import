@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b42lt066nh7c8"
+path="res://.godot/imported/warp-speed-6255.mp3-beea5bcc9934c7eb78839ad480c1cdfe.mp3str"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/warp-speed-6255.mp3"
+dest_files=PackedStringArray("res://.godot/imported/warp-speed-6255.mp3-beea5bcc9934c7eb78839ad480c1cdfe.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c7a6hx2x8hh4g"
+path="res://.godot/imported/steel_platform.png-b07076baea747a7ca80fe7b300efab24.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/steel_platform.png"
+dest_files=PackedStringArray("res://.godot/imported/steel_platform.png-b07076baea747a7ca80fe7b300efab24.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

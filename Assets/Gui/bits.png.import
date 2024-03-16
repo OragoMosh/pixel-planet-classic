@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://db4tske076bux"
+path="res://.godot/imported/bits.png-c08a892a5beb87e81301d3382e8f70f5.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/bits.png"
+dest_files=PackedStringArray("res://.godot/imported/bits.png-c08a892a5beb87e81301d3382e8f70f5.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

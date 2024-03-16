@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://lf0ljqawls37"
+path="res://.godot/imported/cinematic-glitch-transition-sfx-27806.mp3-ad07fbee73cb4c3f77fab1622d9b2d2c.mp3str"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/cinematic-glitch-transition-sfx-27806.mp3"
+dest_files=PackedStringArray("res://.godot/imported/cinematic-glitch-transition-sfx-27806.mp3-ad07fbee73cb4c3f77fab1622d9b2d2c.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

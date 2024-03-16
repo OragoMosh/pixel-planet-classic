@@ -1,0 +1,88 @@
+GDRE Tools v0.6.2
+Windows 10.0.19045, NVIDIA GeForce RTX 2070, opengl3
+Extracted 1322 files, no errors detected!
+USER WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:58)
+Recreated plugin config for Todo_Manager
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     0
+Failed scripts:                         0
+Imported resources for export session:  1322
+Successfully converted:                 617
+Lossy:                                  51
+Rewrote metadata:                       0
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+The following files were converted from an import that was stored lossy.
+You may lose fidelity when re-importing these files upon loading the project.
+res://.godot/imported/8bitSpaceMusic.ogg-4e760d65d53f8286eaed40a0c72566d9.oggvorbisstr to res://Assets/Audio/8bitSpaceMusic.ogg
+res://.godot/imported/BG_Change.ogg-f2aede4704515ecd73b50f7c4f8ca81e.oggvorbisstr to res://Assets/Audio/BG_Change.ogg
+res://.godot/imported/ButtonClick.ogg-800f4968b1e35998cfe3d5accc8fdc1e.oggvorbisstr to res://Assets/Audio/ButtonClick.ogg
+res://.godot/imported/ButtonHover.ogg-0211234c1cfafa76f10f21fdcf7f4b35.oggvorbisstr to res://Assets/Audio/ButtonHover.ogg
+res://.godot/imported/Ground_Impact.ogg-fb2e337e6efd86feea0ad23b34f1ef6e.oggvorbisstr to res://Assets/Audio/Ground_Impact.ogg
+res://.godot/imported/Keystrike.ogg-86ddd0d2ca54d9113c174f57ed316dbd.oggvorbisstr to res://Assets/Audio/Keystrike.ogg
+res://.godot/imported/Menu_Close_Woosh.ogg-ec6b73e3eefbfc31edb37e1751846377.oggvorbisstr to res://Assets/Audio/Menu_Close_Woosh.ogg
+res://.godot/imported/Menu_Open_Woosh.ogg-69315ef4c81fda752dd0b9a06f62a8ed.oggvorbisstr to res://Assets/Audio/Menu_Open_Woosh.ogg
+res://.godot/imported/daydreaming on the nebula.wav-3c22109dc68c3b35d9acba2699c0e0c1.sample to res://Assets/Audio/Music/daydreaming on the nebula.wav
+res://.godot/imported/lakeside trees.wav-200edb6263794f489b791c4a83e95c6c.sample to res://Assets/Audio/Music/lakeside trees.wav
+res://.godot/imported/wandering without a purpose.wav-e36d6971d16eebf22ca9298516bf1a10.sample to res://Assets/Audio/Music/wandering without a purpose.wav
+res://.godot/imported/RetroMusic.ogg-48cd3bc4b02c98789a7d9d2c24aad2a7.oggvorbisstr to res://Assets/Audio/RetroMusic.ogg
+res://.godot/imported/shop_cardflip.ogg-d6de821becae8143302cf4fa65dffcf4.oggvorbisstr to res://Assets/Audio/Shop/shop_cardflip.ogg
+res://.godot/imported/shop_legendary.ogg-9e3d24fa62ca83ae0acd0f4583dd6340.oggvorbisstr to res://Assets/Audio/Shop/shop_legendary.ogg
+res://.godot/imported/shop_rare.ogg-19dca0a753c8efb0e1c49a511b6e53e6.oggvorbisstr to res://Assets/Audio/Shop/shop_rare.ogg
+res://.godot/imported/shop_uncommon.ogg-3ed420158bc22c2224900c30807548a8.oggvorbisstr to res://Assets/Audio/Shop/shop_uncommon.ogg
+res://.godot/imported/arcticplains.wav-132e3465a3c6929a5d86afb9ca1bde5b.sample to res://Assets/Audio/arcticplains.wav
+res://.godot/imported/block_destroy.ogg-4e26fb7f802f7c5d73cb8be90b4e059b.oggvorbisstr to res://Assets/Audio/block_destroy.ogg
+res://.godot/imported/block_destroy_filtered.wav-78023510cbb44b7ecde16ae13e2a7693.sample to res://Assets/Audio/block_destroy_filtered.wav
+res://.godot/imported/clothingUpdate.ogg-25aaeacdca547d8021b2ccaa12ff2878.oggvorbisstr to res://Assets/Audio/clothingUpdate.ogg
+res://.godot/imported/emptyswing.ogg-1232eed3b03f2a50d802b3d543bcb63d.oggvorbisstr to res://Assets/Audio/emptyswing.ogg
+res://.godot/imported/emptyswing_filtered.wav-81e2dede758068763fbceafceab5764e.sample to res://Assets/Audio/emptyswing_filtered.wav
+res://.godot/imported/errorsound.ogg-7e5db3b36995712ffaaa177ce0b8ad5c.oggvorbisstr to res://Assets/Audio/errorsound.ogg
+res://.godot/imported/everglades.wav-893658f13e45230f7a32232b156afda5.sample to res://Assets/Audio/everglades.wav
+res://.godot/imported/footstep.ogg-0e78041567c710ac907a28c42c2a342d.oggvorbisstr to res://Assets/Audio/footstep.ogg
+res://.godot/imported/inv_select.ogg-5bc93524e70ae50ea26ae0b38f34627f.oggvorbisstr to res://Assets/Audio/inv_select.ogg
+res://.godot/imported/jump.ogg-79733d024d3e69342f004008fa04052f.oggvorbisstr to res://Assets/Audio/jump.ogg
+res://.godot/imported/night-time.ogg-ccb05b0bde564bb5763e0b7bdbd89769.oggvorbisstr to res://Assets/Audio/night-time.ogg
+res://.godot/imported/noaccess.ogg-16c47373196a6ed1fb2a76634a4f275d.oggvorbisstr to res://Assets/Audio/noaccess.ogg
+res://.godot/imported/notificationsounds.wav-c4cc48b8e2176a712fbd95fb4a343202.sample to res://Assets/Audio/notificationsounds.wav
+res://.godot/imported/placeblock.ogg-839e3b661700651010e1708c8adf53a5.oggvorbisstr to res://Assets/Audio/placeblock.ogg
+res://.godot/imported/respawn.ogg-ebd5492cbed64e47d227ad38e28f4d2c.oggvorbisstr to res://Assets/Audio/respawn.ogg
+res://.godot/imported/sfx_sounds_error10.ogg-a72414d0a3ce9dafdb13a8f500beacf1.oggvorbisstr to res://Assets/Audio/sfx_sounds_error10.ogg
+res://.godot/imported/sfx_sounds_powerup6.ogg-c71286f30098ba66de95a6d2fd5f2ed5.oggvorbisstr to res://Assets/Audio/sfx_sounds_powerup6.ogg
+res://.godot/imported/spacebackground (1).ogg-b6fb74113cbbffa2ea21eb165e34897e.oggvorbisstr to res://Assets/Audio/spacebackground (1).ogg
+res://.godot/imported/spacebackground.wav-759f5c86082f7dac9f0ded4e5c2cd947.sample to res://Assets/Audio/spacebackground.wav
+res://.godot/imported/winterwonderland.wav-5b3971bf5eb39445d4600d4d15c4a5a6.sample to res://Assets/Audio/winterwonderland.wav
+res://.godot/imported/beep.wav-f41fffa562f08919b3df479a03c56b25.sample to res://Assets/Cutscene/beep.wav
+res://.godot/imported/blackholeTXT.jpg-9d43c05e188706dc5bd4d78935c8fd8a.ctex to res://Assets/Cutscene/blackholeTXT.jpg
+res://.godot/imported/shockwave-kinda-sound.ogg-d2b90377e580cb09eb6c2347e5d54484.oggvorbisstr to res://Assets/Cutscene/shockwave-kinda-sound.ogg
+res://.godot/imported/smoke.jpg-97cd5a22b90ad5a164fffc7ecfa80677.ctex to res://Assets/Cutscene/smoke.jpg
+res://.godot/imported/Pixeled.ttf-dc261761381cc4ce4ee3966009da0a8b.fontdata to res://Assets/Fonts/Pixeled.ttf
+res://.godot/imported/StellarFont.ttf-ccacfdf4c66d6c1c6b9854afa54cdc58.fontdata to res://Assets/Fonts/StellarFont.ttf
+res://.godot/imported/mini_pixel-7.ttf-d2f560e574774fa72017f9bed97cded6.fontdata to res://Assets/Fonts/mini_pixel-7.ttf
+res://.godot/imported/thin_pixel-7.ttf-778268c7f49b43236c61e2d8ec471d8e.fontdata to res://Assets/Fonts/thin_pixel-7.ttf
+res://.godot/imported/Postive_notification.ogg-3d98c6bec9601b78a0673b76a2949bd8.oggvorbisstr to res://Assets/Stellaria/Textures/Postive_notification.ogg
+res://.godot/imported/GameStart.ogg-7e739b46ca88139bd3e40edbafea1d1b.oggvorbisstr to res://Assets/Stellaria/Textures/Sound/GameStart.ogg
+res://.godot/imported/Postive_notification.ogg-fe06ee727834332ff3d6c7b3c353f707.oggvorbisstr to res://Assets/Stellaria/Textures/Sound/Postive_notification.ogg
+res://.godot/imported/SpaceAmbient-_Loop_.ogg-5028ec43220b125591d33d3b13e7f5a3.oggvorbisstr to res://Assets/Stellaria/Textures/Sound/SpaceAmbient-_Loop_.ogg
+res://.godot/imported/daydreaming-on-the-nebula.ogg-eee19dc09cb60d9434bdf5a633d604df.oggvorbisstr to res://Assets/Stellaria/Textures/Sound/daydreaming-on-the-nebula.ogg
+res://.godot/imported/landing_ground.ogg-a81e320003fbc1705cf6a408b7abf96c.oggvorbisstr to res://Assets/Stellaria/Textures/Sound/landing_ground.ogg
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.2.1 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

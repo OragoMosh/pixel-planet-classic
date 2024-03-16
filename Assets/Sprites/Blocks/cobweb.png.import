@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://boqkc7ywet4wm"
+path="res://.godot/imported/cobweb.png-2a2d0131b9ac8f8f294971f2ffcb0a90.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/cobweb.png"
+dest_files=PackedStringArray("res://.godot/imported/cobweb.png-2a2d0131b9ac8f8f294971f2ffcb0a90.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

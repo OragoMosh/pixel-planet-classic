@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://rddpksdf61jn"
+path="res://.godot/imported/image.png-a8595bd19bb79fb508006e12ff1eac55.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Mouse/image.png"
+dest_files=PackedStringArray("res://.godot/imported/image.png-a8595bd19bb79fb508006e12ff1eac55.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ckr2h0r02r6h8"
+path="res://.godot/imported/horse_mask.png-1385d044f1829c4688865442c1742382.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/horse_mask.png"
+dest_files=PackedStringArray("res://.godot/imported/horse_mask.png-1385d044f1829c4688865442c1742382.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

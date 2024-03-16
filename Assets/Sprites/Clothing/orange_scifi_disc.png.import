@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ci6grdbw0iwty"
+path="res://.godot/imported/orange_scifi_disc.png-806ccc4896587ae1341cab9be9e0b2ca.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/orange_scifi_disc.png"
+dest_files=PackedStringArray("res://.godot/imported/orange_scifi_disc.png-806ccc4896587ae1341cab9be9e0b2ca.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

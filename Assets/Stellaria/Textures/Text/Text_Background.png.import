@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b7w4ij4iwr4gt"
+path="res://.godot/imported/Text_Background.png-753166863f1771067f5d7e2f5d4ae788.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Text/Text_Background.png"
+dest_files=PackedStringArray("res://.godot/imported/Text_Background.png-753166863f1771067f5d7e2f5d4ae788.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

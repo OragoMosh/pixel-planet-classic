@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d03eyj4ee0y65"
+path="res://.godot/imported/spacebackground.wav-759f5c86082f7dac9f0ded4e5c2cd947.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/spacebackground.wav"
+dest_files=PackedStringArray("res://.godot/imported/spacebackground.wav-759f5c86082f7dac9f0ded4e5c2cd947.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

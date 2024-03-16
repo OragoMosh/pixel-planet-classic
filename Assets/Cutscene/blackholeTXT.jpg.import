@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cpjfvwe6e7ee2"
+path="res://.godot/imported/blackholeTXT.jpg-9d43c05e188706dc5bd4d78935c8fd8a.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Cutscene/blackholeTXT.jpg"
+dest_files=PackedStringArray("res://.godot/imported/blackholeTXT.jpg-9d43c05e188706dc5bd4d78935c8fd8a.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

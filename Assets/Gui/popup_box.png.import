@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://rlwphg4mgy71"
+path="res://.godot/imported/popup_box.png-aea2e396d32153f3d79a418a8d655bc8.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/popup_box.png"
+dest_files=PackedStringArray("res://.godot/imported/popup_box.png-aea2e396d32153f3d79a418a8d655bc8.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

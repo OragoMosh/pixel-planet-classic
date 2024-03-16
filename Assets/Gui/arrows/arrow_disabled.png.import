@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://hxukrgg0jll1"
+path="res://.godot/imported/arrow_disabled.png-c354db96b40adbaf5e96d6283795096a.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/arrows/arrow_disabled.png"
+dest_files=PackedStringArray("res://.godot/imported/arrow_disabled.png-c354db96b40adbaf5e96d6283795096a.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

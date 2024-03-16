@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bu2n17fawafdl"
+path="res://.godot/imported/blue_scifi_grid_block.png-aa31a1557a7a40932ccc669809e49457.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/blue_scifi_grid_block.png"
+dest_files=PackedStringArray("res://.godot/imported/blue_scifi_grid_block.png-aa31a1557a7a40932ccc669809e49457.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

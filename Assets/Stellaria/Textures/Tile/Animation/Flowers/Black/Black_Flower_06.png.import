@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c2fpst8yl76a2"
+path="res://.godot/imported/Black_Flower_06.png-1d0c9c9f074b8d7382a4dee5dd5a0c82.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/Flowers/Black/Black_Flower_06.png"
+dest_files=PackedStringArray("res://.godot/imported/Black_Flower_06.png-1d0c9c9f074b8d7382a4dee5dd5a0c82.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dykfdey0ld7oy"
+path="res://.godot/imported/tabmiddlepart.png-a55c71a9f3c93303191bb81d1b3381be.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/tabmiddlepart.png"
+dest_files=PackedStringArray("res://.godot/imported/tabmiddlepart.png-a55c71a9f3c93303191bb81d1b3381be.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

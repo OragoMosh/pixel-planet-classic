@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dhmfr7q42lijr"
+path="res://.godot/imported/Frame3.png-a354488cff24828cf7579d02d88e503b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Animated/Rocket_Powered_Sign/Frame3.png"
+dest_files=PackedStringArray("res://.godot/imported/Frame3.png-a354488cff24828cf7579d02d88e503b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dy56k2v36vv"
+path="res://.godot/imported/block_destroy.ogg-4e26fb7f802f7c5d73cb8be90b4e059b.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Audio/block_destroy.ogg"
+dest_files=PackedStringArray("res://.godot/imported/block_destroy.ogg-4e26fb7f802f7c5d73cb8be90b4e059b.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

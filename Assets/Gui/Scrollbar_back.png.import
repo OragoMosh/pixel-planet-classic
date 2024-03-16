@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c0cktds3tnk3k"
+path="res://.godot/imported/Scrollbar_back.png-69514e2b7ccdccf0fb8893e92122ff80.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Scrollbar_back.png"
+dest_files=PackedStringArray("res://.godot/imported/Scrollbar_back.png-69514e2b7ccdccf0fb8893e92122ff80.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

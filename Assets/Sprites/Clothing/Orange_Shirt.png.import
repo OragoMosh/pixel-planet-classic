@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bx85gkxx7xjbp"
+path="res://.godot/imported/Orange_Shirt.png-2c299a2ae6c06903524e858565722b25.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Orange_Shirt.png"
+dest_files=PackedStringArray("res://.godot/imported/Orange_Shirt.png-2c299a2ae6c06903524e858565722b25.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

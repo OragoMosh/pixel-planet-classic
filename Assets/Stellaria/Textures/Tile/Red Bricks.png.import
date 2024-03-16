@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ps3twq8r6qa7"
+path="res://.godot/imported/Red Bricks.png-bf11c1796e62effe8b56e6cb304ad25f.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Red Bricks.png"
+dest_files=PackedStringArray("res://.godot/imported/Red Bricks.png-bf11c1796e62effe8b56e6cb304ad25f.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cuy44vuvuol3s"
+path="res://.godot/imported/add_item_hover.png-a0100b39b310c202f8336822a755b479.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/crafting/add_item_hover.png"
+dest_files=PackedStringArray("res://.godot/imported/add_item_hover.png-a0100b39b310c202f8336822a755b479.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

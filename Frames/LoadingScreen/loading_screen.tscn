@@ -1,0 +1,238 @@
+[gd_scene load_steps=18 format=3]
+
+[ext_resource type="Script" path="res://Frames/LoadingScreen/loading_screen.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://ba0f43yyknuis" path="res://Assets/Sprites/Backgrounds/space background.png" id="2"]
+[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="3"]
+[ext_resource type="Texture2D" uid="uid://cruqjapladkqx" path="res://Assets/Sprites/Particles/star.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cme36b6m2os3v" path="res://Assets/Sprites/Backgrounds/blackborders.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b28dbk8s2s8u7" path="res://Assets/Gui/Loading2.png" id="6"]
+
+[sub_resource type="Curve" id="1"]
+min_value = 0.01
+_data = [Vector2(0, 0.01), 0.0, 0.0, 0, 0, Vector2(1, 0.298), 0.0, 0.0, 0, 0]
+point_count = 2
+script = null
+
+[sub_resource type="CurveTexture" id="2"]
+curve = SubResource("1")
+script = null
+
+[sub_resource type="Curve" id="3"]
+_data = [Vector2(0, 0.0090909), 0.0, 0.0, 0, 0, Vector2(0.271084, 1), 0.0, 0.0, 0, 0, Vector2(0.674699, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.281818), 0.0, 0.0, 0, 0]
+point_count = 4
+script = null
+
+[sub_resource type="CurveTexture" id="4"]
+curve = SubResource("3")
+script = null
+
+[sub_resource type="ParticleProcessMaterial" id="5"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 200.0
+direction = Vector3(1, 1, 0)
+spread = 179.52
+flatness = 0.44
+initial_velocity_min = 0.3
+initial_velocity_max = 0.6
+angular_velocity_min = 1.0
+angular_velocity_max = 10.0
+orbit_velocity_min = 0.01
+orbit_velocity_max = 0.01
+orbit_velocity_curve = SubResource("2")
+gravity = Vector3(0, 0, 0)
+scale_min = 0.3
+scale_max = 0.6
+scale_curve = SubResource("4")
+script = null
+
+[sub_resource type="Curve" id="6"]
+min_value = 0.01
+_data = [Vector2(0, 0.136), 0.0, 0.0, 0, 0, Vector2(1, 0.28), 0.0, 0.0, 0, 0]
+point_count = 2
+script = null
+
+[sub_resource type="CurveTexture" id="7"]
+curve = SubResource("6")
+script = null
+
+[sub_resource type="ParticleProcessMaterial" id="8"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 200.0
+direction = Vector3(1, 1, 0)
+spread = 179.52
+flatness = 0.44
+initial_velocity_min = 0.1
+initial_velocity_max = 0.2
+angular_velocity_min = 1.0
+angular_velocity_max = 10.0
+orbit_velocity_min = 0.01
+orbit_velocity_max = 0.01
+orbit_velocity_curve = SubResource("7")
+gravity = Vector3(0, 0, 0)
+scale_min = 0.5
+scale_curve = SubResource("4")
+color = Color(0, 0.784314, 1, 0.27451)
+script = null
+
+[sub_resource type="Animation" id="9"]
+resource_name = "Loading"
+length = 1.2
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LoadingSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:text")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": ["Loading Pixel Planet Classic", "Loading Pixel Planet Classic.", "Loading Pixel Planet Classic...", "Loading Pixel Planet Classic"]
+}
+script = null
+
+[sub_resource type="Animation" id="10"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LoadingSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:text")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Loading Pixel Planet Classic..."]
+}
+script = null
+
+[sub_resource type="AnimationLibrary" id="11"]
+_data = {
+"Loading": SubResource("9"),
+"RESET": SubResource("10")
+}
+script = null
+
+[node name="LoadingScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="SpaceBackground" type="Sprite2D" parent="."]
+position = Vector2(512, 270)
+texture = ExtResource("2")
+
+[node name="Close" type="Button" parent="."]
+z_index = 145
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -45.5
+offset_top = -46.0
+offset_right = 45.5
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("3")
+text = "Close"
+
+[node name="Particles" type="Node" parent="."]
+
+[node name="WhiteStars" type="GPUParticles2D" parent="Particles"]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(463, 268)
+scale = Vector2(5.11629, 2.64)
+amount = 200
+process_material = SubResource("5")
+texture = ExtResource("4")
+lifetime = 11.44
+speed_scale = 0.44
+randomness = 0.44
+fixed_fps = 0
+
+[node name="BlueStars" type="GPUParticles2D" parent="Particles"]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(463, 268)
+scale = Vector2(5.11629, 2.64)
+amount = 100
+process_material = SubResource("8")
+texture = ExtResource("4")
+lifetime = 11.44
+speed_scale = 0.44
+randomness = 0.44
+fixed_fps = 0
+
+[node name="Blackborders" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(480, 270)
+texture = ExtResource("5")
+metadata/_edit_lock_ = true
+
+[node name="LoadingSprite" type="Sprite2D" parent="."]
+position = Vector2(480, 270)
+texture = ExtResource("6")
+hframes = 12
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 39.0
+offset_bottom = 59.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3")
+text = "Loading Pixel Planet Classic..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("11")
+}
+autoplay = "Loading"
+
+[connection signal="pressed" from="Close" to="." method="_on_close_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

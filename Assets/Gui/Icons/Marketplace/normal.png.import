@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cjqbone3tcb0m"
+path="res://.godot/imported/normal.png-76587bce8e3699e7e7764cddb7e7723c.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Icons/Marketplace/normal.png"
+dest_files=PackedStringArray("res://.godot/imported/normal.png-76587bce8e3699e7e7764cddb7e7723c.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

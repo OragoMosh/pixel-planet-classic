@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://du6rqa8750rv5"
+path="res://.godot/imported/Dirt Background.png-0741ec3f2bd6b167b6ec738b0e4117c7.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Dirt Background.png"
+dest_files=PackedStringArray("res://.godot/imported/Dirt Background.png-0741ec3f2bd6b167b6ec738b0e4117c7.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

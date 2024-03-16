@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ckohhhkv7d0y5"
+path="res://.godot/imported/custom_jacket.png-66e50a62a443431bc0182777597449db.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/custom_jacket.png"
+dest_files=PackedStringArray("res://.godot/imported/custom_jacket.png-66e50a62a443431bc0182777597449db.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

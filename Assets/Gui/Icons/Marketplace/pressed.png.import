@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dgoece4w4pcu5"
+path="res://.godot/imported/pressed.png-3591f5f0d3f8b949cd1a9302ac78b952.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Icons/Marketplace/pressed.png"
+dest_files=PackedStringArray("res://.godot/imported/pressed.png-3591f5f0d3f8b949cd1a9302ac78b952.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

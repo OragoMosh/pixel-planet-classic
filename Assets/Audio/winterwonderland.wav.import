@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr1x04uv51sgd"
+path="res://.godot/imported/winterwonderland.wav-5b3971bf5eb39445d4600d4d15c4a5a6.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/winterwonderland.wav"
+dest_files=PackedStringArray("res://.godot/imported/winterwonderland.wav-5b3971bf5eb39445d4600d4d15c4a5a6.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

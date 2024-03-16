@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cgn8o601vnvcm"
+path="res://.godot/imported/PODSmelter_06.png-3fcf20407e2debbca353d0d8a268bdbd.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/PODSmelter/PODSmelter_06.png"
+dest_files=PackedStringArray("res://.godot/imported/PODSmelter_06.png-3fcf20407e2debbca353d0d8a268bdbd.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

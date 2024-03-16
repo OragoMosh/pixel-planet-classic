@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dn7tl5kjbh2w0"
+path="res://.godot/imported/dropBackdrop.png-980bd74562019dbab31af901faaa6436.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Misc/dropBackdrop.png"
+dest_files=PackedStringArray("res://.godot/imported/dropBackdrop.png-980bd74562019dbab31af901faaa6436.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

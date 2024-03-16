@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b5iva112w5qfw"
+path="res://.godot/imported/rock_pile.png-c6e83d7d39b19ca834ea0e9c039bdb65.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/rock_pile.png"
+dest_files=PackedStringArray("res://.godot/imported/rock_pile.png-c6e83d7d39b19ca834ea0e9c039bdb65.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

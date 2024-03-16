@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://v1e6ei7nd8ra"
+path="res://.godot/imported/neon_light_pink.png-2bd8b758a15eb00f0d1c25132f0c392e.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/neon_light_pink.png"
+dest_files=PackedStringArray("res://.godot/imported/neon_light_pink.png-2bd8b758a15eb00f0d1c25132f0c392e.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

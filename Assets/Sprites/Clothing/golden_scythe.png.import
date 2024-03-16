@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://drqwghnrxjkjs"
+path="res://.godot/imported/golden_scythe.png-df50bf4256b3b4270fdc34611c0b5b61.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/golden_scythe.png"
+dest_files=PackedStringArray("res://.godot/imported/golden_scythe.png-df50bf4256b3b4270fdc34611c0b5b61.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

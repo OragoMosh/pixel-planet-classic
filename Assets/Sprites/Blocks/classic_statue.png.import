@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cjn6wuwa1vsr3"
+path="res://.godot/imported/classic_statue.png-72f22a357af1f0f04d04d9802bf97f6d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/classic_statue.png"
+dest_files=PackedStringArray("res://.godot/imported/classic_statue.png-72f22a357af1f0f04d04d9802bf97f6d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

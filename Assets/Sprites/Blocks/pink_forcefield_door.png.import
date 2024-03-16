@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://crk14rkqulpoa"
+path="res://.godot/imported/pink_forcefield_door.png-2a0d1a28bf356fa8dd09b732a5081f25.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/pink_forcefield_door.png"
+dest_files=PackedStringArray("res://.godot/imported/pink_forcefield_door.png-2a0d1a28bf356fa8dd09b732a5081f25.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

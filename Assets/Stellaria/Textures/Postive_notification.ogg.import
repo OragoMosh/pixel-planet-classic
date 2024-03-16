@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cnqjv33tfkx4c"
+path="res://.godot/imported/Postive_notification.ogg-3d98c6bec9601b78a0673b76a2949bd8.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Postive_notification.ogg"
+dest_files=PackedStringArray("res://.godot/imported/Postive_notification.ogg-3d98c6bec9601b78a0673b76a2949bd8.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

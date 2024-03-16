@@ -1,0 +1,70 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Texture2D" uid="uid://cjg5282c8i4b6" path="res://Assets/Sprites/Particles/full_block_smoke.png" id="1"]
+[ext_resource type="Script" path="res://Scenes/WorldScenes/Effects/Smoke.gd" id="2"]
+[ext_resource type="AudioStream" uid="uid://cbwven31m171x" path="res://Assets/Audio/block_destroy_filtered.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://c0dhlxgcbxeaj" path="res://Assets/Audio/placeblock.ogg" id="4"]
+
+[sub_resource type="Animation" id="1"]
+resource_name = "smoke"
+length = 0.417
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.052, 0.104, 0.156, 0.208, 0.26, 0.312, 0.364),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+script = null
+
+[sub_resource type="AnimationLibrary" id="2"]
+_data = {
+"smoke": SubResource("1")
+}
+script = null
+
+[node name="Smoke" type="Sprite2D"]
+texture = ExtResource("1")
+hframes = 8
+script = ExtResource("2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("2")
+}
+speed_scale = 1.5
+
+[node name="Client" type="Node2D" parent="."]
+
+[node name="breakstream" type="AudioStreamPlayer2D" parent="Client"]
+stream = ExtResource("3")
+volume_db = -20.0
+max_distance = 320.0
+bus = &"Game"
+
+[node name="placestream" type="AudioStreamPlayer2D" parent="Client"]
+stream = ExtResource("4")
+volume_db = -15.0
+max_distance = 320.0
+bus = &"Game"
+
+[node name="Peer" type="Node2D" parent="."]
+
+[node name="breakstream2" type="AudioStreamPlayer2D" parent="Peer"]
+stream = ExtResource("3")
+volume_db = -20.0
+max_distance = 320.0
+bus = &"Peers"
+
+[node name="placestream2" type="AudioStreamPlayer2D" parent="Peer"]
+stream = ExtResource("4")
+volume_db = -15.0
+max_distance = 320.0
+bus = &"Peers"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

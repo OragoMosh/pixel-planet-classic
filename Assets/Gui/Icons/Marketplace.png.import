@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://lmoei8pdo25w"
+path="res://.godot/imported/Marketplace.png-4a85fbee8856813611bd48d32e81026c.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Icons/Marketplace.png"
+dest_files=PackedStringArray("res://.godot/imported/Marketplace.png-4a85fbee8856813611bd48d32e81026c.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

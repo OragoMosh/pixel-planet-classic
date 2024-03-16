@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cw4twx2vhrhsb"
+path="res://.godot/imported/tombstone_variant_1.png-7b6be3f121b8550a5b0bb628a735172c.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/tombstone_variant_1.png"
+dest_files=PackedStringArray("res://.godot/imported/tombstone_variant_1.png-7b6be3f121b8550a5b0bb628a735172c.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://17fe2w8biojb"
+path="res://.godot/imported/inventorySlot.png-33be69d5482f325f8b4dece1e858271c.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/inventorySlot.png"
+dest_files=PackedStringArray("res://.godot/imported/inventorySlot.png-33be69d5482f325f8b4dece1e858271c.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

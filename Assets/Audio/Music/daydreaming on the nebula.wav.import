@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dfj3s8a4kfk52"
+path="res://.godot/imported/daydreaming on the nebula.wav-3c22109dc68c3b35d9acba2699c0e0c1.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/daydreaming on the nebula.wav"
+dest_files=PackedStringArray("res://.godot/imported/daydreaming on the nebula.wav-3c22109dc68c3b35d9acba2699c0e0c1.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

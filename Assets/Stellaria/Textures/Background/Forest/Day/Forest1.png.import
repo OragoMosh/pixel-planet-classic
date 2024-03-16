@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://db5scpnhyge8k"
+path="res://.godot/imported/Forest1.png-40caf156c762d1e2612a1ed2fbfa55a7.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Background/Forest/Day/Forest1.png"
+dest_files=PackedStringArray("res://.godot/imported/Forest1.png-40caf156c762d1e2612a1ed2fbfa55a7.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

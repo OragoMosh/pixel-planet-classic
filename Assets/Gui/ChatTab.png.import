@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b44rchsgwtwsi"
+path="res://.godot/imported/ChatTab.png-8459ee55e226d06ffab2636ba2aa3321.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/ChatTab.png"
+dest_files=PackedStringArray("res://.godot/imported/ChatTab.png-8459ee55e226d06ffab2636ba2aa3321.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://owqw3tnrlmww"
+path="res://.godot/imported/lxrd_mask.png-cefc046f710c524708b8d26cc9d17e31.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/lxrd_mask.png"
+dest_files=PackedStringArray("res://.godot/imported/lxrd_mask.png-cefc046f710c524708b8d26cc9d17e31.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

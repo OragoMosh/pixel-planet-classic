@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cld8qm2w56d14"
+path="res://.godot/imported/SpaceAmbient-_Loop_.ogg-5028ec43220b125591d33d3b13e7f5a3.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/SpaceAmbient-_Loop_.ogg"
+dest_files=PackedStringArray("res://.godot/imported/SpaceAmbient-_Loop_.ogg-5028ec43220b125591d33d3b13e7f5a3.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

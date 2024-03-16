@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://s08jiprjd4qi"
+path="res://.godot/imported/owner_icon.png-201657d41cd80ca30f4487b9c803b4cc.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Misc/owner_icon.png"
+dest_files=PackedStringArray("res://.godot/imported/owner_icon.png-201657d41cd80ca30f4487b9c803b4cc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

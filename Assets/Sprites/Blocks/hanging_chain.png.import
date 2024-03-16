@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://6fgqugtptowv"
+path="res://.godot/imported/hanging_chain.png-b573656d62f1bcbf3558645bf4663f87.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/hanging_chain.png"
+dest_files=PackedStringArray("res://.godot/imported/hanging_chain.png-b573656d62f1bcbf3558645bf4663f87.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

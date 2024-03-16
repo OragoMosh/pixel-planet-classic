@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0a38y27fh58p"
+path="res://.godot/imported/lakeside trees.wav-200edb6263794f489b791c4a83e95c6c.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/lakeside trees.wav"
+dest_files=PackedStringArray("res://.godot/imported/lakeside trees.wav-200edb6263794f489b791c4a83e95c6c.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

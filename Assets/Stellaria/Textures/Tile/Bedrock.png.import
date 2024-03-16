@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://droxcjlmjrirr"
+path="res://.godot/imported/Bedrock.png-1174fc63200b3c29dc03a96aa1de9595.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Bedrock.png"
+dest_files=PackedStringArray("res://.godot/imported/Bedrock.png-1174fc63200b3c29dc03a96aa1de9595.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

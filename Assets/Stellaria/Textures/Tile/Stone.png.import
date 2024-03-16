@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cog6x2gg13v4i"
+path="res://.godot/imported/Stone.png-130b3a503cc0af06d8e5daecc41f64cf.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Stone.png"
+dest_files=PackedStringArray("res://.godot/imported/Stone.png-130b3a503cc0af06d8e5daecc41f64cf.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

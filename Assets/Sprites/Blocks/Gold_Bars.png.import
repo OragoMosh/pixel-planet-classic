@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b7yienj74ex7l"
+path="res://.godot/imported/Gold_Bars.png-2ba92f46ac3a30e2ce33caa4439c6a91.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/Gold_Bars.png"
+dest_files=PackedStringArray("res://.godot/imported/Gold_Bars.png-2ba92f46ac3a30e2ce33caa4439c6a91.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

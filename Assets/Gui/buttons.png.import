@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://duip3nrlj4s3r"
+path="res://.godot/imported/buttons.png-831eba7fd1247df7cfb3e698b1c28053.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/buttons.png"
+dest_files=PackedStringArray("res://.godot/imported/buttons.png-831eba7fd1247df7cfb3e698b1c28053.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

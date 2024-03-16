@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://c5n1wb1f3xod1"
+path="res://.godot/imported/StellarFont.ttf-ccacfdf4c66d6c1c6b9854afa54cdc58.fontdata"
+
+[deps]
+
+source_file="res://Assets/Fonts/StellarFont.ttf"
+dest_files=PackedStringArray("res://.godot/imported/StellarFont.ttf-ccacfdf4c66d6c1c6b9854afa54cdc58.fontdata")
+
+[params]
+
+dummy_value_ignore_me=0

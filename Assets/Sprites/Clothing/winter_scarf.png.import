@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bcfi1m1ukl878"
+path="res://.godot/imported/winter_scarf.png-7539f6d61d07edda07e88a9eb6154a0d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/winter_scarf.png"
+dest_files=PackedStringArray("res://.godot/imported/winter_scarf.png-7539f6d61d07edda07e88a9eb6154a0d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

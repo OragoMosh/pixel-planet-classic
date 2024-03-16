@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://rx0h2vexygeh"
+path="res://.godot/imported/moderator_icon.png-30ed8a98762eca53e5aebea797d26d76.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Misc/moderator_icon.png"
+dest_files=PackedStringArray("res://.godot/imported/moderator_icon.png-30ed8a98762eca53e5aebea797d26d76.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

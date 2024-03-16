@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2la4e7gv51od"
+path="res://.godot/imported/everglades.wav-893658f13e45230f7a32232b156afda5.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/everglades.wav"
+dest_files=PackedStringArray("res://.godot/imported/everglades.wav-893658f13e45230f7a32232b156afda5.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

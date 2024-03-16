@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ck8iednbaucqd"
+path="res://.godot/imported/normal.png-02f0b37d8c9467d05647650a3e96951b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Icons/Inventory/normal.png"
+dest_files=PackedStringArray("res://.godot/imported/normal.png-02f0b37d8c9467d05647650a3e96951b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

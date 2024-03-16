@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://8p8ugeakicf7"
+path="res://.godot/imported/GameStart.ogg-7e739b46ca88139bd3e40edbafea1d1b.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/GameStart.ogg"
+dest_files=PackedStringArray("res://.godot/imported/GameStart.ogg-7e739b46ca88139bd3e40edbafea1d1b.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

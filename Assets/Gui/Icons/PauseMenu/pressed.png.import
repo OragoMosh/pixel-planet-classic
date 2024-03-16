@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://sp0q5wotudkg"
+path="res://.godot/imported/pressed.png-8fc43375aaf06580a2d9d482f41df341.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Icons/PauseMenu/pressed.png"
+dest_files=PackedStringArray("res://.godot/imported/pressed.png-8fc43375aaf06580a2d9d482f41df341.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

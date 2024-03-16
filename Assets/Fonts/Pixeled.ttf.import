@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://daaceucur7wcw"
+path="res://.godot/imported/Pixeled.ttf-dc261761381cc4ce4ee3966009da0a8b.fontdata"
+
+[deps]
+
+source_file="res://Assets/Fonts/Pixeled.ttf"
+dest_files=PackedStringArray("res://.godot/imported/Pixeled.ttf-dc261761381cc4ce4ee3966009da0a8b.fontdata")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://huwwfuc8n6pm"
+path="res://.godot/imported/old_sign.png-dc35e4ccd1790010249875af8a4328d4.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/old_sign.png"
+dest_files=PackedStringArray("res://.godot/imported/old_sign.png-dc35e4ccd1790010249875af8a4328d4.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

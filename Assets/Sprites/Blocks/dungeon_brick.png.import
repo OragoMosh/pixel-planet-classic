@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://d2trbhlbupjqp"
+path="res://.godot/imported/dungeon_brick.png-c9796d429979499026bce40fc44eec5e.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/dungeon_brick.png"
+dest_files=PackedStringArray("res://.godot/imported/dungeon_brick.png-c9796d429979499026bce40fc44eec5e.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

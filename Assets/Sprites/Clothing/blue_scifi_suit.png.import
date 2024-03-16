@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bfxv3oa2ifme2"
+path="res://.godot/imported/blue_scifi_suit.png-a770af9106ac0d0a86d4f2a326318549.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/blue_scifi_suit.png"
+dest_files=PackedStringArray("res://.godot/imported/blue_scifi_suit.png-a770af9106ac0d0a86d4f2a326318549.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

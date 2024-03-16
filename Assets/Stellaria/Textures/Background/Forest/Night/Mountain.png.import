@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cjyogqcoif1gp"
+path="res://.godot/imported/Mountain.png-9ebccf9ce26e34fdc9d043d76e6c0245.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Background/Forest/Night/Mountain.png"
+dest_files=PackedStringArray("res://.godot/imported/Mountain.png-9ebccf9ce26e34fdc9d043d76e6c0245.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

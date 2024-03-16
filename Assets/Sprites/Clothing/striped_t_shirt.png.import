@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://chsbglayd7wi"
+path="res://.godot/imported/striped_t_shirt.png-a2c1028a355bb1bd519be958ea2452b2.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/striped_t_shirt.png"
+dest_files=PackedStringArray("res://.godot/imported/striped_t_shirt.png-a2c1028a355bb1bd519be958ea2452b2.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

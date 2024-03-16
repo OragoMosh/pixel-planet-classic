@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bfrfkqx4trqr5"
+path="res://.godot/imported/Purple_Shirt.png-77d9b22fc6f580a42933e28a78ed017d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Purple_Shirt.png"
+dest_files=PackedStringArray("res://.godot/imported/Purple_Shirt.png-77d9b22fc6f580a42933e28a78ed017d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

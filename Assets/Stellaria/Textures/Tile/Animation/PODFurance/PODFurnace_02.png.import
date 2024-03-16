@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c28eesljq61v"
+path="res://.godot/imported/PODFurnace_02.png-2e7d95c79effe8014fe75a2c2bf07e7f.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Tile/Animation/PODFurance/PODFurnace_02.png"
+dest_files=PackedStringArray("res://.godot/imported/PODFurnace_02.png-2e7d95c79effe8014fe75a2c2bf07e7f.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cog8it0gr0vqs"
+path="res://.godot/imported/intergalactic-communication-science-fiction-sounds-8238 (1).mp3-0c1ef24975f9d3f283e1500a07db33ab.mp3str"
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Sound/intergalactic-communication-science-fiction-sounds-8238 (1).mp3"
+dest_files=PackedStringArray("res://.godot/imported/intergalactic-communication-science-fiction-sounds-8238 (1).mp3-0c1ef24975f9d3f283e1500a07db33ab.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dxtqmlawklw78"
+path="res://.godot/imported/panel.png-e36e0c2c43ac5781f0b7ad797d41663d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/panel.png"
+dest_files=PackedStringArray("res://.godot/imported/panel.png-e36e0c2c43ac5781f0b7ad797d41663d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

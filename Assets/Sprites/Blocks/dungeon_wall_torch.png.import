@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://owx5tdxpuyei"
+path="res://.godot/imported/dungeon_wall_torch.png-c71a526ddbbb5feb233e5e62da941c5b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/dungeon_wall_torch.png"
+dest_files=PackedStringArray("res://.godot/imported/dungeon_wall_torch.png-c71a526ddbbb5feb233e5e62da941c5b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bcfw3ijao8guy"
+path="res://.godot/imported/shop_tab_dark.png-7dfad580602eadaca515f49b400b486d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/shop_tab_dark.png"
+dest_files=PackedStringArray("res://.godot/imported/shop_tab_dark.png-7dfad580602eadaca515f49b400b486d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ddm4psfvwofww"
+path="res://.godot/imported/Brown_Hair.png-90703b94a19fe42c808b308434190774.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Brown_Hair.png"
+dest_files=PackedStringArray("res://.godot/imported/Brown_Hair.png-90703b94a19fe42c808b308434190774.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

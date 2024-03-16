@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8bdgkdjsinaf"
+path="res://.godot/imported/beep.wav-f41fffa562f08919b3df479a03c56b25.sample"
+
+[deps]
+
+source_file="res://Assets/Cutscene/beep.wav"
+dest_files=PackedStringArray("res://.godot/imported/beep.wav-f41fffa562f08919b3df479a03c56b25.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

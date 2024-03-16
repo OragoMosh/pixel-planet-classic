@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bg1jfoxk0e6t2"
+path="res://.godot/imported/red_brick_background.png-04b4668c8abcb42d48b3a63778880c0d.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/red_brick_background.png"
+dest_files=PackedStringArray("res://.godot/imported/red_brick_background.png-04b4668c8abcb42d48b3a63778880c0d.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c72rymsoqpv8a"
+path="res://.godot/imported/purple_hoodie.png-a007085ee0009af76ab3da3ff6fb35f2.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/purple_hoodie.png"
+dest_files=PackedStringArray("res://.godot/imported/purple_hoodie.png-a007085ee0009af76ab3da3ff6fb35f2.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

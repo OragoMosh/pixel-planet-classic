@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://6ldye5k5eeic"
+path="res://.godot/imported/SciFi_Terminal.png-2c051a24b9fb9d5b86c3ab059d6ba025.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/SciFi_Terminal.png"
+dest_files=PackedStringArray("res://.godot/imported/SciFi_Terminal.png-2c051a24b9fb9d5b86c3ab059d6ba025.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

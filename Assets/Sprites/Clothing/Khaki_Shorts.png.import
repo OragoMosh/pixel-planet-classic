@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bvadhewn0x8xa"
+path="res://.godot/imported/Khaki_Shorts.png-47298fee8343ea8c33f9e6dfcc8813f2.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Khaki_Shorts.png"
+dest_files=PackedStringArray("res://.godot/imported/Khaki_Shorts.png-47298fee8343ea8c33f9e6dfcc8813f2.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

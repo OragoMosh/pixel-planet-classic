@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dsm3ngjw8l5gb"
+path="res://.godot/imported/wrenchmouse.png-909732ad18fc8e37d08c69d438d1ee6b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Mouse/wrenchmouse.png"
+dest_files=PackedStringArray("res://.godot/imported/wrenchmouse.png-909732ad18fc8e37d08c69d438d1ee6b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

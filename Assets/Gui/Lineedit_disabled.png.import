@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://0r4x2e2d3s5n"
+path="res://.godot/imported/Lineedit_disabled.png-91ae1dcaa69fbb46ae659ff8127b0fdb.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Lineedit_disabled.png"
+dest_files=PackedStringArray("res://.godot/imported/Lineedit_disabled.png-91ae1dcaa69fbb46ae659ff8127b0fdb.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

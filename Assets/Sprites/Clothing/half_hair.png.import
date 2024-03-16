@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b3caelo6rpag5"
+path="res://.godot/imported/half_hair.png-2af867c840a419f6e222fe4dfb3173dd.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/half_hair.png"
+dest_files=PackedStringArray("res://.godot/imported/half_hair.png-2af867c840a419f6e222fe4dfb3173dd.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

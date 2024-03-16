@@ -1,0 +1,74 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
+[ext_resource type="Script" path="res://Scenes/GuiScenes/Marketplace/Listing.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://d4dxotbucv1q1" path="res://Assets/Gui/listing_panel.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ccotmonek0eb" path="res://Assets/Gui/itemsNEW.png" id="4"]
+[ext_resource type="FontFile" uid="uid://daaceucur7wcw" path="res://Assets/Fonts/Pixeled.ttf" id="5"]
+
+[sub_resource type="StyleBoxTexture" id="1"]
+texture = ExtResource("3")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+script = null
+
+[sub_resource type="LabelSettings" id="2"]
+font_size = 5
+shadow_color = Color(0, 0, 0, 1)
+script = null
+
+[node name="Listing" type="Panel"]
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 445.0
+offset_bottom = 44.0
+theme_override_styles/panel = SubResource("1")
+
+[node name="ItemSprite" type="Sprite2D" parent="."]
+position = Vector2(24, 22)
+texture = ExtResource("4")
+hframes = 32
+vframes = 11
+
+[node name="ItemAmount" type="Label" parent="."]
+layout_mode = 0
+offset_left = -20.0
+offset_top = 5.0
+offset_right = 37.0
+offset_bottom = 22.0
+theme_override_fonts/font = ExtResource("5")
+label_settings = SubResource("2")
+horizontal_alignment = 2
+
+[node name="ExpirationLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 21.0
+offset_right = 160.0
+offset_bottom = 38.0
+theme_override_fonts/font = ExtResource("5")
+theme_override_font_sizes/font_size = 5
+text = "EXPIRES IN (end_time) HOURS"
+
+[node name="TitleLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 3.0
+offset_right = 313.0
+offset_bottom = 26.0
+text = "(amount) Item Name | Est. Unit: (unit_price)"
+
+[node name="PurchaseButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 340.0
+offset_top = 8.0
+offset_right = 438.0
+offset_bottom = 36.0
+text = "(total_price)"
+
+[connection signal="pressed" from="PurchaseButton" to="." method="_on_purchase_button_pressed"]

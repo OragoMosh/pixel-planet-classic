@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bovl87rdepxx4"
+path="res://.godot/imported/developer_icon.png-fba864d1ecd1c6a6c6e99ac2cea6b170.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Misc/developer_icon.png"
+dest_files=PackedStringArray("res://.godot/imported/developer_icon.png-fba864d1ecd1c6a6c6e99ac2cea6b170.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

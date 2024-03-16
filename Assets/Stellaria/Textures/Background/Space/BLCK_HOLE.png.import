@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bn8y1tj4067g8"
+path="res://.godot/imported/BLCK_HOLE.png-1605a81bf53391558ed8b17d3fd5b86b.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Background/Space/BLCK_HOLE.png"
+dest_files=PackedStringArray("res://.godot/imported/BLCK_HOLE.png-1605a81bf53391558ed8b17d3fd5b86b.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

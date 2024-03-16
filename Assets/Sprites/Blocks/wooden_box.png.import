@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bhqpxdk60r4j0"
+path="res://.godot/imported/wooden_box.png-8ef4110bb0f9a04ded6797a2a0b33ebd.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/wooden_box.png"
+dest_files=PackedStringArray("res://.godot/imported/wooden_box.png-8ef4110bb0f9a04ded6797a2a0b33ebd.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

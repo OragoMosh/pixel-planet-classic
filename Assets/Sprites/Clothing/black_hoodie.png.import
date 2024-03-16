@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bfhobqocwn3dr"
+path="res://.godot/imported/black_hoodie.png-7f4830e1c0d5263e71c7e909fa10affb.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/black_hoodie.png"
+dest_files=PackedStringArray("res://.godot/imported/black_hoodie.png-7f4830e1c0d5263e71c7e909fa10affb.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

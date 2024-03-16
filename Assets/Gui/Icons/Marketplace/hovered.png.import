@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://d0i4rqkgo8evd"
+path="res://.godot/imported/hovered.png-a34bf1e717bbef698b4df0d23b733543.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/Icons/Marketplace/hovered.png"
+dest_files=PackedStringArray("res://.godot/imported/hovered.png-a34bf1e717bbef698b4df0d23b733543.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

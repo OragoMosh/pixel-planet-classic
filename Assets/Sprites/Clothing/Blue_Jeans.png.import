@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bfslkbuk6d4em"
+path="res://.godot/imported/Blue_Jeans.png-17449f8500b233d68679ccdb4d3db0a8.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Blue_Jeans.png"
+dest_files=PackedStringArray("res://.godot/imported/Blue_Jeans.png-17449f8500b233d68679ccdb4d3db0a8.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

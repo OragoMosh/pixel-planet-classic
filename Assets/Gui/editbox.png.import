@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ca7gkxw421nyb"
+path="res://.godot/imported/editbox.png-a0d23a905f5c3cb6b51e5ad3ea1e411e.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/editbox.png"
+dest_files=PackedStringArray("res://.godot/imported/editbox.png-a0d23a905f5c3cb6b51e5ad3ea1e411e.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

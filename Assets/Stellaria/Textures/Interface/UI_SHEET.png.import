@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bo8jtt7rxbw50"
+path="res://.godot/imported/UI_SHEET.png-a49516590373f61b23e68a99b6dec037.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Stellaria/Textures/Interface/UI_SHEET.png"
+dest_files=PackedStringArray("res://.godot/imported/UI_SHEET.png-a49516590373f61b23e68a99b6dec037.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

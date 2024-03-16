@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cak8a5xyyt126"
+path="res://.godot/imported/health.png-6fb419c858a27bbe4f62c576b2ab2df2.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/health.png"
+dest_files=PackedStringArray("res://.godot/imported/health.png-6fb419c858a27bbe4f62c576b2ab2df2.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

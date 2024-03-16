@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ubmd2tn1jvln"
+path="res://.godot/imported/button_disabled.png-e84decaa4bd273152a91bd3a6bc4cf43.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/button_disabled.png"
+dest_files=PackedStringArray("res://.godot/imported/button_disabled.png-e84decaa4bd273152a91bd3a6bc4cf43.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

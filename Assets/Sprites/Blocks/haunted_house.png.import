@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://kqrpo7p30mc2"
+path="res://.godot/imported/haunted_house.png-c32820e0f8f5d3deb362f4a652cccba9.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/haunted_house.png"
+dest_files=PackedStringArray("res://.godot/imported/haunted_house.png-c32820e0f8f5d3deb362f4a652cccba9.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

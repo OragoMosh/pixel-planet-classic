@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ccypxuprtd2to"
+path="res://.godot/imported/Angelic_Wings.png-45b7e3c53e550505e9afd63c9f3fc561.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Angelic_Wings.png"
+dest_files=PackedStringArray("res://.godot/imported/Angelic_Wings.png-45b7e3c53e550505e9afd63c9f3fc561.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

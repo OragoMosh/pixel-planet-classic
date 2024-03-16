@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c3hgyqael8lpc"
+path="res://.godot/imported/tabs1.png-e260bec34b8179d5549eb35840617d26.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/tabs1.png"
+dest_files=PackedStringArray("res://.godot/imported/tabs1.png-e260bec34b8179d5549eb35840617d26.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

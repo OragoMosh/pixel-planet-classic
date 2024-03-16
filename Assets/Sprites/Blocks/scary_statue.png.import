@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://t33v5r1h04ln"
+path="res://.godot/imported/scary_statue.png-1dce44a66f9a89e7af5c92e454f2cd6a.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Blocks/scary_statue.png"
+dest_files=PackedStringArray("res://.godot/imported/scary_statue.png-1dce44a66f9a89e7af5c92e454f2cd6a.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b7jhe1l4oev3u"
+path="res://.godot/imported/knight_chestplate.png-dd256680179d4985a7c085b6a2b369c0.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/knight_chestplate.png"
+dest_files=PackedStringArray("res://.godot/imported/knight_chestplate.png-dd256680179d4985a7c085b6a2b369c0.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

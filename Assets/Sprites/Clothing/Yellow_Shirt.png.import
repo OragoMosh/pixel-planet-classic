@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://d2u8n61gluv6m"
+path="res://.godot/imported/Yellow_Shirt.png-ed9d6daa19bc171df4d213f2228b44fe.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Sprites/Clothing/Yellow_Shirt.png"
+dest_files=PackedStringArray("res://.godot/imported/Yellow_Shirt.png-ed9d6daa19bc171df4d213f2228b44fe.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

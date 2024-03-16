@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://8m222kktahlb"
+path="res://.godot/imported/arrow_normal.png-91db490a853359e237d76906158bae94.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Gui/arrows/arrow_normal.png"
+dest_files=PackedStringArray("res://.godot/imported/arrow_normal.png-91db490a853359e237d76906158bae94.ctex")
+
+[params]
+
+dummy_value_ignore_me=0
