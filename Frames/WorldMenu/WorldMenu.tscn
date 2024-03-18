@@ -1,6 +1,6 @@
-[gd_scene load_steps=23 format=3]
+[gd_scene load_steps=23 format=3 uid="uid://cllqnql5v6srx"]
 
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
 [ext_resource type="Script" path="res://Frames/WorldMenu/WorldMenu.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://bi7qp1bavpb4k" path="res://Assets/Sprites/Backgrounds/PlanetBackground.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cruqjapladkqx" path="res://Assets/Sprites/Particles/star.png" id="4"]
@@ -10,7 +10,7 @@
 [ext_resource type="Script" path="res://Scenes/GuiScenes/Menu.gd" id="8"]
 [ext_resource type="Texture2D" uid="uid://y74ugywwlprt" path="res://Assets/Gui/WorldMenu/buttonICONS.png" id="9"]
 [ext_resource type="Texture2D" uid="uid://k3qfo7l41te" path="res://Assets/Gui/WorldMenu/OrSeparatorBar.png" id="10"]
-[ext_resource type="PackedScene" uid="uid://f4eryvarucyb" path="res://Frames/Settings/settings_menu.tscn" id="11"]
+[ext_resource type="PackedScene" uid="uid://mf3se6tjuqah" path="res://Frames/Settings/settings_menu.tscn" id="11"]
 [ext_resource type="AudioStream" uid="uid://bqa6reba3i8hu" path="res://Assets/Audio/8bitSpaceMusic.ogg" id="12"]
 [ext_resource type="Script" path="res://Frames/World/Notifications.gd" id="13"]
 
@@ -18,20 +18,16 @@
 min_value = 0.01
 _data = [Vector2(0, 0.01), 0.0, 0.0, 0, 0, Vector2(1, 0.298), 0.0, 0.0, 0, 0]
 point_count = 2
-script = null
 
 [sub_resource type="CurveTexture" id="2"]
 curve = SubResource("1")
-script = null
 
 [sub_resource type="Curve" id="3"]
 _data = [Vector2(0, 0.0090909), 0.0, 0.0, 0, 0, Vector2(0.271084, 1), 0.0, 0.0, 0, 0, Vector2(0.674699, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.281818), 0.0, 0.0, 0, 0]
 point_count = 4
-script = null
 
 [sub_resource type="CurveTexture" id="4"]
 curve = SubResource("3")
-script = null
 
 [sub_resource type="ParticleProcessMaterial" id="5"]
 particle_flag_disable_z = true
@@ -51,17 +47,14 @@ gravity = Vector3(0, 0, 0)
 scale_min = 0.3
 scale_max = 0.6
 scale_curve = SubResource("4")
-script = null
 
 [sub_resource type="Curve" id="6"]
 min_value = 0.01
 _data = [Vector2(0, 0.136), 0.0, 0.0, 0, 0, Vector2(1, 0.28), 0.0, 0.0, 0, 0]
 point_count = 2
-script = null
 
 [sub_resource type="CurveTexture" id="7"]
 curve = SubResource("6")
-script = null
 
 [sub_resource type="ParticleProcessMaterial" id="8"]
 particle_flag_disable_z = true
@@ -81,10 +74,8 @@ gravity = Vector3(0, 0, 0)
 scale_min = 0.5
 scale_curve = SubResource("4")
 color = Color(0, 0.784314, 1, 0.27451)
-script = null
 
 [sub_resource type="ButtonGroup" id="9"]
-script = null
 
 [node name="WorldMenu" type="Control"]
 layout_mode = 3

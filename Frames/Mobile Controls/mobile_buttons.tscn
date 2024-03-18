@@ -1,11 +1,14 @@
-[gd_scene load_steps=7 format=3 uid="uid://7tv56kmxx6c0"]
+[gd_scene load_steps=10 format=3 uid="uid://7tv56kmxx6c0"]
 
-[ext_resource type="Texture2D" uid="uid://boqy7wbsw61pm" path="res://Assets/Gui/Controls/flatDark36.png" id="1_4v81o"]
 [ext_resource type="Script" path="res://Scenes/GuiScenes/GUIBase.gd" id="1_53ojt"]
-[ext_resource type="Texture2D" uid="uid://fjvc6p35lbrm" path="res://Assets/Gui/Controls/flatDark25.png" id="2_7kwmj"]
-[ext_resource type="Texture2D" uid="uid://omfln5v0bjgl" path="res://Assets/Gui/Controls/flatDark24.png" id="3_wftic"]
-[ext_resource type="Texture2D" uid="uid://c453rouuankk5" path="res://Assets/Gui/Controls/flatDark23.png" id="4_s3a6d"]
-[ext_resource type="Texture2D" uid="uid://c2mdw7rj656f1" path="res://Assets/Gui/Controls/flatDark20.png" id="5_xpt0o"]
+[ext_resource type="Texture2D" uid="uid://da7yhjbcv2ypw" path="res://Assets/Gui/Controls/grey-round-7.png" id="2_1mrv3"]
+[ext_resource type="Texture2D" uid="uid://baoym05lrw4h8" path="res://Assets/Gui/Controls/grey-round-8.png" id="3_r57eh"]
+[ext_resource type="Texture2D" uid="uid://dh55n7tpigxs" path="res://Assets/Gui/Controls/grey-round-5.png" id="4_kdhr4"]
+[ext_resource type="Texture2D" uid="uid://d2wrenno4fqvn" path="res://Assets/Gui/Controls/grey-round-6.png" id="5_3nr03"]
+[ext_resource type="Texture2D" uid="uid://dj3b66yny2kcw" path="res://Assets/Gui/Controls/grey-round-3.png" id="6_bri1o"]
+[ext_resource type="Texture2D" uid="uid://cusud6hqkp1x6" path="res://Assets/Gui/Controls/grey-round-4.png" id="7_4y6t7"]
+[ext_resource type="Texture2D" uid="uid://dbpb1qq2212nm" path="res://Assets/Gui/Controls/grey-round-1.png" id="8_b8gg1"]
+[ext_resource type="Texture2D" uid="uid://dfei76nklb563" path="res://Assets/Gui/Controls/grey-round-2.png" id="9_sgbbh"]
 
 [node name="Buttons" type="Control"]
 layout_mode = 3
@@ -14,30 +17,28 @@ script = ExtResource("1_53ojt")
 
 [node name="Toggle Place Btn" type="TouchScreenButton" parent="."]
 position = Vector2(864, 448)
-texture_normal = ExtResource("1_4v81o")
-texture_pressed = ExtResource("1_4v81o")
+scale = Vector2(2, 2)
+texture_normal = ExtResource("2_1mrv3")
+texture_pressed = ExtResource("3_r57eh")
 action = "toggle_place"
 
 [node name="Up Btn" type="TouchScreenButton" parent="."]
 position = Vector2(768, 448)
-texture_normal = ExtResource("2_7kwmj")
-texture_pressed = ExtResource("2_7kwmj")
+scale = Vector2(2, 2)
+texture_normal = ExtResource("4_kdhr4")
+texture_pressed = ExtResource("5_3nr03")
 action = "up"
 
 [node name="Right Btn" type="TouchScreenButton" parent="."]
 position = Vector2(120, 448)
-texture_normal = ExtResource("3_wftic")
-texture_pressed = ExtResource("3_wftic")
+scale = Vector2(2, 2)
+texture_normal = ExtResource("6_bri1o")
+texture_pressed = ExtResource("7_4y6t7")
 action = "right"
-
-[node name="Escape Btn" type="TouchScreenButton" parent="."]
-position = Vector2(904, 8)
-texture_normal = ExtResource("5_xpt0o")
-texture_pressed = ExtResource("5_xpt0o")
-action = "close_gui"
 
 [node name="Left Btn" type="TouchScreenButton" parent="."]
 position = Vector2(16, 448)
-texture_normal = ExtResource("4_s3a6d")
-texture_pressed = ExtResource("4_s3a6d")
+scale = Vector2(2, 2)
+texture_normal = ExtResource("8_b8gg1")
+texture_pressed = ExtResource("9_sgbbh")
 action = "left"

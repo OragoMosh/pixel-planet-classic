@@ -1,11 +1,9 @@
-[gd_resource type="VisualShader" load_steps=3 format=3]
+[gd_resource type="VisualShader" load_steps=3 format=3 uid="uid://d4nq8ekobn8d7"]
 
 [sub_resource type="VisualShaderNodeInput" id="1"]
 input_name = "uv"
-script = null
 
 [sub_resource type="VisualShaderNodeTexture" id="2"]
-script = null
 
 [resource]
 code = "shader_type canvas_item;
@@ -14,7 +12,7 @@ render_mode blend_mul;
 
 
 "
-graph_offset = Vector2(55.9016, -31.1255)
+graph_offset = Vector2(-2.21466, 57.81)
 mode = 1
 modes/blend = 3
 flags/light_only = false
@@ -24,4 +22,3 @@ nodes/fragment/2/node = SubResource("1")
 nodes/fragment/2/position = Vector2(160, 240)
 nodes/fragment/3/node = SubResource("2")
 nodes/fragment/3/position = Vector2(680, 140)
-script = null

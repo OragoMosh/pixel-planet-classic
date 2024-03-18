@@ -48,7 +48,7 @@ func _on_tree_changed():
 		for inst in buttons:
 			inst.connect("pressed", on_button_pressed.bind([inst][0]))
 			inst.connect("mouse_entered", on_focus_entered.bind([inst][0]))
-			inst.connect("text_changed", on_text_changed.bind([inst][0]))
+			#inst.connect("text_changed", on_text_changed.bind([inst][0]))
 	
 	if lineedits != null:
 		for inst in lineedits:

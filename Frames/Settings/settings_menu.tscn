@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=5 format=3 uid="uid://mf3se6tjuqah"]
 
 [ext_resource type="Script" path="res://Frames/Settings/settings_menu.gd" id="1"]
-[ext_resource type="PackedScene" uid="uid://57kdei6jtv5o" path="res://Scenes/GuiScenes/Blueprints/Animation.tscn" id="2"]
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://d1jnjxxdelhgt" path="res://Scenes/GuiScenes/Blueprints/Animation.tscn" id="2"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="3"]
 [ext_resource type="AudioStream" uid="uid://0a38y27fh58p" path="res://Assets/Audio/Music/lakeside trees.wav" id="4"]
 
 [node name="SettingsMenu" type="Control"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=4 format=3 uid="uid://dxltedg8ylkcy"]
 
 [sub_resource type="Animation" id="1"]
 resource_name = "close"
@@ -15,7 +15,6 @@ tracks/0/keys = {
 "update": 0,
 "values": [Vector2(1, 1), Vector2(0, 0)]
 }
-script = null
 
 [sub_resource type="Animation" id="2"]
 resource_name = "open"
@@ -32,14 +31,12 @@ tracks/0/keys = {
 "update": 0,
 "values": [Vector2(0, 0), Vector2(1, 1)]
 }
-script = null
 
 [sub_resource type="AnimationLibrary" id="3"]
 _data = {
 "close": SubResource("1"),
 "open": SubResource("2")
 }
-script = null
 
 [node name="AnimationPlayer" type="AnimationPlayer"]
 libraries = {

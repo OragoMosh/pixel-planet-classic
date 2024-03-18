@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=4 format=3 uid="uid://ccva0whotynr7"]
 
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
 [ext_resource type="Script" path="res://Scenes/GuiScenes/Marketplace/ItemFilters.gd" id="2"]
-[ext_resource type="PackedScene" uid="uid://byyceycgkn1xi" path="res://Scenes/GuiScenes/open_close_animation.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://dxltedg8ylkcy" path="res://Scenes/GuiScenes/open_close_animation.tscn" id="3"]
 
 [node name="ItemFilters" type="Control"]
 layout_mode = 3

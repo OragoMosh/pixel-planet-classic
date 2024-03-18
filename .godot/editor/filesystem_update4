@@ -13,3 +13,17 @@ res://Scenes/Cutscene2/cutscene_2.tscn
 res://Scenes/Cutscene2/Stellarian.gd
 res://Frames/World/World.tscn
 res://Frames/Mobile Controls/mobile_buttons.tscn
+res://Frames/World/DropShadow.tres
+res://Frames/Pause/pause_menu.tscn
+res://Frames/WorldMenu/WorldMenu.tscn
+res://Frames/Settings/settings_menu.tscn
+res://Scenes/GuiScenes/Blueprints/Animation.tscn
+res://Frames/World/World.gd
+res://Scenes/GuiScenes/GUIBase.gd
+res://Scenes/WorldScenes/WorldGUIManager.gd
+res://Scenes/GuiScenes/GUIBase.tscn
+res://Scenes/GuiScenes/open_close_animation.tscn
+res://Scenes/GuiScenes/Shop/Shop.tscn
+res://Scenes/GuiScenes/Inventory/Inventory.tscn
+res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn
+res://Singletons/SoundManager.gd

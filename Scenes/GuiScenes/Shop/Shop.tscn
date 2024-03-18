@@ -1,9 +1,9 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=6 format=3 uid="uid://dhe3351ywo3k8"]
 
 [ext_resource type="Script" path="res://Scenes/GuiScenes/Shop/Shop.gd" id="1"]
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="2"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://ojpplb1e4g1" path="res://Assets/Gui/Shop_Panel.png" id="3"]
-[ext_resource type="PackedScene" uid="uid://byyceycgkn1xi" path="res://Scenes/GuiScenes/open_close_animation.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://dxltedg8ylkcy" path="res://Scenes/GuiScenes/open_close_animation.tscn" id="4"]
 
 [sub_resource type="StyleBoxTexture" id="1"]
 texture = ExtResource("3")
@@ -11,7 +11,6 @@ texture_margin_left = 10.0
 texture_margin_top = 10.0
 texture_margin_right = 10.0
 texture_margin_bottom = 10.0
-script = null
 
 [node name="Shop" type="Control"]
 layout_mode = 3

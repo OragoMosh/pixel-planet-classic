@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://dfm7y63oqigtg"]
 
 [ext_resource type="Script" path="res://Scenes/GuiScenes/GUIBase.gd" id="1"]
-[ext_resource type="PackedScene" uid="uid://57kdei6jtv5o" path="res://Scenes/GuiScenes/Blueprints/Animation.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://d1jnjxxdelhgt" path="res://Scenes/GuiScenes/Blueprints/Animation.tscn" id="2"]
 
 [node name="GuiBase" type="Control"]
 layout_mode = 3

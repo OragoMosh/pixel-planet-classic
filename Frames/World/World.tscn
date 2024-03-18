@@ -1,4 +1,4 @@
-[gd_scene load_steps=145 format=3 uid="uid://d2e01viej80ko"]
+[gd_scene load_steps=146 format=3 uid="uid://d2e01viej80ko"]
 
 [ext_resource type="Script" path="res://Frames/World/World.gd" id="1"]
 [ext_resource type="Script" path="res://Frames/World/ParallaxBackground.gd" id="2"]
@@ -33,17 +33,18 @@
 [ext_resource type="Texture2D" uid="uid://8r4eent24prg" path="res://Assets/Sprites/Misc/health_bar.png" id="31"]
 [ext_resource type="Script" path="res://Frames/World/Notifications.gd" id="32"]
 [ext_resource type="Shader" path="res://Frames/World/Blur.gdshader" id="33"]
-[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Inventory/Inventory.tscn" id="34"]
+[ext_resource type="PackedScene" uid="uid://blo2uq64yglbd" path="res://Scenes/GuiScenes/Inventory/Inventory.tscn" id="34"]
+[ext_resource type="Texture2D" uid="uid://c2mdw7rj656f1" path="res://Assets/Gui/Controls/flatDark20.png" id="34_k1jsh"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/ItemAdder/ItemAdder.tscn" id="35"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Crafting/Crafting.tscn" id="36"]
-[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Shop/Shop.tscn" id="37"]
+[ext_resource type="PackedScene" uid="uid://dhe3351ywo3k8" path="res://Scenes/GuiScenes/Shop/Shop.tscn" id="37"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Rewards/Rewards.tscn" id="38"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Grinding/Grinding.tscn" id="39"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Marketplace/SellItem.tscn" id="40"]
-[ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn" id="41"]
+[ext_resource type="PackedScene" uid="uid://ccva0whotynr7" path="res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn" id="41"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Marketplace/Marketplace.tscn" id="42"]
-[ext_resource type="PackedScene" path="res://Frames/Pause/pause_menu.tscn" id="43"]
-[ext_resource type="PackedScene" path="res://Frames/Settings/settings_menu.tscn" id="44"]
+[ext_resource type="PackedScene" uid="uid://b7u8gn1xosbrb" path="res://Frames/Pause/pause_menu.tscn" id="43"]
+[ext_resource type="PackedScene" uid="uid://mf3se6tjuqah" path="res://Frames/Settings/settings_menu.tscn" id="44"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/Chatting/chat.tscn" id="45"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/ClaimPlanet/claim_planet.tscn" id="46"]
 [ext_resource type="PackedScene" path="res://Scenes/GuiScenes/TextAdder/TextAdder.tscn" id="47"]
@@ -1153,7 +1154,6 @@ theme_override_constants/outline_size = 5
 [node name="GUI" type="CanvasLayer" parent="."]
 
 [node name="ColorRect" type="ColorRect" parent="GUI"]
-visible = false
 material = SubResource("88")
 offset_right = 960.0
 offset_bottom = 540.0
@@ -1161,11 +1161,22 @@ mouse_filter = 2
 color = Color(0, 0, 0, 0.454902)
 
 [node name="ColorRect" type="ColorRect" parent="GUI/ColorRect"]
+visible = false
 layout_mode = 0
 offset_right = 960.0
 offset_bottom = 540.0
 mouse_filter = 2
 color = Color(0, 0, 0, 0.388235)
+
+[node name="TextureButton" type="TextureButton" parent="GUI/ColorRect"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("34_k1jsh")
+texture_pressed = ExtResource("34_k1jsh")
+texture_hover = ExtResource("34_k1jsh")
+texture_disabled = ExtResource("34_k1jsh")
+texture_focused = ExtResource("34_k1jsh")
 
 [node name="Inventory" parent="GUI" instance=ExtResource("34")]
 visible = false
@@ -1272,3 +1283,4 @@ hframes = 4
 [connection signal="pressed" from="HUD/MarketplaceButton" to="." method="_on_marketplace_button_pressed"]
 [connection signal="pressed" from="HUD/InventoryButton" to="." method="_on_inventory_button_pressed"]
 [connection signal="pressed" from="HUD/ShopButton" to="." method="_on_shop_button_pressed"]
+[connection signal="pressed" from="GUI/ColorRect/TextureButton" to="." method="_on_texture_button_pressed"]
