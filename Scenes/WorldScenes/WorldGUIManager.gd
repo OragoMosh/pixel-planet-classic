@@ -3,7 +3,7 @@ extends Node
 var gui_stack: Array[GUIBase] = []
 var able_to_change: bool = true
 var typing: bool = false
-
+@onready var Chat = $GUI/Chat
 
 func ConnectViewportStuff(viewport: Viewport) -> void:
 	viewport.connect("gui_focus_changed", func(node: Control):
@@ -56,6 +56,9 @@ func ChangeGui(new_gui: GUIBase) -> void:
 		gui_stack = []
 		PlayerState.current_state = PlayerState.STATE_TYPE.WORLD
 
+func ChangeGuiByName(new_gui: String) -> void:
+	if new_gui == "chat":
+		ChangeGui(Chat)
 
 func PushGui(new_gui: GUIBase) -> void:
 	if len(gui_stack) > 0:

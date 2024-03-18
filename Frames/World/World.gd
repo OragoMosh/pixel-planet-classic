@@ -202,8 +202,6 @@ func DroppedItemUpdate(dropped_data, world_loading: bool = false) -> void:
 func _on_shop_button_pressed() -> void:
 	WorldGUIManager.ChangeGui(Shop)
 
-
-
 func _on_pause_menu_button_pressed():
 	WorldGUIManager.ChangeGui(Pause)
 

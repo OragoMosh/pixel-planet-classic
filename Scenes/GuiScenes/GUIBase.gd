@@ -1,5 +1,7 @@
 class_name GUIBase extends Control
 
+@onready var Chat = $Chat
+
 signal opened
 
 var open: bool = false
@@ -32,3 +34,10 @@ func Toggle():
 		opened.emit()
 	
 	self.open = not self.open
+
+func _on_exit_btn_pressed():
+	Global.WorldNode.WorldGUIManager.CloseGui()
+
+func _on_chat_button_pressed():
+	print("ah")
+	Global.WorldNode.WorldGUIManager.ChangeGuiByName("chat")

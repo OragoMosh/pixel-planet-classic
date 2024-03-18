@@ -35,12 +35,8 @@ func OnOpen() -> void:
 func _on_resume_button_pressed():
 	Global.WorldNode.WorldGUIManager.CloseGui()
 
-
-
 func _on_settings_button_pressed():
 	Global.WorldNode.WorldGUIManager.ChangeGui(Global.WorldNode.Settings)
-
-
 
 
 func _on_respawn_button_pressed():

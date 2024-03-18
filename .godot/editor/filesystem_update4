@@ -27,3 +27,4 @@ res://Scenes/GuiScenes/Shop/Shop.tscn
 res://Scenes/GuiScenes/Inventory/Inventory.tscn
 res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn
 res://Singletons/SoundManager.gd
+res://Frames/Pause/pause_menu.gd

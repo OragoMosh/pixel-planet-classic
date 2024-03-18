@@ -6,7 +6,7 @@ gdre_export.log::TextFile::-1::1710623802::0::1::::<><>::
 logo.png::CompressedTexture2D::1136422250541639157::1710623802::1710623802::1::::<><>::
 Server.gd::GDScript::-1::1710626735::0::1::::<>Node<>::
 ::res://addons/::1710623536
-::res://addons/Todo_Manager/::1710725372
+::res://addons/Todo_Manager/::1710736129
 ColourPicker.gd::GDScript::-1::1710623773::0::1::::<>HBoxContainer<>::
 Current.gd::GDScript::-1::1710623773::0::1::::<>Panel<>::
 Dock.gd::GDScript::-1::1710623773::0::1::::<>Control<>::
@@ -137,7 +137,7 @@ arrow_disabled.png::CompressedTexture2D::540035694076146516::1710623779::1710623
 arrow_hover.png::CompressedTexture2D::6246346815179990144::1710623779::1710623779::1::::<><>::
 arrow_normal.png::CompressedTexture2D::2342693382402163843::1710623779::1710623779::1::::<><>::
 arrow_press.png::CompressedTexture2D::4924229964065369225::1710623779::1710623779::1::::<><>::
-::res://Assets/Gui/Controls/::1710725244
+::res://Assets/Gui/Controls/::1710735363
 flatDark20.png::CompressedTexture2D::6692935824566440960::1699325510::1710628488::1::::<><>::
 flatDark23.png::CompressedTexture2D::6871980366937000450::1699325510::1710627040::1::::<><>::
 flatDark24.png::CompressedTexture2D::1007740302813243443::1699325510::1710627040::1::::<><>::
@@ -158,8 +158,9 @@ add_deco.png::CompressedTexture2D::7243106054308777121::1710623779::1710623779::
 add_item_hover.png::CompressedTexture2D::6227977021925629766::1710623779::1710623779::1::::<><>::
 add_item_normal.png::CompressedTexture2D::3193699536336212642::1710623779::1710623779::1::::<><>::
 equals_deco.png::CompressedTexture2D::4366218623452172108::1710623779::1710623779::1::::<><>::
-::res://Assets/Gui/Icons/::1710623896
+::res://Assets/Gui/Icons/::1710735374
 BitsAndHealthThing.png::CompressedTexture2D::3941377645301358302::1710623778::1710623778::1::::<><>::
+chatlogo1.png::CompressedTexture2D::5950654461633281988::1694814064::1710735374::1::::<><>::
 inventory.png::CompressedTexture2D::2736089417743879715::1710623778::1710623778::1::::<><>::
 Marketplace.png::CompressedTexture2D::797707465992893374::1710623778::1710623778::1::::<><>::
 Pause_Menu.png::CompressedTexture2D::1040537850906378436::1710623778::1710623778::1::::<><>::
@@ -686,17 +687,17 @@ dropped_item.tscn::PackedScene::-1::1710623800::0::1::::<><>::res://Frames/Dropp
 ::res://Frames/LoadingScreen/::1710626666
 loading_screen.gd::GDScript::-1::1710623773::0::1::::<>Control<>::
 loading_screen.tscn::PackedScene::1372566845286101252::1710626666::0::1::::<><>::res://Frames/LoadingScreen/loading_screen.gd<>uid://ba0f43yyknuis::::res://Assets/Sprites/Backgrounds/space background.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://cruqjapladkqx::::res://Assets/Sprites/Particles/star.png<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png<>uid://b28dbk8s2s8u7::::res://Assets/Gui/Loading2.png
-::res://Frames/Mobile Controls/::1710725364
-mobile_buttons.tscn::PackedScene::2286596448658214017::1710725364::0::1::::<><>::res://Scenes/GuiScenes/GUIBase.gd<>uid://da7yhjbcv2ypw::::res://Assets/Gui/Controls/grey-round-7.png<>uid://baoym05lrw4h8::::res://Assets/Gui/Controls/grey-round-8.png<>uid://dh55n7tpigxs::::res://Assets/Gui/Controls/grey-round-5.png<>uid://d2wrenno4fqvn::::res://Assets/Gui/Controls/grey-round-6.png<>uid://dj3b66yny2kcw::::res://Assets/Gui/Controls/grey-round-3.png<>uid://cusud6hqkp1x6::::res://Assets/Gui/Controls/grey-round-4.png<>uid://dbpb1qq2212nm::::res://Assets/Gui/Controls/grey-round-1.png<>uid://dfei76nklb563::::res://Assets/Gui/Controls/grey-round-2.png
+::res://Frames/Mobile Controls/::1710736217
+mobile_buttons.tscn::PackedScene::2286596448658214017::1710736217::0::1::::<><>::res://Scenes/GuiScenes/GUIBase.gd<>uid://da7yhjbcv2ypw::::res://Assets/Gui/Controls/grey-round-7.png<>uid://baoym05lrw4h8::::res://Assets/Gui/Controls/grey-round-8.png<>uid://dh55n7tpigxs::::res://Assets/Gui/Controls/grey-round-5.png<>uid://d2wrenno4fqvn::::res://Assets/Gui/Controls/grey-round-6.png<>uid://dj3b66yny2kcw::::res://Assets/Gui/Controls/grey-round-3.png<>uid://cusud6hqkp1x6::::res://Assets/Gui/Controls/grey-round-4.png<>uid://dbpb1qq2212nm::::res://Assets/Gui/Controls/grey-round-1.png<>uid://dfei76nklb563::::res://Assets/Gui/Controls/grey-round-2.png
 ::res://Frames/OutdatedClientWarning/::1710623899
 OutdatedClientWarning.tscn::PackedScene::-1::1710623800::0::1::::<><>::uid://c36ywjvt5x7kl::::res://Assets/GuiThemes/MainTheme.tres<>res://Frames/Disclaimer/Disclaimer.gd<>uid://ba0f43yyknuis::::res://Assets/Sprites/Backgrounds/space background.png<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png
-::res://Frames/Pause/::1710724713
-pause_menu.gd::GDScript::-1::1710623773::0::1::::<>GUIBase<>::
-pause_menu.tscn::PackedScene::4675766334748954903::1710724713::0::1::::<><>::res://Frames/Pause/pause_menu.gd<>uid://gtnx0ygu7gu3::::res://Assets/Gui/pause.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://c2jldwjs5e46p::::res://Assets/Gui/GrayStarIcon.png<>uid://v417m8ehtm1r::::res://Assets/Gui/StarIcon.png<>uid://d1jnjxxdelhgt::::res://Scenes/GuiScenes/Blueprints/Animation.tscn
+::res://Frames/Pause/::1710736217
+pause_menu.gd::GDScript::-1::1710735695::0::1::::<>GUIBase<>::
+pause_menu.tscn::PackedScene::4675766334748954903::1710736217::0::1::::<><>::res://Frames/Pause/pause_menu.gd<>uid://gtnx0ygu7gu3::::res://Assets/Gui/pause.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://c2jldwjs5e46p::::res://Assets/Gui/GrayStarIcon.png<>uid://v417m8ehtm1r::::res://Assets/Gui/StarIcon.png<>uid://d1jnjxxdelhgt::::res://Scenes/GuiScenes/Blueprints/Animation.tscn
 ::res://Frames/Settings/::1710724444
 settings_menu.gd::GDScript::-1::1710623773::0::1::::<>GUIBase<>::
 settings_menu.tscn::PackedScene::854320491372878743::1710724444::0::1::::<><>::res://Frames/Settings/settings_menu.gd<>uid://d1jnjxxdelhgt::::res://Scenes/GuiScenes/Blueprints/Animation.tscn<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://0a38y27fh58p::::res://Assets/Audio/Music/lakeside trees.wav
-::res://Frames/World/::1710725364
+::res://Frames/World/::1710736217
 Background.gd::GDScript::-1::1710623773::0::1::::<>CanvasLayer<>::
 Blur.gdshader::Shader::-1::1710623773::0::1::::<><>::
 DropShadow2.gdshader::Shader::-1::1710623773::0::1::::<><>::
@@ -705,8 +706,8 @@ DropShadow.tres::VisualShader::9222606056647570626::1710710995::0::1::::<><>::
 LoadScreen.gd::GDScript::-1::1710623773::0::1::::<>CanvasLayer<>::
 Notifications.gd::GDScript::-1::1710623773::0::1::::<>Control<>::
 ParallaxBackground.gd::GDScript::-1::1710623773::0::1::::<>ParallaxBackground<>::
-World.gd::GDScript::-1::1710725364::0::1::::<>Node2D<>::
-World.tscn::PackedScene::9064183811326988894::1710724713::0::1::::<><>::res://Frames/World/World.gd<>res://Frames/World/ParallaxBackground.gd<>uid://c7drlelwt7k4c::::res://Assets/Sprites/Backgrounds/mountains.png<>uid://xig0lcw05hiq::::res://Assets/Sprites/Backgrounds/middle.png<>uid://b4wgj1pcdnq7x::::res://Assets/Sprites/Backgrounds/close.png<>uid://tyxvals36n3n::::res://Assets/Sprites/Backgrounds/near-asf.png<>uid://7k42p2y6h8ex::::res://Assets/Sprites/Backgrounds/background-ingame.png<>res://Scenes/WorldScenes/Background.gd<>uid://dolh5g2c3ta5r::::res://Assets/Tilesets/tileset_backgrounds.tres<>res://Scenes/WorldScenes/AutoTile.gd<>uid://dx5psqtsklp6q::::res://Assets/Sprites/Blocks/Block_Cracks.png<>uid://cvj8flh8tpo2u::::res://Assets/Tilesets/tiles.tres<>res://Scenes/WorldScenes/Grid.tscn<>uid://di8lqs2me8o0t::::res://Scenes/WorldScenes/Player.tscn<>res://Scenes/WorldScenes/HUD.gd<>uid://cx673qcj4kwij::::res://Assets/Gui/Icons/PauseMenu/normal.png<>uid://sp0q5wotudkg::::res://Assets/Gui/Icons/PauseMenu/pressed.png<>uid://bog17mb5hb7hu::::res://Assets/Gui/Icons/PauseMenu/hovered.png<>uid://cjqbone3tcb0m::::res://Assets/Gui/Icons/Marketplace/normal.png<>uid://dgoece4w4pcu5::::res://Assets/Gui/Icons/Marketplace/pressed.png<>uid://d0i4rqkgo8evd::::res://Assets/Gui/Icons/Marketplace/hovered.png<>uid://ck8iednbaucqd::::res://Assets/Gui/Icons/Inventory/normal.png<>uid://hegrrohh6kj2::::res://Assets/Gui/Icons/Inventory/pressed.png<>uid://sh5hkmmennlp::::res://Assets/Gui/Icons/Inventory/hovered.png<>uid://beq74106eul1v::::res://Assets/Gui/Icons/Store/normal.png<>uid://6ug4qnlenfv7::::res://Assets/Gui/Icons/Store/pressed.png<>uid://ghg2efoahb30::::res://Assets/Gui/Icons/Store/hovered.png<>uid://bwfh6cs5snsrm::::res://Assets/Gui/Icons/BitsAndHealthThing.png<>uid://db4tske076bux::::res://Assets/Gui/bits.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://8r4eent24prg::::res://Assets/Sprites/Misc/health_bar.png<>res://Frames/World/Notifications.gd<>res://Frames/World/Blur.gdshader<>uid://blo2uq64yglbd::::res://Scenes/GuiScenes/Inventory/Inventory.tscn<>uid://c2mdw7rj656f1::::res://Assets/Gui/Controls/flatDark20.png<>res://Scenes/GuiScenes/ItemAdder/ItemAdder.tscn<>res://Scenes/GuiScenes/Crafting/Crafting.tscn<>uid://dhe3351ywo3k8::::res://Scenes/GuiScenes/Shop/Shop.tscn<>res://Scenes/GuiScenes/Rewards/Rewards.tscn<>res://Scenes/GuiScenes/Grinding/Grinding.tscn<>res://Scenes/GuiScenes/Marketplace/SellItem.tscn<>uid://ccva0whotynr7::::res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn<>res://Scenes/GuiScenes/Marketplace/Marketplace.tscn<>uid://b7u8gn1xosbrb::::res://Frames/Pause/pause_menu.tscn<>uid://mf3se6tjuqah::::res://Frames/Settings/settings_menu.tscn<>res://Scenes/GuiScenes/Chatting/chat.tscn<>res://Scenes/GuiScenes/ClaimPlanet/claim_planet.tscn<>res://Scenes/GuiScenes/TextAdder/TextAdder.tscn<>res://Scenes/GuiScenes/Dropping/Dropping.tscn<>res://Frames/World/LoadScreen.gd<>uid://dl84o4q768mvg::::res://Assets/Gui/loading.png<>uid://7tv56kmxx6c0::::res://Frames/Mobile Controls/mobile_buttons.tscn
+World.gd::GDScript::-1::1710735610::0::1::::<>Node2D<>::
+World.tscn::PackedScene::9064183811326988894::1710736217::0::1::::<><>::res://Frames/World/World.gd<>res://Frames/World/ParallaxBackground.gd<>uid://c7drlelwt7k4c::::res://Assets/Sprites/Backgrounds/mountains.png<>uid://xig0lcw05hiq::::res://Assets/Sprites/Backgrounds/middle.png<>uid://b4wgj1pcdnq7x::::res://Assets/Sprites/Backgrounds/close.png<>uid://tyxvals36n3n::::res://Assets/Sprites/Backgrounds/near-asf.png<>uid://7k42p2y6h8ex::::res://Assets/Sprites/Backgrounds/background-ingame.png<>res://Scenes/WorldScenes/Background.gd<>uid://dolh5g2c3ta5r::::res://Assets/Tilesets/tileset_backgrounds.tres<>res://Scenes/WorldScenes/AutoTile.gd<>uid://dx5psqtsklp6q::::res://Assets/Sprites/Blocks/Block_Cracks.png<>uid://cvj8flh8tpo2u::::res://Assets/Tilesets/tiles.tres<>res://Scenes/WorldScenes/Grid.tscn<>uid://di8lqs2me8o0t::::res://Scenes/WorldScenes/Player.tscn<>res://Scenes/WorldScenes/HUD.gd<>uid://cx673qcj4kwij::::res://Assets/Gui/Icons/PauseMenu/normal.png<>uid://sp0q5wotudkg::::res://Assets/Gui/Icons/PauseMenu/pressed.png<>uid://bog17mb5hb7hu::::res://Assets/Gui/Icons/PauseMenu/hovered.png<>uid://cjqbone3tcb0m::::res://Assets/Gui/Icons/Marketplace/normal.png<>uid://dgoece4w4pcu5::::res://Assets/Gui/Icons/Marketplace/pressed.png<>uid://d0i4rqkgo8evd::::res://Assets/Gui/Icons/Marketplace/hovered.png<>uid://ck8iednbaucqd::::res://Assets/Gui/Icons/Inventory/normal.png<>uid://hegrrohh6kj2::::res://Assets/Gui/Icons/Inventory/pressed.png<>uid://sh5hkmmennlp::::res://Assets/Gui/Icons/Inventory/hovered.png<>uid://beq74106eul1v::::res://Assets/Gui/Icons/Store/normal.png<>uid://6ug4qnlenfv7::::res://Assets/Gui/Icons/Store/pressed.png<>uid://ghg2efoahb30::::res://Assets/Gui/Icons/Store/hovered.png<>uid://bwfh6cs5snsrm::::res://Assets/Gui/Icons/BitsAndHealthThing.png<>uid://cq1sn6qgv1vtk::::res://Assets/Gui/Icons/chatlogo1.png<>uid://db4tske076bux::::res://Assets/Gui/bits.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://8r4eent24prg::::res://Assets/Sprites/Misc/health_bar.png<>res://Frames/World/Notifications.gd<>res://Frames/World/Blur.gdshader<>uid://blo2uq64yglbd::::res://Scenes/GuiScenes/Inventory/Inventory.tscn<>uid://0yd581uivo6g::::res://Assets/Gui/Controls/grey-round-9.png<>res://Scenes/GuiScenes/ItemAdder/ItemAdder.tscn<>uid://benps7b25l2br::::res://Assets/Gui/Controls/grey-round-10.png<>res://Scenes/GuiScenes/Crafting/Crafting.tscn<>uid://dhe3351ywo3k8::::res://Scenes/GuiScenes/Shop/Shop.tscn<>res://Scenes/GuiScenes/Rewards/Rewards.tscn<>res://Scenes/GuiScenes/Grinding/Grinding.tscn<>res://Scenes/GuiScenes/Marketplace/SellItem.tscn<>uid://ccva0whotynr7::::res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn<>res://Scenes/GuiScenes/Marketplace/Marketplace.tscn<>uid://b7u8gn1xosbrb::::res://Frames/Pause/pause_menu.tscn<>uid://mf3se6tjuqah::::res://Frames/Settings/settings_menu.tscn<>res://Scenes/GuiScenes/Chatting/chat.tscn<>res://Scenes/GuiScenes/ClaimPlanet/claim_planet.tscn<>res://Scenes/GuiScenes/TextAdder/TextAdder.tscn<>res://Scenes/GuiScenes/Dropping/Dropping.tscn<>res://Frames/World/LoadScreen.gd<>uid://dl84o4q768mvg::::res://Assets/Gui/loading.png<>uid://7tv56kmxx6c0::::res://Frames/Mobile Controls/mobile_buttons.tscn
 ::res://Frames/WorldMenu/::1710724444
 WorldMenu.gd::GDScript::-1::1710623773::0::1::::<>Control<>::
 WorldMenu.tscn::PackedScene::5568622348663059433::1710724444::0::1::::<><>::uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>res://Frames/WorldMenu/WorldMenu.gd<>uid://bi7qp1bavpb4k::::res://Assets/Sprites/Backgrounds/PlanetBackground.png<>uid://cruqjapladkqx::::res://Assets/Sprites/Particles/star.png<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png<>uid://dqlkmul3tyu4l::::res://Assets/Gui/Fist.png<>uid://s7qgfbeil2y6::::res://Assets/Gui/Title.png<>res://Scenes/GuiScenes/Menu.gd<>uid://y74ugywwlprt::::res://Assets/Gui/WorldMenu/buttonICONS.png<>uid://k3qfo7l41te::::res://Assets/Gui/WorldMenu/OrSeparatorBar.png<>uid://mf3se6tjuqah::::res://Frames/Settings/settings_menu.tscn<>uid://bqa6reba3i8hu::::res://Assets/Audio/8bitSpaceMusic.ogg<>res://Frames/World/Notifications.gd
@@ -731,8 +732,8 @@ UnknownChr.png::CompressedTexture2D::1237734415477259429::1710623802::1710623802
 Base.png::CompressedTexture2D::7320122047418538078::1710623800::1710623800::1::::<><>::
 Thruster.png::CompressedTexture2D::7632832283292251407::1710623800::1710623800::1::::<><>::
 _10-sheet.png::CompressedTexture2D::5686040712249741447::1710623802::1710624958::1::::<><>::
-::res://Scenes/GuiScenes/::1710724445
-GUIBase.gd::GDScript::-1::1710711595::0::1::::GUIBase<>Control<>::
+::res://Scenes/GuiScenes/::1710736019
+GUIBase.gd::GDScript::-1::1710736019::0::1::::GUIBase<>Control<>::
 GUIBase.tscn::PackedScene::7536966277276604196::1710724444::0::1::::<><>::res://Scenes/GuiScenes/GUIBase.gd<>uid://d1jnjxxdelhgt::::res://Scenes/GuiScenes/Blueprints/Animation.tscn
 Menu.gd::GDScript::-1::1710623773::0::1::::<>Control<>::
 open_close_animation.tscn::PackedScene::8797474544457649916::1710724445::0::1::::<><>::
@@ -812,7 +813,7 @@ PlatformArea.tscn::PackedScene::-1::1710623802::0::1::::<><>::res://Scenes/World
 Player.gd::GDScript::-1::1710623773::0::1::::<>CharacterBody2D<>::
 Player.tscn::PackedScene::7789594713372350629::1710626666::0::1::::<><>::res://Scenes/WorldScenes/Player.gd<>uid://ddeivusmwra44::::res://Assets/Sprites/Character/Spritesheet.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://bx1yb2ywhu3c1::::res://Assets/Gui/Chat_Bubble.png<>uid://v44h0p8c3o7f::::res://Assets/Audio/footstep.ogg<>uid://bmv2it3joe8qx::::res://Assets/Audio/jump.ogg<>uid://b0dgibbokbryy::::res://Assets/Audio/clothingUpdate.ogg<>uid://cxw0xhwndc48j::::res://Assets/Audio/Ground_Impact.ogg
 WorldBlockManager.gd::GDScript::-1::1710623773::0::1::::<>Node<>::
-WorldGUIManager.gd::GDScript::-1::1710711595::0::1::::<>Node<>::
+WorldGUIManager.gd::GDScript::-1::1710735970::0::1::::<>Node<>::
 WorldPeerManager.gd::GDScript::-1::1710623773::0::1::::<>Node<>::
 ::res://Scenes/WorldScenes/Effects/::1710623900
 Smoke.gd::GDScript::-1::1710623773::0::1::::<>Sprite2D<>::
