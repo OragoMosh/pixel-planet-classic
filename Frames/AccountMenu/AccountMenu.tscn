@@ -1,11 +1,11 @@
-[gd_scene load_steps=9 format=3]
+[gd_scene load_steps=9 format=3 uid="uid://d3ydmk2ud52ve"]
 
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
 [ext_resource type="Script" path="res://Frames/AccountMenu/AccountMenu.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://ba0f43yyknuis" path="res://Assets/Sprites/Backgrounds/space background.png" id="3"]
-[ext_resource type="PackedScene" uid="uid://b7tr4uqi53m6d" path="res://Scenes/Particles/Stars/particles.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://gh60igbjn2oi" path="res://Scenes/Particles/Stars/particles.tscn" id="4"]
 [ext_resource type="Texture2D" uid="uid://cme36b6m2os3v" path="res://Assets/Sprites/Backgrounds/blackborders.png" id="5"]
-[ext_resource type="PackedScene" uid="uid://57kdei6jtv5o" path="res://Scenes/GuiScenes/Blueprints/Animation.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://d1jnjxxdelhgt" path="res://Scenes/GuiScenes/Blueprints/Animation.tscn" id="6"]
 [ext_resource type="Texture2D" uid="uid://s7qgfbeil2y6" path="res://Assets/Gui/Title.png" id="7"]
 [ext_resource type="Script" path="res://Frames/World/Notifications.gd" id="8"]
 
@@ -48,7 +48,6 @@ grow_vertical = 2
 pivot_offset = Vector2(144, 102)
 
 [node name="Login" type="Control" parent="Credentials"]
-visible = false
 layout_mode = 2
 
 [node name="UsernameEdit" type="LineEdit" parent="Credentials/Login"]

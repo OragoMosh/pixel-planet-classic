@@ -1,6 +1,8 @@
 extends Node
 
 const PORT: int = 27015
+
+
 const ADDRESS: String = "199.244.48.63"
 
 var Peer: ENetMultiplayerPeer = ENetMultiplayerPeer.new()
@@ -12,62 +14,20 @@ var cert = load("res://Certificates/X509_Certificate.crt")
 
 var summon_position = Vector2(-2000, -2000)
 
-
-var client = SocketIOClient
-var backendURL: String
-
 func _ready() -> void:
-	# Connect()
 	
-	# multiplayer.connect("connected_to_server", _connected_to_server)
-	# multiplayer.connect("connection_failed", on_connection_failed)
-	# multiplayer.connect("server_disconnected", on_server_disconnected)
+	Connect()
+	
+	multiplayer.connect("connected_to_server", _connected_to_server)
+	multiplayer.connect("connection_failed", on_connection_failed)
+	multiplayer.connect("server_disconnected", on_server_disconnected)
 
-	# prepare URL
-	backendURL = "http://localhost:8000/socket.io"
-
-	# initialize client
-	client = SocketIOClient.new(backendURL, {"token": "MY_AUTH_TOKEN"})
-
-	# this signal is emitted when the socket is ready to connect
-	client.on_engine_connected.connect(on_socket_ready)
-
-	# this signal is emitted when socketio server is connected
-	client.on_connect.connect(on_socket_connect)
-
-	# this signal is emitted when socketio server sends a message
-	client.on_event.connect(on_socket_event)
-
-	# add client to tree to start websocket
-	add_child(client)
-
-func on_socket_ready(_sid: String):
-	# connect to socketio server when engine.io connection is ready
-	client.socketio_connect()
-
-func on_socket_connect(_payload: Variant, _name_space, error: bool):
-	if error:
-		push_error("Failed to connect to backend!")
-	else:
-		print("Socket connected")
-
+func _connected_to_server() -> void:
 	disconnected = true
 	VersionRequest()
 
 func on_connection_failed():
 	print("connection failed")
-
-func on_socket_event(event_name: String, payload: Variant, _name_space):
-	print("Received ", event_name, " ", payload)
-
-	if event_name == "Version":
-		Version(payload)
-
-	elif event_name == "Register":
-		Register(payload)
-
-	elif event_name == "Login":
-		Login(payload[0], payload[1], payload[2])
 
 func on_server_disconnected():
 	disconnected = true
@@ -81,90 +41,92 @@ func _notification(what):
 
 
 func Connect() -> void:
-	pass
 
-	# Peer.create_client(ADDRESS, PORT)
+	Peer.create_client(ADDRESS, PORT)
 	#Peer.host.dtls_client_setup(ADDRESS, TLSOptions.client(cert))
 
-	# multiplayer.multiplayer_peer = Peer
+	multiplayer.multiplayer_peer = Peer
 
-	# self_peer_id = multiplayer.get_unique_id()
+	self_peer_id = multiplayer.get_unique_id()
+
 
 func VersionRequest() -> void:
-	client.socketio_send("Version", 2)
+	rpc_id(1, "Version", Global.VERSION)
 
 func RegisterRequest(_username: String, _password: String) -> void:
-	client.socketio_send("Register", [_username, _password])
+	rpc_id(1, "Register", _username, _password)
 
 func LoginRequest(_username: String, _password: String) -> void:
-	client.socketio_send("Login", [_username, _password])
+	rpc_id(1, "Login", _username, _password)
 
 func WorldJoinRequest(_world_name: String) -> void:
-	client.socketio_send("WorldJoin", _world_name)
+	rpc_id(1, "WorldJoin", _world_name)
 
 func WorldLeaveRequest() -> void:
-	client.socketio_send("WorldLeave")
+	rpc_id(1, "WorldLeave")
 
 func PlaceBlockRequest(_block_id: int, _coordinates: Vector2i, metadata: Dictionary) -> void:
-	client.socketio_send("PlaceBlock", [_block_id, _coordinates, metadata])
+	rpc_id(1, "PlaceBlock", _block_id, _coordinates, metadata)
 
 
 func BreakBlockRequest(_position: Vector2i) -> void:
-	client.socketio_send("BreakBlock", _position)
+	rpc_id(1, "BreakBlock", _position)
 
 
 func UpdatePositionRequest(_position: Vector2, _current_state, _direction) -> void:
-	client.socketio_send("UpdatePosition", [_position, _current_state, _direction])
+	rpc_id(1, "UpdatePosition", _position, _current_state, _direction)
 
 
 func EquipClothingRequest(_item_id: int) -> void:
-	client.socketio_send("EquipClothing", _item_id)
+	rpc_id(1, "EquipClothing", _item_id)
 
 
 func ShopPurchaseRequest(_pack_id: String) -> void:
-	client.socketio_send("ShopPurchase", _pack_id)
+	rpc_id(1, "ShopPurchase", _pack_id)
 
 
 func CraftRequest(_item1_id: int, _item2_id: int, _item1_amount: int, _item2_amount: int) -> void:
-	client.socketio_send("Craft", [_item1_id, _item2_id, _item1_amount, _item2_amount])
+	rpc_id(1, "Craft", _item1_id, _item2_id, _item1_amount, _item2_amount)
 
 
 func GrindRequest(_item_id: int, _item_amount: int) -> void:
-	client.socketio_send("Grind", _item_id, _item_amount)
+	rpc_id(1, "Grind", _item_id, _item_amount)
 
 
 func ListItemRequest(_item_id: int, _item_amount: int, _price: int, _hours_active: int) -> void:
-	client.socketio_send("ListItem", [_item_id, _item_amount, _price, _hours_active])
+	rpc_id(1, "ListItem", _item_id, _item_amount, _price, _hours_active)
 
 
 func SearchMarketplaceRequest(_item_name: String, _min_price: int, _max_price: int, _page_number: int, is_seller: bool) -> void:
-	client.socketio_send("SearchMarketplace", [_item_name, _min_price, _max_price, _page_number, is_seller])
+	rpc_id(1, "SearchMarketplace", _item_name, _min_price, _max_price, _page_number, is_seller)
 
 
 func BuyListingRequest(_id: int) -> void:
-	client.socketio_send("BuyListing", _id)
+	rpc_id(1, "BuyListing", _id)
 
 
 func SetBlockMetadataRequest(position: Vector2i, metadata_info: Dictionary) -> void:
-	client.socketio_send("SetBlockMetadata", [position, metadata_info])
+	rpc_id(1, "SetBlockMetadata", position, metadata_info)
 
 
 func WorldClaimRequest() -> void:
-	client.socketio_send("WorldClaim")
+	rpc_id(1, "WorldClaim")
 
 func ItemDropRequest(_item_id, _amount) -> void:
-	client.socketio_send("ItemDrop", _item_id, _amount)
+	rpc_id(1, "ItemDrop", _item_id, _amount)
 	print("player sent drop request")
 
 func ItemDropPickupRequest(_drop_uid) -> void:
-	client.socketio_send("ItemDropPickup", _drop_uid)
+	rpc_id(1, "ItemDropPickup", _drop_uid)
 
 @rpc("authority")
 func updateDropItem(dropped_data):
+
 	Global.WorldNode.DroppedItemUpdate(dropped_data)
 
 @rpc("authority")
 func returnDropItem(dropped_data):
+
 	Global.WorldNode.DroppedItemUpdate(dropped_data)
 
 @rpc("authority")
@@ -182,18 +144,18 @@ func Version(_valid: bool):
 	else:
 		get_tree().change_scene_to_file("res://Frames/OutdatedClientWarning/OutdatedClientWarning.tscn")
 
+
 @rpc("authority")
 func Register(_status: String):
 	Global.AccountMenuNode.StatusLabel.text = _status
 
 
 @rpc("authority")
-func Login(success: bool, username: String, userID: int):
-	print('logging in')
-	if success:
+func Login(_success: bool, _username: String, database_id: int):
+	if _success:
 		get_tree().change_scene_to_file("res://Frames/WorldMenu/WorldMenu.tscn")
-		Global.Username = username
-		Global.SelfData.DatabaseId = userID
+		Global.Username = _username
+		Global.SelfData.DatabaseId = database_id
 	else:
 		Global.AccountMenuNode.StatusLabel.text = "Login error! Is the username/password correct?"
 

@@ -1,18 +1,16 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=7 format=3 uid="uid://vxlc5p4px5ti"]
 
 [ext_resource type="Texture2D" uid="uid://ojpplb1e4g1" path="res://Assets/Gui/Shop_Panel.png" id="1"]
 [ext_resource type="Script" path="res://Scenes/GuiScenes/Shop/ShopPanel.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://ccymff4q4ljo0" path="res://Assets/Gui/shop_icons.png" id="3"]
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="4"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="4"]
 
 [sub_resource type="StyleBoxTexture" id="1"]
 texture = ExtResource("1")
-script = null
 
 [sub_resource type="LabelSettings" id="2"]
 line_spacing = -2.0
 font_size = 20
-script = null
 
 [node name="ShopPanel" type="Panel"]
 theme_override_styles/panel = SubResource("1")
