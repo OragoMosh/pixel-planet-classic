@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdyj810446uuk"]
+
+[ext_resource type="FontFile" uid="uid://q772l7x4oqgq" path="res://Assets/Fonts/mini_pixel-7.ttf" id="1_g0d8p"]
+
+[node name="BannerCredits" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+z_index = 2
+offset_left = 6.0
+offset_top = 495.0
+offset_right = 186.0
+offset_bottom = 538.0
+theme_override_fonts/font = ExtResource("1_g0d8p")
+theme_override_font_sizes/font_size = 20
+text = "Alpha Version ~ Raok's a hoe
+Artists: Adam, & 8Bit"
+
+[node name="Label2" type="Label" parent="."]
+z_index = 2
+offset_left = 766.0
+offset_top = 494.0
+offset_right = 954.0
+offset_bottom = 537.0
+theme_override_fonts/font = ExtResource("1_g0d8p")
+theme_override_font_sizes/font_size = 20
+text = "Rewritten by Orago
+Developed by Sundae and Walid"
+horizontal_alignment = 2

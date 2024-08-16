@@ -3,7 +3,6 @@ extends Control
 @onready var recent_planet_button = $Tabs/PlanetTab/RecentPlanetButton
 @onready var favorite_planet_button = $Tabs/PlanetTab/FavoritePlanetButton
 @onready var login_status_label = $LoginStatusLabel
-@onready var label_2 = $Label2
 @onready var world_name_edit = $Tabs/PlanetTab/WorldNameEdit
 @onready var planet_tab = $Tabs/PlanetTab
 @onready var settings_tab = $Tabs/SettingsTab
@@ -11,7 +10,6 @@ extends Control
 
 func _ready():
 	login_status_label.text = "Logged in as: " + Global.Username
-	label_2.text = "Version " + Global.VERSION + "\nOriginal Game by RaoK, Adam, & 8Bit"
 	if Global.LastVisitedPlanet != "":
 		recent_planet_button.disabled = false
 		recent_planet_button.text = "Recent Planet: " + Global.LastVisitedPlanet.to_upper()

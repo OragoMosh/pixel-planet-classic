@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://d3ydmk2ud52ve"]
+[gd_scene load_steps=10 format=3 uid="uid://d3ydmk2ud52ve"]
 
 [ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
 [ext_resource type="Script" path="res://Frames/AccountMenu/AccountMenu.gd" id="2"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://d1jnjxxdelhgt" path="res://Scenes/GuiScenes/Blueprints/Animation.tscn" id="6"]
 [ext_resource type="Texture2D" uid="uid://s7qgfbeil2y6" path="res://Assets/Gui/Title.png" id="7"]
 [ext_resource type="Script" path="res://Frames/World/Notifications.gd" id="8"]
+[ext_resource type="PackedScene" uid="uid://cdyj810446uuk" path="res://Frames/banner_credits.tscn" id="8_2tv6w"]
 
 [node name="AccountMenu" type="Control"]
 layout_mode = 3
@@ -225,6 +226,7 @@ grow_vertical = 0
 text = "Close"
 
 [node name="Label" type="Label" parent="."]
+visible = false
 z_index = 2
 layout_mode = 0
 offset_left = 5.0
@@ -236,6 +238,7 @@ text = "Alpha Version 1.0
 Original Game by RaoK, Adam, & 8Bit"
 
 [node name="Label2" type="Label" parent="."]
+visible = false
 z_index = 2
 layout_mode = 0
 offset_left = 709.0
@@ -247,6 +250,8 @@ text = "Rewritten by Orago
 Godot 4 Port by Walid
 Godot 3 Remake by Sundae and Walid"
 horizontal_alignment = 2
+
+[node name="BannerCredits" parent="." instance=ExtResource("8_2tv6w")]
 
 [node name="Notifications" type="Control" parent="."]
 layout_mode = 1

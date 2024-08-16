@@ -13,8 +13,9 @@ var AdminIds = []
 var ActivePeers: Array
 var BlockMetadata: Dictionary
 
-
 func LoadFromDict(_world_data_dict: Dictionary) -> void:
+	Parser.modDict(_world_data_dict)
+	print('Ruh', _world_data_dict)
 	self.WorldSize = _world_data_dict.WORLD_SIZE
 	self.BlockArray = _world_data_dict.BLOCK_ARRAY
 	self.DroppedData = _world_data_dict.DROP_DATA
@@ -25,6 +26,7 @@ func LoadFromDict(_world_data_dict: Dictionary) -> void:
 	self.BrokenBlocks = _world_data_dict.BROKEN_BLOCKS
 	self.BlockMetadata = _world_data_dict.BLOCK_METADATA
 	for peer in _world_data_dict.PEERS:
+		print('got peer', peer)
 		var NewPeerData = PeerData.new()
 		NewPeerData.Name = peer.NAME
 		NewPeerData.PeerId = peer.PEER_ID

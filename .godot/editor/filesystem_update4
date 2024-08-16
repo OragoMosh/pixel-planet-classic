@@ -19,3 +19,7 @@ res://DataClasses/PeerData.gd
 res://DataClasses/WorldData.gd
 res://Scenes/WorldScenes/WorldBlockManager.gd
 res://Scenes/WorldScenes/WorldPeerManager.gd
+res://Frames/banner_credits.tscn
+res://Frames/WorldMenu/WorldMenu.gd
+res://client.gd
+res://Parser.gd

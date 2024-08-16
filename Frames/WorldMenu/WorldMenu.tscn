@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://cllqnql5v6srx"]
+[gd_scene load_steps=24 format=3 uid="uid://cllqnql5v6srx"]
 
 [ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
 [ext_resource type="Script" path="res://Frames/WorldMenu/WorldMenu.gd" id="2"]
@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://mf3se6tjuqah" path="res://Frames/Settings/settings_menu.tscn" id="11"]
 [ext_resource type="AudioStream" uid="uid://bqa6reba3i8hu" path="res://Assets/Audio/8bitSpaceMusic.ogg" id="12"]
 [ext_resource type="Script" path="res://Frames/World/Notifications.gd" id="13"]
+[ext_resource type="PackedScene" uid="uid://cdyj810446uuk" path="res://Frames/banner_credits.tscn" id="13_cgfly"]
 
 [sub_resource type="Curve" id="1"]
 min_value = 0.01
@@ -147,29 +148,6 @@ offset_right = 348.0
 offset_bottom = 43.0
 text = "Login Status"
 vertical_alignment = 1
-
-[node name="Label2" type="Label" parent="."]
-z_index = 2
-layout_mode = 0
-offset_left = 5.0
-offset_top = 494.0
-offset_right = 251.0
-offset_bottom = 540.0
-theme_override_font_sizes/font_size = 20
-text = "Alpha Version 1.0
-Original Game by RaoK, Adam, & 8Bit"
-
-[node name="Label3" type="Label" parent="."]
-z_index = 2
-layout_mode = 0
-offset_left = 709.0
-offset_top = 494.0
-offset_right = 955.0
-offset_bottom = 540.0
-theme_override_font_sizes/font_size = 20
-text = "Godot 4 Port by Walid
-Godot 3 Remake by Sundae and Walid"
-horizontal_alignment = 2
 
 [node name="Menu" type="Control" parent="."]
 z_index = 2
@@ -401,6 +379,8 @@ autoplay = true
 bus = &"Music"
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="BannerCredits" parent="." instance=ExtResource("13_cgfly")]
 
 [node name="Notifications" type="Control" parent="."]
 layout_mode = 1

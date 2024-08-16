@@ -85,7 +85,7 @@ func _exit_tree():
 func _engineio_decode_packet(packet: String):
 	var packetType = int(packet.substr(0, 1))
 	var packetPayload = packet.substr(1)
-
+	
 	match packetType:
 		EngineIOPacketType.open:
 			var json = JSON.new()

@@ -9,9 +9,7 @@ var self_peer_id
 var disconnected = false
 
 var cert = load("res://Certificates/X509_Certificate.crt")
-
 var summon_position = Vector2(-2000, -2000)
-
 
 var client = SocketIOClient
 var backendURL: String
@@ -62,23 +60,32 @@ func resolveEvt(event_name: String):
 	elif event_name == "Register": return Register
 	elif event_name == "Login": return Login
 	elif event_name == "Message": return Message
+	elif event_name == "WorldJoin": return WorldJoin
 
 func on_socket_event(event_name: String, payload: Variant, _name_space):
 	print("Received ", event_name, " ", payload)
 	
+	var arr = []
 	
+	for i in payload:
+		arr.append(
+			Parser.parse(i)
+		)
 	
+	var callback = resolveEvt(event_name)
+	
+	if (callback != null):
+		callback.callv(payload)
 
-	if event_name == "Version":
-		Version.callv(payload)
-	
-	elif event_name == "Message":
-		Message.callv(payload)
-	elif event_name == "Register":
-		Register.callv(payload)
-
-	elif event_name == "Login":
-		Login.callv(payload)
+	#if event_name == "Version":
+		#Version.callv(payload)
+#
+	#elif event_name == "Register":
+		#Register.callv(payload)
+#
+	#elif event_name == "Login":
+		#Login.callv(payload)
+		#Login(payload[0], payload[1], payload[2])
 
 func on_server_disconnected():
 	disconnected = true
@@ -215,6 +222,8 @@ func WorldJoin(_world_data: Dictionary, _inventory: Array, _bits: int, _clothes:
 	Global.SelfData.Bits = _bits
 	Global.SelfData.Clothes = _clothes
 	Global.SelfData.PermissionLevel = permission_level
+	
+	print("SIZEEEEEEEEEEEEEEEEEEEE", _world_data.WORLD_SIZE)
 
 	var ReceivedWorldData: WorldData = WorldData.new()
 	ReceivedWorldData.LoadFromDict(_world_data)
@@ -412,7 +421,6 @@ func WorldPermissionUpdate(database_id: int, permission_level: int, player_name:
 
 @rpc("authority")
 func Message(message: String, icon):
-	print('gyatt', message)
 	if message == "Success creating account!":
 		Global.AccountMenuNode.LoginAfterRegister()
 		return

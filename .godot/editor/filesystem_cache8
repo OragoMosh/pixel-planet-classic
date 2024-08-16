@@ -1,16 +1,17 @@
 bdbec74c6e5bd72edee867077d70896c
-::res://::1723787878
+::res://::1723795738
 client - Copy.gd::GDScript::-1::1714347564::0::1::::SocketIOClient<>Node<>::
-client.gd::GDScript::-1::1714347564::0::1::::SocketIOClient<>Node<>::
+client.gd::GDScript::-1::1723793350::0::1::::SocketIOClient<>Node<>::
 default_bus_layout.tres::AudioBusLayout::83035844128011829::1723784899::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1710641764::0::1::::<><>::
 gdre_export.log::TextFile::-1::1710620202::0::1::::<><>::
 logo.png::CompressedTexture2D::1136422250541639157::1710620202::1710620202::1::::<><>::
+Parser.gd::GDScript::-1::1723795738::0::1::::Parser<>Node<>::
 Server - Copy (2).gd::GDScript::-1::1714349982::0::1::::<>Node<>::
 Server - Copy.gd::GDScript::-1::1714349840::0::1::::<>Node<>::
-Server.gd::GDScript::-1::1723787878::0::1::::<>Node<>::
+Server.gd::GDScript::-1::1723794383::0::1::::<>Node<>::
 ::res://addons/::1710619936
-::res://addons/Todo_Manager/::1723788582
+::res://addons/Todo_Manager/::1723796945
 ColourPicker.gd::GDScript::-1::1710620173::0::1::::<>HBoxContainer<>::
 Current.gd::GDScript::-1::1710620173::0::1::::<>Panel<>::
 Dock.gd::GDScript::-1::1710620173::0::1::::<>Control<>::
@@ -672,13 +673,14 @@ CraftingRecipes.json::JSON::-1::1710620173::0::1::::<><>::
 GrindingRecipes.json::JSON::-1::1710620173::0::1::::<><>::
 ItemData.json::JSON::-1::1710620173::0::1::::<><>::
 ShopData.json::JSON::-1::1710620173::0::1::::<><>::
-::res://DataClasses/::1710620299
+::res://DataClasses/::1723794513
 PeerData.gd::GDScript::-1::1710620173::0::1::::PeerData<>RefCounted<>::
-WorldData.gd::GDScript::-1::1710620173::0::1::::WorldData<>RefCounted<>::
-::res://Frames/::1710624580
-::res://Frames/AccountMenu/::1723788552
+WorldData.gd::GDScript::-1::1723794513::0::1::::WorldData<>RefCounted<>::
+::res://Frames/::1723796671
+banner_credits.tscn::PackedScene::5033559754116331050::1723796671::0::1::::<><>::uid://q772l7x4oqgq::::res://Assets/Fonts/mini_pixel-7.ttf
+::res://Frames/AccountMenu/::1723796670
 AccountMenu.gd::GDScript::-1::1723785156::0::1::::<>Control<>::
-AccountMenu.tscn::PackedScene::9174298887403951898::1723788552::0::1::::<><>::uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>res://Frames/AccountMenu/AccountMenu.gd<>uid://ba0f43yyknuis::::res://Assets/Sprites/Backgrounds/space background.png<>uid://gh60igbjn2oi::::res://Scenes/Particles/Stars/particles.tscn<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png<>uid://d1jnjxxdelhgt::::res://Scenes/GuiScenes/Blueprints/Animation.tscn<>uid://s7qgfbeil2y6::::res://Assets/Gui/Title.png<>res://Frames/World/Notifications.gd
+AccountMenu.tscn::PackedScene::9174298887403951898::1723796670::0::1::::<><>::uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>res://Frames/AccountMenu/AccountMenu.gd<>uid://ba0f43yyknuis::::res://Assets/Sprites/Backgrounds/space background.png<>uid://gh60igbjn2oi::::res://Scenes/Particles/Stars/particles.tscn<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png<>uid://d1jnjxxdelhgt::::res://Scenes/GuiScenes/Blueprints/Animation.tscn<>uid://s7qgfbeil2y6::::res://Assets/Gui/Title.png<>res://Frames/World/Notifications.gd<>uid://cdyj810446uuk::::res://Frames/banner_credits.tscn
 ::res://Frames/Connect/::1710620299
 Connect.gd::GDScript::-1::1710620173::0::1::::<>Node2D<>::
 Connect.tscn::PackedScene::-1::1710620200::0::1::::<><>::res://Frames/Connect/Connect.gd<>uid://c36ywjvt5x7kl::::res://Assets/GuiThemes/MainTheme.tres
@@ -688,9 +690,9 @@ Disclaimer.tscn::PackedScene::-1::1710620200::0::1::::<><>::uid://c36ywjvt5x7kl:
 ::res://Frames/DroppedItem/::1710620299
 dropped_item.gd::GDScript::-1::1710620173::0::1::::<>CharacterBody2D<>::
 dropped_item.tscn::PackedScene::-1::1710620200::0::1::::<><>::res://Frames/DroppedItem/dropped_item.gd<>uid://dn7tl5kjbh2w0::::res://Assets/Sprites/Misc/dropBackdrop.png<>uid://ccotmonek0eb::::res://Assets/Gui/itemsNEW.png<>uid://c36ywjvt5x7kl::::res://Assets/GuiThemes/MainTheme.tres<>uid://c5n1wb1f3xod1::::res://Assets/Fonts/StellarFont.ttf<>uid://cvoamofxdw8ju::::res://Assets/Audio/Shop/shop_uncommon.ogg<>uid://cpjp406ipkwpm::::res://Assets/Audio/Menu_Close_Woosh.ogg
-::res://Frames/LoadingScreen/::1723785360
+::res://Frames/LoadingScreen/::1723796671
 loading_screen.gd::GDScript::-1::1710620173::0::1::::<>Control<>::
-loading_screen.tscn::PackedScene::1372566845286101252::1723785360::0::1::::<><>::res://Frames/LoadingScreen/loading_screen.gd<>uid://ba0f43yyknuis::::res://Assets/Sprites/Backgrounds/space background.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://cruqjapladkqx::::res://Assets/Sprites/Particles/star.png<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png<>uid://b28dbk8s2s8u7::::res://Assets/Gui/Loading2.png
+loading_screen.tscn::PackedScene::1372566845286101252::1723796671::0::1::::<><>::res://Frames/LoadingScreen/loading_screen.gd<>uid://ba0f43yyknuis::::res://Assets/Sprites/Backgrounds/space background.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://cruqjapladkqx::::res://Assets/Sprites/Particles/star.png<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png<>uid://b28dbk8s2s8u7::::res://Assets/Gui/Loading2.png
 ::res://Frames/Mobile Controls/::1717876329
 mobile_buttons.tscn::PackedScene::2286596448658214017::1717876329::0::1::::<><>::res://Scenes/GuiScenes/GUIBase.gd<>uid://da7yhjbcv2ypw::::res://Assets/Gui/Controls/grey-round-7.png<>uid://baoym05lrw4h8::::res://Assets/Gui/Controls/grey-round-8.png<>uid://dh55n7tpigxs::::res://Assets/Gui/Controls/grey-round-5.png<>uid://d2wrenno4fqvn::::res://Assets/Gui/Controls/grey-round-6.png<>uid://dj3b66yny2kcw::::res://Assets/Gui/Controls/grey-round-3.png<>uid://cusud6hqkp1x6::::res://Assets/Gui/Controls/grey-round-4.png<>uid://dbpb1qq2212nm::::res://Assets/Gui/Controls/grey-round-1.png<>uid://dfei76nklb563::::res://Assets/Gui/Controls/grey-round-2.png
 ::res://Frames/OutdatedClientWarning/::1710620299
@@ -712,9 +714,9 @@ Notifications.gd::GDScript::-1::1710620173::0::1::::<>Control<>::
 ParallaxBackground.gd::GDScript::-1::1710620173::0::1::::<>ParallaxBackground<>::
 World.gd::GDScript::-1::1710732010::0::1::::<>Node2D<>::
 World.tscn::PackedScene::9064183811326988894::1723785359::0::1::::<><>::res://Frames/World/World.gd<>res://Frames/World/ParallaxBackground.gd<>uid://c7drlelwt7k4c::::res://Assets/Sprites/Backgrounds/mountains.png<>uid://xig0lcw05hiq::::res://Assets/Sprites/Backgrounds/middle.png<>uid://b4wgj1pcdnq7x::::res://Assets/Sprites/Backgrounds/close.png<>uid://tyxvals36n3n::::res://Assets/Sprites/Backgrounds/near-asf.png<>uid://7k42p2y6h8ex::::res://Assets/Sprites/Backgrounds/background-ingame.png<>res://Scenes/WorldScenes/Background.gd<>uid://dolh5g2c3ta5r::::res://Assets/Tilesets/tileset_backgrounds.tres<>res://Scenes/WorldScenes/AutoTile.gd<>uid://dx5psqtsklp6q::::res://Assets/Sprites/Blocks/Block_Cracks.png<>uid://cvj8flh8tpo2u::::res://Assets/Tilesets/tiles.tres<>res://Scenes/WorldScenes/Grid.tscn<>uid://di8lqs2me8o0t::::res://Scenes/WorldScenes/Player.tscn<>res://Scenes/WorldScenes/HUD.gd<>uid://cx673qcj4kwij::::res://Assets/Gui/Icons/PauseMenu/normal.png<>uid://sp0q5wotudkg::::res://Assets/Gui/Icons/PauseMenu/pressed.png<>uid://bog17mb5hb7hu::::res://Assets/Gui/Icons/PauseMenu/hovered.png<>uid://cjqbone3tcb0m::::res://Assets/Gui/Icons/Marketplace/normal.png<>uid://dgoece4w4pcu5::::res://Assets/Gui/Icons/Marketplace/pressed.png<>uid://d0i4rqkgo8evd::::res://Assets/Gui/Icons/Marketplace/hovered.png<>uid://ck8iednbaucqd::::res://Assets/Gui/Icons/Inventory/normal.png<>uid://hegrrohh6kj2::::res://Assets/Gui/Icons/Inventory/pressed.png<>uid://sh5hkmmennlp::::res://Assets/Gui/Icons/Inventory/hovered.png<>uid://beq74106eul1v::::res://Assets/Gui/Icons/Store/normal.png<>uid://6ug4qnlenfv7::::res://Assets/Gui/Icons/Store/pressed.png<>uid://ghg2efoahb30::::res://Assets/Gui/Icons/Store/hovered.png<>uid://bwfh6cs5snsrm::::res://Assets/Gui/Icons/BitsAndHealthThing.png<>uid://cq1sn6qgv1vtk::::res://Assets/Gui/Icons/chatlogo1.png<>uid://db4tske076bux::::res://Assets/Gui/bits.png<>uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>uid://8r4eent24prg::::res://Assets/Sprites/Misc/health_bar.png<>res://Frames/World/Notifications.gd<>res://Frames/World/Blur.gdshader<>uid://blo2uq64yglbd::::res://Scenes/GuiScenes/Inventory/Inventory.tscn<>uid://0yd581uivo6g::::res://Assets/Gui/Controls/grey-round-9.png<>res://Scenes/GuiScenes/ItemAdder/ItemAdder.tscn<>uid://benps7b25l2br::::res://Assets/Gui/Controls/grey-round-10.png<>res://Scenes/GuiScenes/Crafting/Crafting.tscn<>uid://dhe3351ywo3k8::::res://Scenes/GuiScenes/Shop/Shop.tscn<>res://Scenes/GuiScenes/Rewards/Rewards.tscn<>res://Scenes/GuiScenes/Grinding/Grinding.tscn<>res://Scenes/GuiScenes/Marketplace/SellItem.tscn<>uid://ccva0whotynr7::::res://Scenes/GuiScenes/Marketplace/ItemFilters.tscn<>res://Scenes/GuiScenes/Marketplace/Marketplace.tscn<>uid://b7u8gn1xosbrb::::res://Frames/Pause/pause_menu.tscn<>uid://mf3se6tjuqah::::res://Frames/Settings/settings_menu.tscn<>res://Scenes/GuiScenes/Chatting/chat.tscn<>res://Scenes/GuiScenes/ClaimPlanet/claim_planet.tscn<>res://Scenes/GuiScenes/TextAdder/TextAdder.tscn<>res://Scenes/GuiScenes/Dropping/Dropping.tscn<>res://Frames/World/LoadScreen.gd<>uid://dl84o4q768mvg::::res://Assets/Gui/loading.png<>uid://7tv56kmxx6c0::::res://Frames/Mobile Controls/mobile_buttons.tscn
-::res://Frames/WorldMenu/::1723788552
-WorldMenu.gd::GDScript::-1::1710620173::0::1::::<>Control<>::
-WorldMenu.tscn::PackedScene::5568622348663059433::1723788552::0::1::::<><>::uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>res://Frames/WorldMenu/WorldMenu.gd<>uid://bi7qp1bavpb4k::::res://Assets/Sprites/Backgrounds/PlanetBackground.png<>uid://cruqjapladkqx::::res://Assets/Sprites/Particles/star.png<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png<>uid://dqlkmul3tyu4l::::res://Assets/Gui/Fist.png<>uid://s7qgfbeil2y6::::res://Assets/Gui/Title.png<>res://Scenes/GuiScenes/Menu.gd<>uid://y74ugywwlprt::::res://Assets/Gui/WorldMenu/buttonICONS.png<>uid://k3qfo7l41te::::res://Assets/Gui/WorldMenu/OrSeparatorBar.png<>uid://mf3se6tjuqah::::res://Frames/Settings/settings_menu.tscn<>uid://bqa6reba3i8hu::::res://Assets/Audio/8bitSpaceMusic.ogg<>res://Frames/World/Notifications.gd
+::res://Frames/WorldMenu/::1723796670
+WorldMenu.gd::GDScript::-1::1723791673::0::1::::<>Control<>::
+WorldMenu.tscn::PackedScene::5568622348663059433::1723796670::0::1::::<><>::uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>res://Frames/WorldMenu/WorldMenu.gd<>uid://bi7qp1bavpb4k::::res://Assets/Sprites/Backgrounds/PlanetBackground.png<>uid://cruqjapladkqx::::res://Assets/Sprites/Particles/star.png<>uid://cme36b6m2os3v::::res://Assets/Sprites/Backgrounds/blackborders.png<>uid://dqlkmul3tyu4l::::res://Assets/Gui/Fist.png<>uid://s7qgfbeil2y6::::res://Assets/Gui/Title.png<>res://Scenes/GuiScenes/Menu.gd<>uid://y74ugywwlprt::::res://Assets/Gui/WorldMenu/buttonICONS.png<>uid://k3qfo7l41te::::res://Assets/Gui/WorldMenu/OrSeparatorBar.png<>uid://mf3se6tjuqah::::res://Frames/Settings/settings_menu.tscn<>uid://bqa6reba3i8hu::::res://Assets/Audio/8bitSpaceMusic.ogg<>res://Frames/World/Notifications.gd<>uid://cdyj810446uuk::::res://Frames/banner_credits.tscn
 ::res://Scenes/::1710619932
 ::res://Scenes/Cutscene/::1710623189
 BlackHole.gdshader::Shader::-1::1710620173::0::1::::<><>::
@@ -782,9 +784,9 @@ SellItem.tscn::PackedScene::-1::1710620202::0::1::::<><>::uid://c36ywjvt5x7kl:::
 ::res://Scenes/GuiScenes/ModMenu/::1710620299
 mod_menu.gd::GDScript::-1::1710620173::0::1::::<>GUIBase<>::
 mod_menu.tscn::PackedScene::-1::1710620202::0::1::::<><>::uid://c36ywjvt5x7kl::::res://Assets/GuiThemes/MainTheme.tres<>res://Scenes/GuiScenes/ModMenu/mod_menu.gd
-::res://Scenes/GuiScenes/Popup/::1723788552
+::res://Scenes/GuiScenes/Popup/::1723796670
 Popup.gd::GDScript::-1::1723787835::0::1::::<>Control<>::
-Popup.tscn::PackedScene::7886926351988912836::1723788552::0::1::::<><>::uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>res://Scenes/GuiScenes/Popup/Popup.gd<>uid://bhe4tif3avx17::::res://Assets/Sprites/Misc/notifcation.png<>uid://c6yyey8u6y4s6::::res://Assets/Fonts/thin_pixel-7.ttf<>uid://cxuuhe8uqkw87::::res://Assets/Audio/notificationsounds.wav
+Popup.tscn::PackedScene::7886926351988912836::1723796670::0::1::::<><>::uid://dia3w5hs8qno8::::res://Assets/GuiThemes/MainTheme.tres<>res://Scenes/GuiScenes/Popup/Popup.gd<>uid://bhe4tif3avx17::::res://Assets/Sprites/Misc/notifcation.png<>uid://c6yyey8u6y4s6::::res://Assets/Fonts/thin_pixel-7.ttf<>uid://cxuuhe8uqkw87::::res://Assets/Audio/notificationsounds.wav
 ::res://Scenes/GuiScenes/Rewards/::1710620299
 dissolve.gdshader::Shader::-1::1710620173::0::1::::<><>::
 Rewards.gd::GDScript::-1::1710620173::0::1::::<>GUIBase<>::
