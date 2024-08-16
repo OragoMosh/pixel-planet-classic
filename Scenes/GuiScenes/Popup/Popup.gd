@@ -4,9 +4,12 @@ func _ready():
 	$AnimationPlayer.play("Appear")
 	$SFX.play()
 
-func InitiatePopUp(message, icon):
+func InitiatePopUp(message, icon: int):
 	$NotificationBG/NotificationLabel.text = message
-	$NotificationBG/NotificationIcon.frame = icon
+	if (icon is int):
+		$NotificationBG/NotificationIcon.frame = icon
+	#else:
+		#$NotificationBG/NotificationIcon.frame = 0
 
 func _on_timer_timeout():
 	$AnimationPlayer.play("Disappear")

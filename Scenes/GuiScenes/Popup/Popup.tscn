@@ -1,6 +1,6 @@
-[gd_scene load_steps=10 format=3]
+[gd_scene load_steps=10 format=3 uid="uid://dkmqr3tydjsf1"]
 
-[ext_resource type="Theme" uid="uid://c36ywjvt5x7kl" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
+[ext_resource type="Theme" uid="uid://dia3w5hs8qno8" path="res://Assets/GuiThemes/MainTheme.tres" id="1"]
 [ext_resource type="Script" path="res://Scenes/GuiScenes/Popup/Popup.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://bhe4tif3avx17" path="res://Assets/Sprites/Misc/notifcation.png" id="3"]
 [ext_resource type="FontFile" uid="uid://c6yyey8u6y4s6" path="res://Assets/Fonts/thin_pixel-7.ttf" id="4"]
@@ -75,7 +75,6 @@ tracks/5/keys = {
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0),
 "times": PackedFloat32Array(0)
 }
-script = null
 
 [sub_resource type="Animation" id="2"]
 resource_name = "Disappear"
@@ -124,7 +123,6 @@ tracks/3/keys = {
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0),
 "times": PackedFloat32Array(0, 0.3)
 }
-script = null
 
 [sub_resource type="Animation" id="3"]
 length = 0.001
@@ -194,7 +192,6 @@ tracks/5/keys = {
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0),
 "times": PackedFloat32Array(0)
 }
-script = null
 
 [sub_resource type="AnimationLibrary" id="4"]
 _data = {
@@ -202,7 +199,6 @@ _data = {
 "Disappear": SubResource("2"),
 "RESET": SubResource("3")
 }
-script = null
 
 [node name="Popup" type="Control"]
 layout_mode = 3
@@ -219,8 +215,8 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = 960.265
-offset_right = 1120.26
+offset_left = 0.265015
+offset_right = 160.26
 offset_bottom = 32.0
 grow_horizontal = 0
 color = Color(0, 0, 0, 0.47451)

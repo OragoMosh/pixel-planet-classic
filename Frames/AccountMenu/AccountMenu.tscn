@@ -239,11 +239,12 @@ Original Game by RaoK, Adam, & 8Bit"
 z_index = 2
 layout_mode = 0
 offset_left = 709.0
-offset_top = 494.0
+offset_top = 480.0
 offset_right = 955.0
 offset_bottom = 540.0
-theme_override_font_sizes/font_size = 20
-text = "Godot 4 Port by Walid
+theme_override_font_sizes/font_size = 17
+text = "Rewritten by Orago
+Godot 4 Port by Walid
 Godot 3 Remake by Sundae and Walid"
 horizontal_alignment = 2
 

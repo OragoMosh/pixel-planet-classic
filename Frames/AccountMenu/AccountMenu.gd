@@ -1,7 +1,7 @@
 extends Control
 
 @onready var StatusLabel = $StatusLabel
-@onready var popup = $Popup
+#@onready var popup = $Popup
 
 var initpos = null
 var total = 0

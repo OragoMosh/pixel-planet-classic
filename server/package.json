@@ -1,0 +1,35 @@
+{
+	"name": "pp-server",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node dist/index.js",
+		"build": "rimraf dist && tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Orago",
+	"license": "ISC",
+	"dependencies": {
+		"@orago/game": "^0.0.21",
+		"@orago/lib": "^0.0.17",
+		"@orago/permissions": "^1.0.6",
+		"@orago/status": "^1.0.9",
+		"@orago/vector": "^0.0.6",
+		"@types/sequelize": "^4.28.20",
+		"@types/uuid": "^10.0.0",
+		"bcryptjs": "^2.4.3",
+		"email-validator": "^2.0.4",
+		"sequelize": "^6.37.3",
+		"sequelize-typescript": "^2.1.6",
+		"socket.io": "^4.7.5",
+		"uuid": "^10.0.0"
+	},
+	"devDependencies": {
+		"@types/bcryptjs": "^2.4.6",
+		"@types/node": "^20.14.10",
+		"rimraf": "^6.0.0",
+		"swc": "^1.0.11",
+		"typescript": "^5.5.3"
+	}
+}

@@ -1,0 +1,1470 @@
+{
+    "0": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Grass Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 0, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 0
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 1, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 1
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 2, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 2
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 3, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 3
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 4, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 4
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": false,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 5, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 5
+            }
+        ],
+        "rarity": 0,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 0,
+        "tier": 0,
+        "tradelocked": false
+    },
+    "1": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Sand Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 0, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 54
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 1, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 55
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 2, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 56
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 3, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 57
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 4, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 58
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 5, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 59
+            }
+        ],
+        "rarity": 0,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 54,
+        "tier": 0,
+        "tradelocked": false
+    },
+    "10": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Teal Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 14, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 122
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 15, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 123
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 16, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 124
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 17, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 125
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 122,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "11": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": true,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "White Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 6, 3 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 168
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 7, 3 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 169
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 8, 3 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 170
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 9, 3 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 171
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 168,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "12": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Decorations",
+        "maxstack": 10000,
+        "name": "Desk Decoration Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": false,
+                    "FlipX": true,
+                    "FlipY": false,
+                    "North": true,
+                    "South": false,
+                    "West": false
+                },
+                "atlas_coord": "Vector2( 1, 6 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 325
+            },
+            {
+                "allowed_directions": {
+                    "East": false,
+                    "FlipX": true,
+                    "FlipY": false,
+                    "North": true,
+                    "South": false,
+                    "West": false
+                },
+                "atlas_coord": "Vector2( 2, 6 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 326
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 324,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "13": {
+        "active": false,
+        "colors": false,
+        "data": "",
+        "data_type": "item",
+        "description": "You shouldn't have this.. unless you are Grimm?",
+        "dropoffset": {
+            "x": 0,
+            "y": 2
+        },
+        "dropscale": 0.8,
+        "event": "none",
+        "expires": {
+            "d": 1,
+            "m": 1,
+            "y": 1970
+        },
+        "fusionstack": 0,
+        "maxstack": 0,
+        "name": "Grimm's Jet-black Pack",
+        "particles": "",
+        "rarity": 0,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 19,
+        "tier": 0,
+        "tradelocked": true,
+        "type": "back"
+    },
+    "14": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": true,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Red Coaster Track",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 18, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 18
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 19, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 19
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 20, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 20
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 21, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 21
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 22, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 22
+            },
+            {
+                "allowed_directions": {
+                    "East": false,
+                    "FlipX": false,
+                    "FlipY": false,
+                    "North": true,
+                    "South": true,
+                    "West": false
+                },
+                "atlas_coord": "Vector2( 23, 0 )",
+                "atlas_id": 0,
+                "collision_override": "res://Scenes/Tiles/SpecialCollisions/LoopBlockCollisions.tscn",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 23
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": -1,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 18,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "2": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Red Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 6, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 6
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 7, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 7
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 8, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 8
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 9, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 9
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 6,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "3": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Green Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 10, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 10
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 11, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 11
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 12, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 12
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 13, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 13
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 10,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "4": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Block Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 14, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 14
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 15, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 15
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 16, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 16
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 17, 0 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 17
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 14,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "5": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Orange Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 6, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 60
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 7, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 61
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 8, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 62
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 9, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 63
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 60,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "6": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Blue Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 10, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 64
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 11, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 65
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 12, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 66
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 13, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 67
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 64,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "7": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Pink Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 14, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 68
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 15, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 69
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 16, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 70
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 17, 1 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 71
+            }
+        ],
+        "rarity": 25,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 68,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "8": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Yellow Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 6, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 114
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 7, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 115
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 8, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 116
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 9, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 117
+            }
+        ],
+        "rarity": 30,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 114,
+        "tier": 1,
+        "tradelocked": false
+    },
+    "9": {
+        "EXPIRES": {
+            "D": 1,
+            "M": 1,
+            "Y": 1970
+        },
+        "active": true,
+        "colors": false,
+        "data": "",
+        "data_type": "block",
+        "description": "",
+        "dropoffset": {
+            "x": 0,
+            "y": 0
+        },
+        "dropscale": 0.5,
+        "event": "none",
+        "fusionstack": 200,
+        "layer": "Layers/Layer2/Blocks",
+        "maxstack": 10000,
+        "name": "Purple Checkered Block",
+        "particles": "",
+        "pieces": [
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 10, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 118
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 11, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 119
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 12, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 120
+            },
+            {
+                "allowed_directions": {
+                    "East": true,
+                    "FlipX": true,
+                    "FlipY": true,
+                    "North": true,
+                    "South": true,
+                    "West": true
+                },
+                "atlas_coord": "Vector2( 13, 2 )",
+                "atlas_id": 0,
+                "collision_override": "",
+                "obstacle": true,
+                "selected": true,
+                "sprite": 121
+            }
+        ],
+        "rarity": 15,
+        "selloffset": {
+            "x": 0,
+            "y": 0
+        },
+        "sellscale": 0.5,
+        "sprite": 118,
+        "tier": 1,
+        "tradelocked": false
+    }
+}

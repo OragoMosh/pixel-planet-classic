@@ -56,18 +56,29 @@ func on_socket_connect(_payload: Variant, _name_space, error: bool):
 
 func on_connection_failed():
 	print("connection failed")
+	
+func resolveEvt(event_name: String):
+	if event_name == "Version": return Version
+	elif event_name == "Register": return Register
+	elif event_name == "Login": return Login
+	elif event_name == "Message": return Message
 
 func on_socket_event(event_name: String, payload: Variant, _name_space):
 	print("Received ", event_name, " ", payload)
+	
+	
+	
 
 	if event_name == "Version":
-		Version(payload)
-
+		Version.callv(payload)
+	
+	elif event_name == "Message":
+		Message.callv(payload)
 	elif event_name == "Register":
-		Register(payload)
+		Register.callv(payload)
 
 	elif event_name == "Login":
-		Login(payload[0], payload[1], payload[2])
+		Login.callv(payload)
 
 func on_server_disconnected():
 	disconnected = true
@@ -401,7 +412,7 @@ func WorldPermissionUpdate(database_id: int, permission_level: int, player_name:
 
 @rpc("authority")
 func Message(message: String, icon):
-
+	print('gyatt', message)
 	if message == "Success creating account!":
 		Global.AccountMenuNode.LoginAfterRegister()
 		return
