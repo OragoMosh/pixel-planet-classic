@@ -193,6 +193,7 @@ func PlaceAndAutotile(_block_id: int, _position: Vector2i, from_server: bool, _p
 	
 	if Data.ItemData.has(str(_block_id)):
 		var blockData: Dictionary = Data.ItemData[str(_block_id)]
+		
 		var tilesetId: int = blockData.TILESET_ID
 		
 		if blockData.TYPE == "BLOCK":

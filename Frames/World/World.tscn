@@ -1081,6 +1081,7 @@ texture_pressed = ExtResource("23")
 texture_hover = ExtResource("24")
 
 [node name="ShopButton" type="TextureButton" parent="HUD"]
+visible = false
 offset_left = 10.0
 offset_top = 138.0
 offset_right = 42.0

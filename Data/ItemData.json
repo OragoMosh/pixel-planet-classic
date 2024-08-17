@@ -473,214 +473,214 @@
 	},
 
 	"53":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Dungeon Wall Torch",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 29,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "LIGHT"
-    },
-    
-    "54": {
-        "TYPE": "CLOTHING",
-        "NAME": "Death Sickle",
-        "PLACE": "HAND",
-        "PATH": "death_sickle.png"
-    },
-    
-    "55":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Dungeon Floor Torch",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 30,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "LIGHT"
-    },
-    
-    "56":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Spooky Candle Variant 1",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 31,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "LIGHT"
-    },
-    
-    "57":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Pumpkin",
-        "HARDNESS": 2,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 32,
-        "CAN_COLLIDE": false
-    },
-    
-    "58":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Jack-O-Lantern",
-        "HARDNESS": 2,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 33,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "LIGHT"
-    },
-    
-    "59":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Cobweb",
-        "HARDNESS": 2,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 34,
-        "CAN_COLLIDE": false
-    },
-    
-    "60":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Autumn Leaf Pile",
-        "HARDNESS": 2,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 35,
-        "CAN_COLLIDE": false
-    },
-    
-    "61":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Tombstone Variant 1",
-        "HARDNESS": 4,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 36,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "DECORATION"
-    },
-    
-    "62": {
-        "TYPE": "CLOTHING",
-        "NAME": "Dark Angelic Wings",
-        "PLACE": "BACK",
-        "PATH": "dark_angelic_wings.png",
-        "SPECIALTY": "FLIGHT",
-        "FLIGHT_TIME": 2.0
-    },
-    
-    "63": {
-        "TYPE": "CLOTHING",
-        "NAME": "Half Dreads",
-        "PLACE": "HAIR",
-        "PATH": "half_dreds.png"
-    },
-    
-    "64":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Hanging Chain",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 38,
-        "CAN_COLLIDE": false
-    },
-    
-    "65":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Dungeon Bricks",
-        "HARDNESS": 4,
-        "AUTOTILE": "FOUR",
-        "TILESET_ID": 39,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "DECORATION"
-    },
-    
-    "66":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Spooky Candle Variant 2",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 40,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "LIGHT"
-    },
-    
-    "67":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Autumn Tree",
-        "HARDNESS": 4,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 41,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "DECORATION"
-    },
-    
-    "68": {
-        "TYPE": "CLOTHING",
-        "NAME": "Pickaxe",
-        "PLACE": "HAND",
-        "PATH": "pickaxe.png",
-        "SPECIALTY": "FAST_BREAK",
-        "BREAK_SPEED_MULT": 1.5
-    },
-    
-    "69":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Tombstone Variant 2",
-        "HARDNESS": 4,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 37,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "DECORATION"
-    },
-    
-    "70":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "CHANDELIER",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 42,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "LIGHT"
-    },
-    
-    "71": {
-        "TYPE": "CLOTHING",
-        "NAME": "Plague Doctor Mask",
-        "PLACE": "HAIR",
-        "PATH": "plague_doctor_mask.png"
-    },
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Dungeon Wall Torch",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 29,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "LIGHT"
+	},
+	
+	"54": {
+		"TYPE": "CLOTHING",
+		"NAME": "Death Sickle",
+		"PLACE": "HAND",
+		"PATH": "death_sickle.png"
+	},
+	
+	"55":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Dungeon Floor Torch",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 30,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "LIGHT"
+	},
+	
+	"56":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Spooky Candle Variant 1",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 31,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "LIGHT"
+	},
+	
+	"57":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Pumpkin",
+		"HARDNESS": 2,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 32,
+		"CAN_COLLIDE": false
+	},
+	
+	"58":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Jack-O-Lantern",
+		"HARDNESS": 2,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 33,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "LIGHT"
+	},
+	
+	"59":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Cobweb",
+		"HARDNESS": 2,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 34,
+		"CAN_COLLIDE": false
+	},
+	
+	"60":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Autumn Leaf Pile",
+		"HARDNESS": 2,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 35,
+		"CAN_COLLIDE": false
+	},
+	
+	"61":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Tombstone Variant 1",
+		"HARDNESS": 4,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 36,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "DECORATION"
+	},
+	
+	"62": {
+		"TYPE": "CLOTHING",
+		"NAME": "Dark Angelic Wings",
+		"PLACE": "BACK",
+		"PATH": "dark_angelic_wings.png",
+		"SPECIALTY": "FLIGHT",
+		"FLIGHT_TIME": 2.0
+	},
+	
+	"63": {
+		"TYPE": "CLOTHING",
+		"NAME": "Half Dreads",
+		"PLACE": "HAIR",
+		"PATH": "half_dreds.png"
+	},
+	
+	"64":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Hanging Chain",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 38,
+		"CAN_COLLIDE": false
+	},
+	
+	"65":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Dungeon Bricks",
+		"HARDNESS": 4,
+		"AUTOTILE": "FOUR",
+		"TILESET_ID": 39,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "DECORATION"
+	},
+	
+	"66":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Spooky Candle Variant 2",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 40,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "LIGHT"
+	},
+	
+	"67":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Autumn Tree",
+		"HARDNESS": 4,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 41,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "DECORATION"
+	},
+	
+	"68": {
+		"TYPE": "CLOTHING",
+		"NAME": "Pickaxe",
+		"PLACE": "HAND",
+		"PATH": "pickaxe.png",
+		"SPECIALTY": "FAST_BREAK",
+		"BREAK_SPEED_MULT": 1.5
+	},
+	
+	"69":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Tombstone Variant 2",
+		"HARDNESS": 4,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 37,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "DECORATION"
+	},
+	
+	"70":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "CHANDELIER",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 42,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "LIGHT"
+	},
+	
+	"71": {
+		"TYPE": "CLOTHING",
+		"NAME": "Plague Doctor Mask",
+		"PLACE": "HAIR",
+		"PATH": "plague_doctor_mask.png"
+	},
 
-    "72": {
-        "TYPE": "CLOTHING",
-        "NAME": "Golden Angelic Wings",
-        "PLACE": "BACK",
-        "PATH": "golden_angelic_wings.png",
-        "SPECIALTY": "FLIGHT",
-        "FLIGHT_TIME": 2.0
-    },
+	"72": {
+		"TYPE": "CLOTHING",
+		"NAME": "Golden Angelic Wings",
+		"PLACE": "BACK",
+		"PATH": "golden_angelic_wings.png",
+		"SPECIALTY": "FLIGHT",
+		"FLIGHT_TIME": 2.0
+	},
 
-    "73":
-    {
-        "TYPE": "BACKGROUND",
-        "NAME": "Gray Brick Backgound",
-        "HARDNESS": 3,
-        "AUTOTILE": "FOUR",
-        "TILESET_ID": 2,
-        "CAN_COLLIDE": false
-    },
+	"73":
+	{
+		"TYPE": "BACKGROUND",
+		"NAME": "Gray Brick Backgound",
+		"HARDNESS": 3,
+		"AUTOTILE": "FOUR",
+		"TILESET_ID": 2,
+		"CAN_COLLIDE": false
+	},
 
-    "74":
+	"74":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Steel Platform",
@@ -691,27 +691,27 @@
 		"CAN_COLLIDE": false
 	},
 
-    "75":
-    {
-        "TYPE": "BACKGROUND",
-        "NAME": "Red Brick Background",
-        "HARDNESS": 3,
-        "AUTOTILE": "FOUR",
-        "TILESET_ID": 9,
-        "CAN_COLLIDE": false
-    },
+	"75":
+	{
+		"TYPE": "BACKGROUND",
+		"NAME": "Red Brick Background",
+		"HARDNESS": 3,
+		"AUTOTILE": "FOUR",
+		"TILESET_ID": 9,
+		"CAN_COLLIDE": false
+	},
 
-    "76":
-    {
-        "TYPE": "BACKGROUND",
-        "NAME": "Dungeon Brick Background",
-        "HARDNESS": 3,
-        "AUTOTILE": "FOUR",
-        "TILESET_ID": 3,
-        "CAN_COLLIDE": false
-    },
+	"76":
+	{
+		"TYPE": "BACKGROUND",
+		"NAME": "Dungeon Brick Background",
+		"HARDNESS": 3,
+		"AUTOTILE": "FOUR",
+		"TILESET_ID": 3,
+		"CAN_COLLIDE": false
+	},
 
-    "77":
+	"77":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Dungeon Brick Platform",
@@ -722,97 +722,97 @@
 		"CAN_COLLIDE": false
 	},
 
-    "78":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Pile of Rocks",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 48,
-        "CAN_COLLIDE": false
-    },
+	"78":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Pile of Rocks",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 48,
+		"CAN_COLLIDE": false
+	},
 
-    "79":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Skull Block",
-        "HARDNESS": 4,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 49,
-        "CAN_COLLIDE": true
-    },
+	"79":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Skull Block",
+		"HARDNESS": 4,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 49,
+		"CAN_COLLIDE": true
+	},
 
-    "80":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Fog Machine",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 50,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "DECORATION"
-    },
+	"80":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Fog Machine",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 50,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "DECORATION"
+	},
 
-    "81":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Solar Panel",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 51,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "DECORATION"
-    },
+	"81":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Solar Panel",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 51,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "DECORATION"
+	},
 
-    "82": {
-        "TYPE": "CLOTHING",
-        "NAME": "Horse Mask",
-        "PLACE": "HAIR",
-        "PATH": "horse_mask.png"
-    },
+	"82": {
+		"TYPE": "CLOTHING",
+		"NAME": "Horse Mask",
+		"PLACE": "HAIR",
+		"PATH": "horse_mask.png"
+	},
 
-    "83": {
-        "TYPE": "CLOTHING",
-        "NAME": "Debugger",
-        "PLACE": "HAND",
-        "PATH": "golden_pickaxe.png",
-        "SPECIALTY": "FAST_BREAK",
-        "BREAK_SPEED_MULT": -1
-    },
+	"83": {
+		"TYPE": "CLOTHING",
+		"NAME": "Debugger",
+		"PLACE": "HAND",
+		"PATH": "golden_pickaxe.png",
+		"SPECIALTY": "FAST_BREAK",
+		"BREAK_SPEED_MULT": -1
+	},
 
-    "84": {
-        "TYPE": "CLOTHING",
-        "NAME": "Silver Katana",
-        "PLACE": "HAIR",
-        "PATH": "silver_katana.png"
-    },
-    
-    "85": {
-        "TYPE": "CLOTHING",
-        "NAME": "Golden Crown",
-        "PLACE": "HAT",
-        "PATH": "golden_crown.png"
-    },
+	"84": {
+		"TYPE": "CLOTHING",
+		"NAME": "Silver Katana",
+		"PLACE": "HAIR",
+		"PATH": "silver_katana.png"
+	},
+	
+	"85": {
+		"TYPE": "CLOTHING",
+		"NAME": "Golden Crown",
+		"PLACE": "HAT",
+		"PATH": "golden_crown.png"
+	},
 
-    "86":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Wooden Entrance",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 52,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "ENTRANCE"
-    },
+	"86":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Wooden Entrance",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 52,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "ENTRANCE"
+	},
 
-    "87": {
-        "TYPE": "CLOTHING",
-        "NAME": "Plague Doctor Suit",
-        "PLACE": "SHIRT",
-        "PATH": "plague_doctor_suit.png"
-    },
+	"87": {
+		"TYPE": "CLOTHING",
+		"NAME": "Plague Doctor Suit",
+		"PLACE": "SHIRT",
+		"PATH": "plague_doctor_suit.png"
+	},
 
-    "88":
+	"88":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Gray Brick Platform",
@@ -823,7 +823,7 @@
 		"CAN_COLLIDE": false
 	},
 
-    "89":
+	"89":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Red Brick Platform",
@@ -834,14 +834,14 @@
 		"CAN_COLLIDE": false
 	},
 
-    "90": {
-        "TYPE": "CLOTHING",
-        "NAME": "Steampunk Goggles",
-        "PLACE": "FACE",
-        "PATH": "steampunk_goggles.png"
-    },
+	"90": {
+		"TYPE": "CLOTHING",
+		"NAME": "Steampunk Goggles",
+		"PLACE": "FACE",
+		"PATH": "steampunk_goggles.png"
+	},
 
-    "91":
+	"91":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Haunted House",
@@ -851,7 +851,7 @@
 		"CAN_COLLIDE": false
 	},
 
-    "92":
+	"92":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Wooden Box",
@@ -861,7 +861,7 @@
 		"CAN_COLLIDE": true
 	},
 
-    "93":
+	"93":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Boombox",
@@ -871,7 +871,7 @@
 		"CAN_COLLIDE": false
 	},
 
-    "94":
+	"94":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "White Block",
@@ -881,7 +881,7 @@
 		"CAN_COLLIDE": true
 	},
 
-    "95":
+	"95":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Blue Block",
@@ -891,63 +891,63 @@
 		"CAN_COLLIDE": true
 	},
 
-    "96": {
-        "TYPE": "CLOTHING",
-        "NAME": "Colorblock Hoodie",
-        "PLACE": "SHIRT",
-        "PATH": "colorblock_hoodie.png"
-    },
+	"96": {
+		"TYPE": "CLOTHING",
+		"NAME": "Colorblock Hoodie",
+		"PLACE": "SHIRT",
+		"PATH": "colorblock_hoodie.png"
+	},
 
-    "97": {
-        "TYPE": "CLOTHING",
-        "NAME": "Black Hoodie",
-        "PLACE": "SHIRT",
-        "PATH": "black_hoodie.png"
-    },
+	"97": {
+		"TYPE": "CLOTHING",
+		"NAME": "Black Hoodie",
+		"PLACE": "SHIRT",
+		"PATH": "black_hoodie.png"
+	},
 
-    "98": {
-        "TYPE": "CLOTHING",
-        "NAME": "Blue Hoodie",
-        "PLACE": "SHIRT",
-        "PATH": "blue_hoodie.png"
-    },
+	"98": {
+		"TYPE": "CLOTHING",
+		"NAME": "Blue Hoodie",
+		"PLACE": "SHIRT",
+		"PATH": "blue_hoodie.png"
+	},
 
-    "99": {
-        "TYPE": "CLOTHING",
-        "NAME": "Designer Hoodie",
-        "PLACE": "SHIRT",
-        "PATH": "designer_hoodie.png"
-    },
+	"99": {
+		"TYPE": "CLOTHING",
+		"NAME": "Designer Hoodie",
+		"PLACE": "SHIRT",
+		"PATH": "designer_hoodie.png"
+	},
 
-    "100": {
-        "TYPE": "CLOTHING",
-        "NAME": "Orange Hoodie",
-        "PLACE": "SHIRT",
-        "PATH": "orange_hoodie.png"
-    },
+	"100": {
+		"TYPE": "CLOTHING",
+		"NAME": "Orange Hoodie",
+		"PLACE": "SHIRT",
+		"PATH": "orange_hoodie.png"
+	},
 
-    "101": {
-        "TYPE": "CLOTHING",
-        "NAME": "Green Hoodie",
-        "PLACE": "SHIRT",
-        "PATH": "green_goodie.png"
-    },
+	"101": {
+		"TYPE": "CLOTHING",
+		"NAME": "Green Hoodie",
+		"PLACE": "SHIRT",
+		"PATH": "green_goodie.png"
+	},
 
-    "102": {
-        "TYPE": "CLOTHING",
-        "NAME": "Yellow and Green Cap",
-        "PLACE": "HAT",
-        "PATH": "yellow_and_green_cap.png"
-    },
+	"102": {
+		"TYPE": "CLOTHING",
+		"NAME": "Yellow and Green Cap",
+		"PLACE": "HAT",
+		"PATH": "yellow_and_green_cap.png"
+	},
 
-    "103": {
-        "TYPE": "CLOTHING",
-        "NAME": "Purple Hoodie",
-        "PLACE": "SHIRT",
-        "PATH": "purple_hoodie.png"
-    },
+	"103": {
+		"TYPE": "CLOTHING",
+		"NAME": "Purple Hoodie",
+		"PLACE": "SHIRT",
+		"PATH": "purple_hoodie.png"
+	},
 
-    "104":
+	"104":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Hay Bale",
@@ -957,7 +957,7 @@
 		"CAN_COLLIDE": false
 	},
 
-    "105":
+	"105":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Cornstalk Variant 1",
@@ -966,8 +966,8 @@
 		"TILESET_ID": 61,
 		"CAN_COLLIDE": false
 	},
-    
-    "106":
+	
+	"106":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Cornstalk Variant 2",
@@ -976,15 +976,15 @@
 		"TILESET_ID": 62,
 		"CAN_COLLIDE": false
 	},
-    
-    "107": {
-        "TYPE": "CLOTHING",
-        "NAME": "Colorblock Pants",
-        "PLACE": "PANTS",
-        "PATH": "colorblock_pants.png"
-    },
+	
+	"107": {
+		"TYPE": "CLOTHING",
+		"NAME": "Colorblock Pants",
+		"PLACE": "PANTS",
+		"PATH": "colorblock_pants.png"
+	},
 
-    "108":
+	"108":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Emblem Block",
@@ -994,88 +994,88 @@
 		"CAN_COLLIDE": false
 	},
 
-    "109": {
-        "TYPE": "CLOTHING",
-        "NAME": "Bone Scythe",
-        "PLACE": "HAND",
-        "PATH": "bone_scythe.png"
-    },
+	"109": {
+		"TYPE": "CLOTHING",
+		"NAME": "Bone Scythe",
+		"PLACE": "HAND",
+		"PATH": "bone_scythe.png"
+	},
 
-    "110": {
-        "TYPE": "CLOTHING",
-        "NAME": "Jump Mans",
-        "PLACE": "SHOES",
-        "PATH": "jump_mans.png"
-    },
+	"110": {
+		"TYPE": "CLOTHING",
+		"NAME": "Jump Mans",
+		"PLACE": "SHOES",
+		"PATH": "jump_mans.png"
+	},
 
-    "111": {
+	"111": {
 		"TYPE": "CLOTHING",
 		"NAME": "Bone Wings",
 		"PLACE": "BACK",
 		"SPECIALTY": "FLIGHT",
 		"FLIGHT_TIME": 2.0,
-        "PATH": "bone_wings.png"
+		"PATH": "bone_wings.png"
 	},
 
-    "112": {
+	"112": {
 		"TYPE": "CLOTHING",
 		"NAME": "Bat Wings",
 		"PLACE": "BACK",
 		"SPECIALTY": "FLIGHT",
 		"FLIGHT_TIME": 2.0,
-        "PATH": "bat_wings.png"
+		"PATH": "bat_wings.png"
 	},
 
-    "113": {
+	"113": {
 		"TYPE": "CLOTHING",
 		"NAME": "Striped T-Shirt",
 		"PLACE": "SHIRT",
-        "PATH": "striped_t_shirt.png"
+		"PATH": "striped_t_shirt.png"
 	},
 
-    "114": {
+	"114": {
 		"TYPE": "CLOTHING",
 		"NAME": "Knight Helmet",
 		"PLACE": "HAIR",
-        "PATH": "knight_helmet.png"
+		"PATH": "knight_helmet.png"
 	},
 
-    "115": {
+	"115": {
 		"TYPE": "CLOTHING",
 		"NAME": "Knight Gloves",
 		"PLACE": "HAND",
-        "PATH": "knight_gloves.png"
+		"PATH": "knight_gloves.png"
 	},
 
-    "116": {
+	"116": {
 		"TYPE": "CLOTHING",
 		"NAME": "Knight Chestplate",
 		"PLACE": "SHIRT",
-        "PATH": "knight_chestplate.png"
+		"PATH": "knight_chestplate.png"
 	},
-    
-    "117": {
+	
+	"117": {
 		"TYPE": "CLOTHING",
 		"NAME": "Knight Boots",
 		"PLACE": "SHOES",
-        "PATH": "knight_boots.png"
+		"PATH": "knight_boots.png"
 	},
 
-    "118": {
+	"118": {
 		"TYPE": "CLOTHING",
 		"NAME": "Knight Leggings",
 		"PLACE": "PANTS",
-        "PATH": "knight_leggings.png"
+		"PATH": "knight_leggings.png"
 	},
 
-    "119": {
+	"119": {
 		"TYPE": "CLOTHING",
 		"NAME": "Excalibur",
 		"PLACE": "HAND",
-        "PATH": "excalibur.png"
+		"PATH": "excalibur.png"
 	},
 
-    "120":
+	"120":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Scary Statue",
@@ -1085,14 +1085,14 @@
 		"CAN_COLLIDE": false
 	},
 
-    "121": {
+	"121": {
 		"TYPE": "CLOTHING",
 		"NAME": "Half Hair",
 		"PLACE": "HAIR",
-        "PATH": "half_hair.png"
+		"PATH": "half_hair.png"
 	},
 
-    "122":
+	"122":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Neon Grid Block",
@@ -1102,7 +1102,7 @@
 		"CAN_COLLIDE": true
 	},
 
-    "123":
+	"123":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Blue Neon Light",
@@ -1110,10 +1110,10 @@
 		"AUTOTILE": "NONE",
 		"TILESET_ID": 66,
 		"CAN_COLLIDE": false,
-        "SPECIALTY": "LIGHT"
+		"SPECIALTY": "LIGHT"
 	},
 
-    "124":
+	"124":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Pink Neon Light",
@@ -1121,10 +1121,10 @@
 		"AUTOTILE": "NONE",
 		"TILESET_ID": 67,
 		"CAN_COLLIDE": false,
-        "SPECIALTY": "LIGHT"
+		"SPECIALTY": "LIGHT"
 	},
 
-    "125":
+	"125":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Pink Palm Tree",
@@ -1134,7 +1134,7 @@
 		"CAN_COLLIDE": false
 	},
 
-    "126":
+	"126":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Classic Statue",
@@ -1144,7 +1144,7 @@
 		"CAN_COLLIDE": false
 	},
 
-    "127":
+	"127":
 	{
 		"TYPE": "BACKGROUND",
 		"NAME": "Neon Grid Background",
@@ -1154,29 +1154,29 @@
 		"CAN_COLLIDE": true
 	},
 
-    "128":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Blue Forcefield Entrance",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 70,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "ENTRANCE"
-    },
+	"128":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Blue Forcefield Entrance",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 70,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "ENTRANCE"
+	},
 
-    "129":
-    {
-        "TYPE": "BLOCK",
-        "NAME": "Pink Forcefield Entrance",
-        "HARDNESS": 3,
-        "AUTOTILE": "NONE",
-        "TILESET_ID": 71,
-        "CAN_COLLIDE": false,
-        "SPECIALTY": "ENTRANCE"
-    },
+	"129":
+	{
+		"TYPE": "BLOCK",
+		"NAME": "Pink Forcefield Entrance",
+		"HARDNESS": 3,
+		"AUTOTILE": "NONE",
+		"TILESET_ID": 71,
+		"CAN_COLLIDE": false,
+		"SPECIALTY": "ENTRANCE"
+	},
 
-    "130":
+	"130":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Blue Palm Tree",
@@ -1186,7 +1186,7 @@
 		"CAN_COLLIDE": false
 	},
 
-    "131":
+	"131":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Item Frame",
@@ -1194,26 +1194,26 @@
 		"AUTOTILE": "NONE",
 		"TILESET_ID": 73,
 		"CAN_COLLIDE": false,
-        "SPECIALTY": "DISPLAY"
+		"SPECIALTY": "DISPLAY"
 	},
 
-    "132": {
-        "TYPE": "CLOTHING",
-        "NAME": "Shovel",
-        "PLACE": "HAND",
-        "PATH": "shovel.png",
-        "SPECIALTY": "FAST_BREAK",
-        "BREAK_SPEED_MULT": 1.5
-    },
-    
-    "133": {
-        "TYPE": "CLOTHING",
-        "NAME": "Blue Sci-Fi Helmet",
-        "PLACE": "HAIR",
-        "PATH": "blue_scifi_helmet.png"
-    },
+	"132": {
+		"TYPE": "CLOTHING",
+		"NAME": "Shovel",
+		"PLACE": "HAND",
+		"PATH": "shovel.png",
+		"SPECIALTY": "FAST_BREAK",
+		"BREAK_SPEED_MULT": 1.5
+	},
+	
+	"133": {
+		"TYPE": "CLOTHING",
+		"NAME": "Blue Sci-Fi Helmet",
+		"PLACE": "HAIR",
+		"PATH": "blue_scifi_helmet.png"
+	},
 
-    "134":
+	"134":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Orange Neon Grid Block",
@@ -1223,7 +1223,7 @@
 		"CAN_COLLIDE": true
 	},
 
-    "135":
+	"135":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Blue Neon Grid Block",
@@ -1233,7 +1233,7 @@
 		"CAN_COLLIDE": true
 	},
 
-    "136":
+	"136":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Sci-Fi Terminal",
@@ -1241,10 +1241,10 @@
 		"AUTOTILE": "NONE",
 		"TILESET_ID": 76,
 		"CAN_COLLIDE": false,
-        "SPECIALTY": "CRAFTING"
+		"SPECIALTY": "CRAFTING"
 	},
 
-    "137":
+	"137":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Sci-Fi Sign",
@@ -1252,18 +1252,18 @@
 		"AUTOTILE": "NONE",
 		"TILESET_ID": 77,
 		"CAN_COLLIDE": false,
-        "SPECIALTY": "SIGN",
+		"SPECIALTY": "SIGN",
 		"SIGN": true
 	},
 
-    "138": {
-        "TYPE": "CLOTHING",
-        "NAME": "Tragicomic Mask",
-        "PLACE": "FACE",
-        "PATH": "tragicomic_mask.png"
-    },
+	"138": {
+		"TYPE": "CLOTHING",
+		"NAME": "Tragicomic Mask",
+		"PLACE": "FACE",
+		"PATH": "tragicomic_mask.png"
+	},
 
-    "139":
+	"139":
 	{
 		"TYPE": "BACKGROUND",
 		"NAME": "Blue Neon Grid Background",
@@ -1273,7 +1273,7 @@
 		"CAN_COLLIDE": false
 	},
 
-    "140":
+	"140":
 	{
 		"TYPE": "BACKGROUND",
 		"NAME": "Orange Neon Grid Background",
@@ -1283,37 +1283,37 @@
 		"CAN_COLLIDE": false
 	},
 
-    "141": {
-        "TYPE": "CLOTHING",
-        "NAME": "Whip",
-        "PLACE": "HAND",
-        "PATH": "whip.png"
-    },
+	"141": {
+		"TYPE": "CLOTHING",
+		"NAME": "Whip",
+		"PLACE": "HAND",
+		"PATH": "whip.png"
+	},
 
-    "142": {
-        "TYPE": "CLOTHING",
-        "NAME": "Kangaroo Mask",
-        "PLACE": "HAIR",
-        "PATH": "kangaroo_mask.png"
-    },
+	"142": {
+		"TYPE": "CLOTHING",
+		"NAME": "Kangaroo Mask",
+		"PLACE": "HAIR",
+		"PATH": "kangaroo_mask.png"
+	},
 
-    "143": {
-        "TYPE": "CLOTHING",
-        "NAME": "Winter Scarf",
-        "PLACE": "BACK",
-        "PATH": "winter_scarf.png"
-    },
+	"143": {
+		"TYPE": "CLOTHING",
+		"NAME": "Winter Scarf",
+		"PLACE": "BACK",
+		"PATH": "winter_scarf.png"
+	},
 
-    "144": {
-        "TYPE": "CLOTHING",
-        "NAME": "Wanderer's Cape",
-        "PLACE": "BACK",
-        "PATH": "wanderers_cape.png",
-        "SPECIALTY": "FLIGHT",
-        "FLIGHT_TIME": 0.4
-    },
+	"144": {
+		"TYPE": "CLOTHING",
+		"NAME": "Wanderer's Cape",
+		"PLACE": "BACK",
+		"PATH": "wanderers_cape.png",
+		"SPECIALTY": "FLIGHT",
+		"FLIGHT_TIME": 0.4
+	},
 
-    "145":
+	"145":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Wooden Chair",
@@ -1324,7 +1324,7 @@
 		"SPECIALTY": "DECORATION"
 	},
 
-    "146":
+	"146":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Leather Couch",
@@ -1334,88 +1334,88 @@
 		"CAN_COLLIDE": false
 	},
 
-    "147": {
-        "TYPE": "CLOTHING",
-        "NAME": "Blue Sci-Fi Suit",
-        "PLACE": "SHIRT",
-        "PATH": "blue_scifi_suit.png"
-    },
+	"147": {
+		"TYPE": "CLOTHING",
+		"NAME": "Blue Sci-Fi Suit",
+		"PLACE": "SHIRT",
+		"PATH": "blue_scifi_suit.png"
+	},
 
-    "148": {
-        "TYPE": "CLOTHING",
-        "NAME": "Orange Sci-Fi Suit",
-        "PLACE": "SHIRT",
-        "PATH": "orange_scifi_suit.png"
-    },
+	"148": {
+		"TYPE": "CLOTHING",
+		"NAME": "Orange Sci-Fi Suit",
+		"PLACE": "SHIRT",
+		"PATH": "orange_scifi_suit.png"
+	},
 
-    "149": {
-        "TYPE": "CLOTHING",
-        "NAME": "Orange Sci-Fi Helmet",
-        "PLACE": "HAIR",
-        "PATH": "orange_scifi_helmet.png"
-    },
+	"149": {
+		"TYPE": "CLOTHING",
+		"NAME": "Orange Sci-Fi Helmet",
+		"PLACE": "HAIR",
+		"PATH": "orange_scifi_helmet.png"
+	},
 
-    "150": {
-        "TYPE": "CLOTHING",
-        "NAME": "Blue Sci-Fi Disc",
-        "PLACE": "HAND",
-        "PATH": "blue_scifi_disc.png"
-    },
+	"150": {
+		"TYPE": "CLOTHING",
+		"NAME": "Blue Sci-Fi Disc",
+		"PLACE": "HAND",
+		"PATH": "blue_scifi_disc.png"
+	},
 
-    "151": {
-        "TYPE": "CLOTHING",
-        "NAME": "Orange Sci-Fi Disc",
-        "PLACE": "HAND",
-        "PATH": "orange_scifi_disc.png"
-    },
+	"151": {
+		"TYPE": "CLOTHING",
+		"NAME": "Orange Sci-Fi Disc",
+		"PLACE": "HAND",
+		"PATH": "orange_scifi_disc.png"
+	},
 
-    "152": {
-        "TYPE": "CLOTHING",
-        "NAME": "Godly Halo",
-        "PLACE": "FACE",
-        "PATH": "godly_halo.png"
-    },
+	"152": {
+		"TYPE": "CLOTHING",
+		"NAME": "Godly Halo",
+		"PLACE": "FACE",
+		"PATH": "godly_halo.png"
+	},
 
-    "153": {
-        "TYPE": "CLOTHING",
-        "NAME": "TV Head",
-        "PLACE": "HAIR",
-        "PATH": "tv_head.png"
-    },
-    
-    "154": {
-        "TYPE": "CLOTHING",
-        "NAME": "Blue Sci-Fi Hood",
-        "PLACE": "HAIR",
-        "PATH": "blue_cybernetic_hood.png"
-    },
+	"153": {
+		"TYPE": "CLOTHING",
+		"NAME": "TV Head",
+		"PLACE": "HAIR",
+		"PATH": "tv_head.png"
+	},
+	
+	"154": {
+		"TYPE": "CLOTHING",
+		"NAME": "Blue Sci-Fi Hood",
+		"PLACE": "HAIR",
+		"PATH": "blue_cybernetic_hood.png"
+	},
 
-    "155": {
-        "TYPE": "CLOTHING",
-        "NAME": "Orange Sci-Fi Hood",
-        "PLACE": "HAIR",
-        "PATH": "orange_scifi_hood.png"
-    },
+	"155": {
+		"TYPE": "CLOTHING",
+		"NAME": "Orange Sci-Fi Hood",
+		"PLACE": "HAIR",
+		"PATH": "orange_scifi_hood.png"
+	},
 
-    "156": {
-        "TYPE": "CLOTHING",
-        "NAME": "Blue Neon Dragonfly Wings",
-        "PLACE": "BACK",
-        "PATH": "blue_neon_dragonfly_wings.png",
-        "SPECIALTY": "FLIGHT",
-        "FLIGHT_TIME": 1.5
-    },
+	"156": {
+		"TYPE": "CLOTHING",
+		"NAME": "Blue Neon Dragonfly Wings",
+		"PLACE": "BACK",
+		"PATH": "blue_neon_dragonfly_wings.png",
+		"SPECIALTY": "FLIGHT",
+		"FLIGHT_TIME": 1.5
+	},
 
-    "157": {
-        "TYPE": "CLOTHING",
-        "NAME": "Orange Neon Dragonfly Wings",
-        "PLACE": "BACK",
-        "PATH": "orange_neon_butterfly_wings.png",
-        "SPECIALTY": "FLIGHT",
-        "FLIGHT_TIME": 1.5
-    },
+	"157": {
+		"TYPE": "CLOTHING",
+		"NAME": "Orange Neon Dragonfly Wings",
+		"PLACE": "BACK",
+		"PATH": "orange_neon_butterfly_wings.png",
+		"SPECIALTY": "FLIGHT",
+		"FLIGHT_TIME": 1.5
+	},
 
-    "158":
+	"158":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Bounce Pad",
@@ -1423,36 +1423,36 @@
 		"AUTOTILE": "FOUR",
 		"TILESET_ID": 80,
 		"CAN_COLLIDE": true,
-        "SPECIALTY": "BOUNCER"
+		"SPECIALTY": "BOUNCER"
 	},
 
-    "159": {
-        "TYPE": "CLOTHING",
-        "NAME": "Lxrd Mask",
-        "PLACE": "FACE",
-        "PATH": "lxrd_mask.png"
-    },
+	"159": {
+		"TYPE": "CLOTHING",
+		"NAME": "Lxrd Mask",
+		"PLACE": "FACE",
+		"PATH": "lxrd_mask.png"
+	},
 
-    "160": {
-        "TYPE": "CLOTHING",
-        "NAME": "Custom Jacket",
-        "PLACE": "SHIRT",
-        "PATH": "custom_jacket.png"
-    },
+	"160": {
+		"TYPE": "CLOTHING",
+		"NAME": "Custom Jacket",
+		"PLACE": "SHIRT",
+		"PATH": "custom_jacket.png"
+	},
 
-    "161": {
+	"161": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Golden Soul"
 	},
 
-    "162": {
+	"162": {
 		"TYPE": "CLOTHING",
 		"NAME": "Golden Excalibur",
 		"PLACE": "HAND",
-        "PATH": "golden_excalibur.png"
+		"PATH": "golden_excalibur.png"
 	},
 
-    "163":
+	"163":
 	{
 		"TYPE": "BLOCK",
 		"NAME": "Purple Neon Grid Block",
@@ -1462,7 +1462,7 @@
 		"CAN_COLLIDE": true
 	},
 
-    "164":
+	"164":
 	{
 		"TYPE": "BACKGROUND",
 		"NAME": "Purple Neon Grid Background",
@@ -1472,28 +1472,28 @@
 		"CAN_COLLIDE": false
 	},
 
-    "165": {
+	"165": {
 		"TYPE": "CLOTHING",
 		"NAME": "Golden Scythe",
 		"PLACE": "HAND",
-        "PATH": "golden_scythe.png"
+		"PATH": "golden_scythe.png"
 	},
 
-    "166": {
-        "TYPE": "CLOTHING",
-        "NAME": "Phoenix Wings",
-        "PLACE": "BACK",
-        "PATH": "phoenix_wings.png",
-        "SPECIALTY": "FLIGHT",
-        "FLIGHT_TIME": 2.0
-    },
+	"166": {
+		"TYPE": "CLOTHING",
+		"NAME": "Phoenix Wings",
+		"PLACE": "BACK",
+		"PATH": "phoenix_wings.png",
+		"SPECIALTY": "FLIGHT",
+		"FLIGHT_TIME": 2.0
+	},
 
 	"167": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Soul of Flight"
 	},
 
-    "168": {
+	"168": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Fire Feather"
 	},
@@ -1508,29 +1508,29 @@
 		"CAN_COLLIDE": false
 	},
 
-    "170": {
+	"170": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Feather"
 	},
 
-    "171": {
+	"171": {
 		"TYPE": "CLOTHING",
 		"NAME": "Oceanic Trident",
 		"PLACE": "HAND",
-        "PATH": "oceanic_trident.png"
+		"PATH": "oceanic_trident.png"
 	},
 
-    "172": {
+	"172": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Heart of the Sea"
 	},
 
-    "173": {
+	"173": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Cobalt Ingot"
 	},
 
-    "174": {
+	"174": {
 		"TYPE": "BLOCK",
 		"NAME": "Cobalt Ore",
 		"HARDNESS": 5,
@@ -1539,36 +1539,36 @@
 		"CAN_COLLIDE": true
 	},
 
-    "175": {
-        "TYPE": "CLOTHING",
-        "NAME": "Da Vinci's Makeshift Wings",
-        "PLACE": "BACK",
-        "PATH": "da_vincis_makeshift_wings.png",
-        "SPECIALTY": "FLIGHT",
-        "FLIGHT_TIME": 2.5
-    },
+	"175": {
+		"TYPE": "CLOTHING",
+		"NAME": "Da Vinci's Makeshift Wings",
+		"PLACE": "BACK",
+		"PATH": "da_vincis_makeshift_wings.png",
+		"SPECIALTY": "FLIGHT",
+		"FLIGHT_TIME": 2.5
+	},
 
-    "176": {
+	"176": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Broken Trident Handle"
 	},
 
-    "177": {
+	"177": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Wing Frame"
 	},
 
-    "178": {
+	"178": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Canvas"
 	},
 
-    "179": {
+	"179": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Broken Shovel Handle"
 	},
 
-    "180": {
+	"180": {
 		"TYPE": "INGREDIENT",
 		"NAME": "Cog"
 	},

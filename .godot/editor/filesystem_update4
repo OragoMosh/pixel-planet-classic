@@ -23,3 +23,4 @@ res://Frames/banner_credits.tscn
 res://Frames/WorldMenu/WorldMenu.gd
 res://client.gd
 res://Parser.gd
+res://Data/ItemData.json
