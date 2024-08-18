@@ -83,9 +83,11 @@ func checkSettings():
 
 func loadSettings():
 	if userData.Settings.Fullscreen:
-		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_EXCLUSIVE_FULLSCREEN)
+		#DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_EXCLUSIVE_FULLSCREEN)
+		pass
 	else:
-		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
+		#DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
+		pass
 	if userData.Settings.vSync:
 		DisplayServer.window_set_vsync_mode(DisplayServer.VSYNC_ENABLED)
 	else:

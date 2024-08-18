@@ -61,6 +61,7 @@ func resolveEvt(event_name: String):
 	elif event_name == "Login": return Login
 	elif event_name == "Message": return Message
 	elif event_name == "WorldJoin": return WorldJoin
+	elif event_name == "EquipClothing": return EquipClothing
 
 func on_socket_event(event_name: String, payload: Variant, _name_space):
 	print("Received ", event_name, " ", payload)
@@ -206,12 +207,14 @@ func Register(_status: String):
 
 
 @rpc("authority")
-func Login(success: bool, username: String, userID: int):
+func Login(success: bool, username: String, userID: int, peerID: int):
 	print('logging in')
 	if success:
 		get_tree().change_scene_to_file("res://Frames/WorldMenu/WorldMenu.tscn")
 		Global.Username = username
 		Global.SelfData.DatabaseId = userID
+		Global.PeerID = peerID
+		
 	else:
 		Global.AccountMenuNode.StatusLabel.text = "Login error! Is the username/password correct?"
 
@@ -333,7 +336,7 @@ func BlockDrop(_peer_id: int, _drop_data: Array):
 @rpc("authority")
 func EquipClothing(_peer_id: int, _clothing: Dictionary):
 
-	if _peer_id == Global.WorldNode.WorldPeerManager.MultiplayerId:
+	if _peer_id == Global.PeerID:
 		Global.SelfData.Clothes = _clothing
 		Global.WorldNode.Player.SetClothing(_clothing)
 		Global.InventoryNode.SetClothesSlots(_clothing)
@@ -344,7 +347,6 @@ func EquipClothing(_peer_id: int, _clothing: Dictionary):
 func MessageRequest(_nickname: String, _message: String, _peer_id: int, forced_by_server: bool = false):
 
 	Global.ChatNode.incomingMessage(_nickname, _message)
-
 
 	if _peer_id == Global.WorldNode.WorldPeerManager.MultiplayerId:
 		print("YOU SENT THIS MESSAGE NOT THEM")

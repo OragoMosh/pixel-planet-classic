@@ -15,6 +15,7 @@ var ChatNode: Control
 var CurrentItem: int = -1
 var PlayerNode
 var DisconnectionNode
+var PeerID: int = -1
 
 const HIT_INTERVAL: float = 0.2
 const VERSION: String = "a1.1_green"

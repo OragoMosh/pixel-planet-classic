@@ -1,26 +1,25 @@
-res://Frames/World/World.tscn
+res://default_bus_layout.tres
+res://Frames/AccountMenu/AccountMenu.tscn
 res://Assets/GuiThemes/MainTheme.tres
 res://Assets/Tilesets/tileset_backgrounds.tres
 res://Assets/Tilesets/tiles.tres
 res://Frames/World/DropShadow.tres
-res://Scenes/WorldScenes/Player.tscn
 res://Frames/WorldMenu/WorldMenu.tscn
-res://Frames/LoadingScreen/loading_screen.tscn
-res://Frames/AccountMenu/AccountMenu.gd
-res://Frames/AccountMenu/AccountMenu.tscn
-res://Server.gd
-res://Frames/World/World.gd
-res://Frames/World/Notifications.gd
-res://Singletons/Global.gd
-res://Scenes/GuiScenes/Popup/Popup.gd
 res://Scenes/GuiScenes/Popup/Popup.tscn
-res://Server - Copy (2).gd
-res://DataClasses/PeerData.gd
-res://DataClasses/WorldData.gd
-res://Scenes/WorldScenes/WorldBlockManager.gd
-res://Scenes/WorldScenes/WorldPeerManager.gd
 res://Frames/banner_credits.tscn
-res://Frames/WorldMenu/WorldMenu.gd
+res://Frames/LoadingScreen/loading_screen.tscn
+res://Frames/World/World.tscn
+res://Scenes/WorldScenes/Player.tscn
+res://Server.gd
+res://Scenes/WorldScenes/Player.gd
+res://Server - Copy (2).gd
+res://Server - Copy.gd
+res://Singletons/Global.gd
+res://Singletons/Save.gd
+res://Frames/World/World.gd
 res://client.gd
+res://Singletons/SoundManager.gd
+res://Singletons/PlayerState.gd
+res://Singletons/LOAD.gd
+res://Singletons/Data.gd
 res://Parser.gd
-res://Data/ItemData.json
